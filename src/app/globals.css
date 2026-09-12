@@ -1,26 +1,110 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@theme {
+  /* Base — noche de Terraria (azul profundo) */
+  --color-background: #0d1322;
+  --color-foreground: #eae6dc;
+  --color-surface: #171f36;
+  --color-surface-2: #202b4a;
+  --color-edge: #2f3c66;
+  --color-edge-2: #47578a;
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
+  /* Acentos icónicos */
+  --color-accent: #ffb03a; /* dorado/ámbar (sol, logo, selección) */
+  --color-accent-2: #63d471; /* verde */
+  --color-health: #e23b3b; /* rojo vida */
+  --color-mana: #4a5ad9; /* azul maná */
+
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* Rarezas de Terraria (Terraria.PopUpText) — variables CSS normales para poder
+   usarlas por `style` inline (Tailwind solo emite las de @theme que detecta). */
+:root {
+  --rarity-negative: #828282;
+  --rarity-0: #ffffff;
+  --rarity-1: #9696ff;
+  --rarity-2: #96ff96;
+  --rarity-3: #ffc896;
+  --rarity-4: #ff9696;
+  --rarity-5: #ff96ff;
+  --rarity-6: #d2a0ff;
+  --rarity-7: #96ff0a;
+  --rarity-8: #ffff0a;
+  --rarity-9: #05c8ff;
+  --rarity-10: #ff2864;
+  --rarity-11: #b428ff;
+  --rarity-quest: #ffaf00;
+}
+
+html {
+  color-scheme: dark;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--color-accent) 30%, transparent);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background:
+    radial-gradient(
+      1200px 600px at 50% -10%,
+      color-mix(in srgb, var(--color-surface-2) 60%, transparent),
+      transparent
+    ),
+    var(--color-background);
+  background-attachment: fixed;
+  color: var(--color-foreground);
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+}
+
+@layer components {
+  /* Panel estilo UI de Terraria: bisel sutil arriba + borde. */
+  .tg-surface {
+    background: linear-gradient(180deg, var(--color-surface-2), var(--color-surface));
+    border: 1px solid var(--color-edge);
+    box-shadow: inset 0 1px 0 0 color-mix(in srgb, #ffffff 6%, transparent);
+  }
+
+  /* Slot/hueco hundido (inventario de Terraria). */
+  .tg-slot {
+    background: color-mix(in srgb, var(--color-background) 82%, #000000);
+    border: 1px solid var(--color-edge-2);
+    box-shadow: inset 0 1px 2px 0 rgb(0 0 0 / 0.45);
+  }
+
+  /* Botón con bisel. */
+  .tg-btn {
+    background: linear-gradient(180deg, var(--color-surface-2), var(--color-surface));
+    border: 1px solid var(--color-edge-2);
+    box-shadow: inset 0 1px 0 0 color-mix(in srgb, #ffffff 7%, transparent);
+    transition:
+      border-color 0.15s ease,
+      color 0.15s ease;
+  }
+  .tg-btn:hover {
+    border-color: color-mix(in srgb, var(--color-accent) 70%, var(--color-edge-2));
+    color: var(--color-accent);
+  }
+
+  /* Barra de progreso estilo Terraria (oro). */
+  .tg-progress {
+    background: color-mix(in srgb, var(--color-background) 80%, #000000);
+    box-shadow: inset 0 1px 2px 0 rgb(0 0 0 / 0.5);
+  }
+  .tg-progress-fill {
+    background: linear-gradient(
+      180deg,
+      color-mix(in srgb, var(--color-accent) 85%, #ffffff),
+      var(--color-accent)
+    );
+    box-shadow: inset 0 1px 0 0 color-mix(in srgb, #ffffff 40%, transparent);
+  }
+
+  /* Título con sombra dura (estilo rótulo de juego). */
+  .tg-title {
+    letter-spacing: -0.01em;
+    text-shadow: 0 2px 0 rgb(0 0 0 / 0.45);
+  }
 }

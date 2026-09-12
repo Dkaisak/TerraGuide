@@ -1,0 +1,348 @@
+[
+  {
+    "id": "platinum-armor",
+    "name": "Platinum Armor",
+    "head": "platinum-helmet",
+    "chest": "platinum-chainmail",
+    "legs": "platinum-greaves",
+    "bonus": "+4 de defensa.",
+    "note": "Sustituto: Gold Armor (75 lingotes de platino).",
+    "modifiers": {
+      "defense": 4
+    }
+  },
+  {
+    "id": "shadow-armor",
+    "name": "Shadow Armor",
+    "head": "shadow-helmet",
+    "chest": "shadow-scalemail",
+    "legs": "shadow-greaves",
+    "bonus": "Aumenta la velocidad de movimiento y la aceleración (+75% de aceleración/desaceleración y ×1.15 de velocidad máxima).",
+    "note": "Corrupción (Demonite, 60 lingotes).",
+    "modifiers": {
+      "moveSpeed": 15
+    }
+  },
+  {
+    "id": "crimson-armor",
+    "name": "Crimson Armor",
+    "head": "crimson-helmet",
+    "chest": "crimson-scalemail",
+    "legs": "crimson-greaves",
+    "bonus": "Aumenta mucho la regeneración de vida (+50% de regeneración natural y duplica su velocidad de rampa).",
+    "note": "Carmesí (Crimtane, 60 lingotes). Añade también +9% de daño."
+  },
+  {
+    "id": "molten-armor",
+    "name": "Molten Armor",
+    "head": "molten-helmet",
+    "chest": "molten-breastplate",
+    "legs": "molten-greaves",
+    "bonus": "+10% de daño melee. Inmunidad a los bloques de fuego y al debuff On Fire!.",
+    "note": "Requiere Hellstone (45 lingotes de infierno). Set completo: +25 de defensa y +17% de daño melee.",
+    "modifiers": {
+      "damageMelee": 10
+    }
+  },
+  {
+    "id": "necro-armor",
+    "name": "Necro Armor",
+    "head": "necro-helmet",
+    "chest": "necro-shirt",
+    "legs": "necro-leggings",
+    "bonus": "+10% de probabilidad de golpe crítico a distancia.",
+    "note": "Bones + Cobwebs (post-Skeletron). Añade también +15% de daño a distancia.",
+    "modifiers": {
+      "critRanged": 10
+    }
+  },
+  {
+    "id": "fossil-armor",
+    "name": "Fossil Armor",
+    "head": "fossil-helmet",
+    "chest": "fossil-plate",
+    "legs": "fossil-greaves",
+    "bonus": "20% de probabilidad de no consumir munición.",
+    "note": "Desierto (Sturdy Fossil). Añade +5% de daño a distancia y +8% de crítico.",
+    "modifiers": {
+      "ammoSave": 20
+    }
+  },
+  {
+    "id": "meteor-armor",
+    "name": "Meteor Armor",
+    "head": "meteor-helmet",
+    "chest": "meteor-suit",
+    "legs": "meteor-leggings",
+    "bonus": "La Space Gun (y Laser Rifle/Zapinators) cuestan 0 de maná. El combo clásico de magia temprana.",
+    "note": "Requiere Meteorite Bars. Añade también +27% de daño mágico."
+  },
+  {
+    "id": "jungle-armor",
+    "name": "Jungle Armor",
+    "head": "jungle-hat",
+    "chest": "jungle-shirt",
+    "legs": "jungle-pants",
+    "bonus": "-16% de coste de maná.",
+    "note": "Jungle Spores + materiales. Además: +6% de daño mágico, +12% de crítico mágico y +80 de maná.",
+    "modifiers": {
+      "manaCost": 16
+    }
+  },
+  {
+    "id": "bee-armor",
+    "name": "Bee Armor",
+    "head": "bee-hat",
+    "chest": "bee-shirt",
+    "legs": "bee-pants",
+    "bonus": "+10% de daño de invocación (set bonus).",
+    "note": "Post Queen Bee (Bee Wax). Las piezas añaden +23% de daño de invocación y +2 miniones.",
+    "modifiers": {
+      "damageSummon": 10
+    }
+  },
+  {
+    "id": "obsidian-armor",
+    "name": "Obsidian Armor",
+    "head": "obsidian-helmet",
+    "chest": "obsidian-shirt",
+    "legs": "obsidian-pants",
+    "bonus": "+30% de rango y +15% de velocidad de látigos; +15% de daño de invocación. El set de látigos pre-Hardmode.",
+    "note": "Obsidian: ideal para summoner de látigos. Las piezas añaden +31% de daño de invocación y +1 minión.",
+    "modifiers": {
+      "meleeSpeed": 15,
+      "damageSummon": 15
+    }
+  },
+  {
+    "id": "spider-armor",
+    "name": "Spider Armor",
+    "head": "spider-mask",
+    "chest": "spider-breastplate",
+    "legs": "spider-greaves",
+    "bonus": "+12% de daño de invocación (set bonus).",
+    "note": "Spider Fangs. Las piezas añaden +28% de daño de invocación y +3 miniones.",
+    "modifiers": {
+      "damageSummon": 12
+    }
+  },
+  {
+    "id": "forbidden-armor",
+    "name": "Forbidden Armor",
+    "head": "forbidden-mask",
+    "chest": "forbidden-robe",
+    "legs": "forbidden-treads",
+    "bonus": "Doble toque (tecla de set bonus): invoca una tormenta antigua bajo el cursor.",
+    "note": "Forbidden Fragments (Sandstorms). Las piezas añaden +25% de daño mágico/de invocación y +2 miniones."
+  },
+  {
+    "id": "adamantite-armor",
+    "name": "Adamantite Armor",
+    "head": "adamantite-helmet",
+    "chest": "adamantite-breastplate",
+    "legs": "adamantite-leggings",
+    "bonus": "+20% de velocidad melee y de movimiento (variante Helmet/melee).",
+    "note": "Adamantite Bars (54 con una cabeza). Rival del Titanium. Otras cabezas: Mask (ranged) +25% de ahorro de munición; Headgear (magic) -19% de coste de maná.",
+    "modifiers": {
+      "meleeSpeed": 20,
+      "moveSpeed": 20
+    }
+  },
+  {
+    "id": "titanium-armor",
+    "name": "Titanium Armor",
+    "head": "titanium-helmet",
+    "chest": "titanium-breastplate",
+    "legs": "titanium-leggings",
+    "bonus": "Atacar genera un escudo defensivo de fragmentos de titanio.",
+    "note": "Titanium Bars (59 con una cabeza). Requiere mundo con Titanium. Hasta 7 fragmentos de 50 de daño."
+  },
+  {
+    "id": "hallowed-armor",
+    "name": "Hallowed Armor",
+    "head": "hallowed-helmet",
+    "chest": "hallowed-breastplate",
+    "legs": "hallowed-greaves",
+    "bonus": "Esquivas el siguiente ataque tras golpear a un enemigo (Holy Protection, recarga de 30 s).",
+    "note": "Hallowed Bars (tras un Mechanical Boss). La variante Hood (summoner) añade +2 miniones."
+  },
+  {
+    "id": "chlorophyte-armor",
+    "name": "Chlorophyte Armor",
+    "head": "chlorophyte-headgear",
+    "chest": "chlorophyte-plate",
+    "legs": "chlorophyte-leggings",
+    "bonus": "Invoca un cristal de hojas que dispara a los enemigos cercanos.",
+    "note": "Chlorophyte Bars (54 con una cabeza). Variantes por clase: Mask (melee) con -5% de daño recibido; Visor (summoner) con miniones extra."
+  },
+  {
+    "id": "shroomite-armor",
+    "name": "Shroomite Armor",
+    "head": "shroomite-headgear",
+    "chest": "shroomite-breastplate",
+    "legs": "shroomite-legs",
+    "bonus": "Sin moverte entras en sigilo: aumenta la capacidad a distancia y reduce la probabilidad de que el enemigo te apunte.",
+    "note": "Shroomite Bars (Truffle). Cascos especializados por tipo de munición: arcos, armas de fuego o especiales."
+  },
+  {
+    "id": "spectre-armor",
+    "name": "Spectre Armor",
+    "head": "spectre-hood",
+    "chest": "spectre-robe",
+    "legs": "spectre-pants",
+    "bonus": "Reduce el daño mágico un 40% y lo convierte en fuerza curativa (roba vida).",
+    "note": "Spectre Bars (post-Plantera). Con Spectre Mask, el daño mágico también golpea a enemigos cercanos extra."
+  },
+  {
+    "id": "beetle-armor",
+    "name": "Beetle Armor",
+    "head": "beetle-helmet",
+    "chest": "beetle-scale-mail",
+    "legs": "beetle-leggings",
+    "bonus": "Los escarabajos aumentan tu daño y velocidad melee (variante Scale Mail).",
+    "note": "Beetle Husks (Golem). Con Beetle Shell, los escarabajos reducen hasta un 45% el daño recibido."
+  },
+  {
+    "id": "tiki-armor",
+    "name": "Tiki Armor",
+    "head": "tiki-mask",
+    "chest": "tiki-shirt",
+    "legs": "tiki-pants",
+    "bonus": "+1 espacio de minión y +20% de rango de látigos.",
+    "note": "Witch Doctor (jungla, post-Plantera). Las piezas añaden +30% de daño de invocación y +4 miniones."
+  },
+  {
+    "id": "spooky-armor",
+    "name": "Spooky Armor",
+    "head": "spooky-helmet",
+    "chest": "spooky-breastplate",
+    "legs": "spooky-leggings",
+    "bonus": "+25% de daño de invocación (set bonus). Más ofensivo que Tiki.",
+    "note": "Spooky Wood (Pumpkin Moon). Las piezas añaden +58% de daño de invocación, +4 miniones y +20% de velocidad de movimiento.",
+    "modifiers": {
+      "damageSummon": 25
+    }
+  },
+  {
+    "id": "vortex-armor",
+    "name": "Vortex Armor",
+    "head": "vortex-helmet",
+    "chest": "vortex-breastplate",
+    "legs": "vortex-leggings",
+    "bonus": "Doble toque ↓: modo sigilo con más capacidad a distancia y menos aggro (reduce la velocidad de movimiento).",
+    "note": "Vortex Fragments + Luminite."
+  },
+  {
+    "id": "nebula-armor",
+    "name": "Nebula Armor",
+    "head": "nebula-helmet",
+    "chest": "nebula-breastplate",
+    "legs": "nebula-leggings",
+    "bonus": "El daño mágico tiene probabilidad de invocar potenciadores; recójelos para obtener buffs apilables. Set mágico definitivo.",
+    "note": "Nebula Fragments + Luminite. Potenciadores apilables: vida (+3 HP/s), maná (+10/s) o daño (+15%)."
+  },
+  {
+    "id": "solar-flare-armor",
+    "name": "Solar Flare Armor",
+    "head": "solar-flare-helmet",
+    "chest": "solar-flare-breastplate",
+    "legs": "solar-flare-leggings",
+    "bonus": "-12% de daño recibido y escudos solares que cargan con el tiempo para protegerte y permitir embestir. El set melee definitivo post-Moon Lord.",
+    "note": "Solar Fragments + Luminite. El bufo Solar Blaze añade +20% de reducción de daño extra.",
+    "modifiers": {
+      "damageReduction": 12
+    }
+  },
+  {
+    "id": "stardust-armor",
+    "name": "Stardust Armor",
+    "head": "stardust-helmet",
+    "chest": "stardust-breastplate",
+    "legs": "stardust-leggings",
+    "bonus": "Un guardián de polvo estelar te protege de los enemigos cercanos.",
+    "note": "Stardust Fragments + Luminite. Las piezas añaden +66% de daño de invocación, +5 miniones y +1 hueco de centinela."
+  },
+  {
+    "id": "flinx-armor",
+    "name": "Flinx Set",
+    "head": "",
+    "chest": "flinx-fur-coat",
+    "legs": "",
+    "bonus": "+1 espacio de minión y +5% de daño de invocación.",
+    "note": "Flinx Fur. Pieza individual (sin set bonus propio).",
+    "modifiers": {
+      "damageSummon": 5
+    }
+  },
+  {
+    "id": "wizard-set",
+    "name": "Wizard Set",
+    "head": "wizard-hat",
+    "chest": "",
+    "legs": "",
+    "bonus": "+10% de crítico mágico al combinar el Wizard Hat con cualquier robe (Gem Robe o Mystic Robe).",
+    "note": "Combínalo con una Gem Robe que coincida con tu gem staff para aprovechar el encantamiento de 1.4.5.7.",
+    "modifiers": {
+      "critMagic": 10
+    }
+  },
+  {
+    "id": "spectre-mask-armor",
+    "name": "Spectre Set (Mask)",
+    "head": "spectre-mask",
+    "chest": "",
+    "legs": "",
+    "bonus": "Set (Mask): los golpes mágicos generan orbes perseguidores que dañan (100% del daño del arma, pueden critear).",
+    "note": "Cambia a Spectre Hood para el set de robo de vida (-25% daño mágico neto)."
+  },
+  {
+    "id": "adamantite-magic",
+    "name": "Adamantite Armor (Headgear)",
+    "head": "adamantite-headgear",
+    "chest": "",
+    "legs": "",
+    "bonus": "Casco mágico de Adamantite: +12% daño mágico, +12% crítico y +80 maná; con el set completo, -19% coste de maná.",
+    "note": "Mix ofensivo pre-mech: Headgear + Adamantite Breastplate + Forbidden Treads.",
+    "modifiers": {
+      "damageMagic": 12,
+      "critMagic": 12,
+      "manaMax": 80,
+      "manaCost": 19
+    }
+  },
+  {
+    "id": "hallowed-magic",
+    "name": "Hallowed Armor (Headgear)",
+    "head": "hallowed-headgear",
+    "chest": "",
+    "legs": "",
+    "bonus": "Casco mágico de Hallowed: +12% daño mágico, +12% crítico y +100 maná.",
+    "note": "Mix ofensivo pre-Plantera: Headgear + Chlorophyte Plate Mail + Apprentice's Trousers (+39% crítico mágico).",
+    "modifiers": {
+      "damageMagic": 12,
+      "critMagic": 12,
+      "manaMax": 100
+    }
+  },
+  {
+    "id": "squire-armor",
+    "name": "Squire Armor",
+    "head": "squire-helmet",
+    "chest": "squire-s-plating",
+    "legs": "squire-s-greaves",
+    "bonus": "+2 sentries y Ballista mejorada; +2 HP/s.",
+    "note": "Old One's Army tier 2 (tras 1 mecánico).",
+    "modifiers": {
+      "lifeRegen": 2
+    }
+  },
+  {
+    "id": "valhalla-knight-armor",
+    "name": "Valhalla Knight Armor",
+    "head": "valhalla-knight-s-helm",
+    "chest": "valhalla-knight-s-breastplate",
+    "legs": "valhalla-knight-s-greaves",
+    "bonus": "+3 sentries y regeneración de vida.",
+    "note": "Old One's Army tier 3 (post-Golem)."
+  }
+]

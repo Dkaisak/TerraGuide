@@ -1,0 +1,8798 @@
+[
+  {
+    "result": "adamantite-bar",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "adamantite-ore",
+        "qty": 4
+      }
+    ],
+    "station": "Adamantite Forge"
+  },
+  {
+    "result": "adamantite-bar",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "titanium-bar",
+        "qty": 1
+      }
+    ],
+    "station": "Chlorophyte Extractinator"
+  },
+  {
+    "result": "adamantite-breastplate",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "adamantite-bar",
+        "qty": 24
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "adamantite-headgear",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "adamantite-bar",
+        "qty": 12
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "adamantite-helmet",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "adamantite-bar",
+        "qty": 12
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "adamantite-leggings",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "adamantite-bar",
+        "qty": 18
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "adamantite-mask",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "adamantite-bar",
+        "qty": 12
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "adamantite-ore",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "titanium-ore",
+        "qty": 1
+      }
+    ],
+    "station": "Chlorophyte Extractinator"
+  },
+  {
+    "result": "adamantite-ore",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "titanium-ore",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "adamantite-sword",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "adamantite-bar",
+        "qty": 12
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "adhesive-bandage",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "bezoar",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "ale",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "mug",
+        "qty": 1
+      }
+    ],
+    "station": "Keg"
+  },
+  {
+    "result": "ale",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "mug",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "amazon",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "jungle-spores",
+        "qty": 9
+      },
+      {
+        "item": "rich-mahogany",
+        "qty": 8
+      },
+      {
+        "item": "stinger",
+        "qty": 12
+      },
+      {
+        "item": "vine",
+        "qty": 1
+      }
+    ],
+    "station": "Iron Anvil"
+  },
+  {
+    "result": "amber",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "amber-bunny",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "amber",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "amber-squirrel",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "amethyst",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "amethyst-bunny",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "amethyst",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "amethyst-squirrel",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "amethyst",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "topaz",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "amethyst-robe",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "amethyst",
+        "qty": 10
+      },
+      {
+        "item": "robe",
+        "qty": 1
+      }
+    ],
+    "station": "Loom"
+  },
+  {
+    "result": "amphibian-boots",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "frog-leg",
+        "qty": 1
+      },
+      {
+        "item": "sailfish-boots",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "ancient-cobalt-breastplate",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "jungle-shirt",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "ancient-cobalt-helmet",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "jungle-hat",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "ancient-cobalt-leggings",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "jungle-pants",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "ancient-necro-helmet",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "necro-helmet",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "ancient-shadow-greaves",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "shadow-greaves",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "ancient-shadow-helmet",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "shadow-helmet",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "ancient-shadow-scalemail",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "shadow-scalemail",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "angel-wings",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "feather",
+        "qty": 10
+      },
+      {
+        "item": "soul-of-flight",
+        "qty": 20
+      },
+      {
+        "item": "soul-of-light",
+        "qty": 15
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "ankh-charm",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "armor-bracing",
+        "qty": 1
+      },
+      {
+        "item": "countercurse-mantra",
+        "qty": 1
+      },
+      {
+        "item": "medicated-bandage",
+        "qty": 1
+      },
+      {
+        "item": "reflective-shades",
+        "qty": 1
+      },
+      {
+        "item": "the-plan",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "ankh-shield",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "ankh-charm",
+        "qty": 1
+      },
+      {
+        "item": "obsidian-shield",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "arcane-flower",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "mana-flower",
+        "qty": 1
+      },
+      {
+        "item": "putrid-scent",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "archery-potion",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "bottled-water",
+        "qty": 1
+      },
+      {
+        "item": "daybloom",
+        "qty": 1
+      },
+      {
+        "item": "lens",
+        "qty": 1
+      }
+    ],
+    "station": "Placed Bottle"
+  },
+  {
+    "result": "armlet-of-ruin",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "snapping-stone",
+        "qty": 1
+      },
+      {
+        "item": "wicked-armlet",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "armor-bracing",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "armor-polish",
+        "qty": 1
+      },
+      {
+        "item": "vitamins",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "armor-polish",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "vitamins",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "ash-wood",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "ash-wood-platform",
+        "qty": 2
+      }
+    ],
+    "station": "By Hand"
+  },
+  {
+    "result": "ash-wood",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "ash-wood-fence",
+        "qty": 4
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "ash-wood",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "ash-wood-wall",
+        "qty": 4
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "ash-wood-fence",
+    "qty": 4,
+    "ingredients": [
+      {
+        "item": "ash-wood",
+        "qty": 1
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "ash-wood-platform",
+    "qty": 2,
+    "ingredients": [
+      {
+        "item": "ash-wood",
+        "qty": 1
+      }
+    ],
+    "station": "By Hand"
+  },
+  {
+    "result": "ash-wood-wall",
+    "qty": 4,
+    "ingredients": [
+      {
+        "item": "ash-wood",
+        "qty": 1
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "avenger-emblem",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "ranger-emblem",
+        "qty": 1
+      },
+      {
+        "item": "soul-of-fright",
+        "qty": 5
+      },
+      {
+        "item": "soul-of-might",
+        "qty": 5
+      },
+      {
+        "item": "soul-of-sight",
+        "qty": 5
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "avenger-emblem",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "sorcerer-emblem",
+        "qty": 1
+      },
+      {
+        "item": "soul-of-fright",
+        "qty": 5
+      },
+      {
+        "item": "soul-of-might",
+        "qty": 5
+      },
+      {
+        "item": "soul-of-sight",
+        "qty": 5
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "avenger-emblem",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "soul-of-fright",
+        "qty": 5
+      },
+      {
+        "item": "soul-of-might",
+        "qty": 5
+      },
+      {
+        "item": "soul-of-sight",
+        "qty": 5
+      },
+      {
+        "item": "summoner-emblem",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "avenger-emblem",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "soul-of-fright",
+        "qty": 5
+      },
+      {
+        "item": "soul-of-might",
+        "qty": 5
+      },
+      {
+        "item": "soul-of-sight",
+        "qty": 5
+      },
+      {
+        "item": "warrior-emblem",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "ballista-cane",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "flameburst-cane",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "ballista-rod",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "flameburst-rod",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "ballista-staff",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "flameburst-staff",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "band-of-starpower",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "mana-crystal",
+        "qty": 1
+      },
+      {
+        "item": "panic-necklace",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop and Ecto Mist"
+  },
+  {
+    "result": "beenade",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "bee-wax",
+        "qty": 1
+      },
+      {
+        "item": "grenade",
+        "qty": 1
+      }
+    ],
+    "station": "Iron Anvil"
+  },
+  {
+    "result": "beenades",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "grenade",
+        "qty": 1
+      },
+      {
+        "item": "bee-wax",
+        "qty": 1
+      }
+    ],
+    "station": "Iron/Lead Anvil"
+  },
+  {
+    "result": "beetle-helmet",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "beetle-husk",
+        "qty": 4
+      },
+      {
+        "item": "turtle-helmet",
+        "qty": 1
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "beetle-leggings",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "beetle-husk",
+        "qty": 6
+      },
+      {
+        "item": "turtle-leggings",
+        "qty": 1
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "beetle-scale-mail",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "beetle-husk",
+        "qty": 8
+      },
+      {
+        "item": "turtle-scale-mail",
+        "qty": 1
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "beetle-shell",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "beetle-husk",
+        "qty": 8
+      },
+      {
+        "item": "turtle-scale-mail",
+        "qty": 1
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "berserker-s-glove",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "flesh-knuckles",
+        "qty": 1
+      },
+      {
+        "item": "power-glove",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "bezoar",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "adhesive-bandage",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "blade-of-grass",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "jungle-spores",
+        "qty": 15
+      },
+      {
+        "item": "stinger",
+        "qty": 12
+      },
+      {
+        "item": "vine",
+        "qty": 3
+      }
+    ],
+    "station": "Iron Anvil"
+  },
+  {
+    "result": "blindfold",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "pocket-mirror",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "blizzard-in-a-balloon",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "blizzard-in-a-bottle",
+        "qty": 1
+      },
+      {
+        "item": "shiny-red-balloon",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "blizzard-in-a-bottle",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "cloud-in-a-bottle",
+        "qty": 1
+      },
+      {
+        "item": "frost-core",
+        "qty": 1
+      }
+    ],
+    "station": "Crystal Ball"
+  },
+  {
+    "result": "blood-butcherer",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "crimtane-bar",
+        "qty": 10
+      }
+    ],
+    "station": "Iron Anvil"
+  },
+  {
+    "result": "blue-dynasty-wall",
+    "qty": 4,
+    "ingredients": [
+      {
+        "item": "dynasty-wood",
+        "qty": 1
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "blue-horseshoe-balloon",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "cloud-in-a-balloon",
+        "qty": 1
+      },
+      {
+        "item": "lucky-horseshoe",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "bone",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "bone-block-wall",
+        "qty": 4
+      }
+    ],
+    "station": "Bone Welder"
+  },
+  {
+    "result": "bone",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "bone-platform",
+        "qty": 2
+      }
+    ],
+    "station": "By Hand"
+  },
+  {
+    "result": "bone-block-wall",
+    "qty": 4,
+    "ingredients": [
+      {
+        "item": "bone",
+        "qty": 1
+      }
+    ],
+    "station": "Bone Welder"
+  },
+  {
+    "result": "bone-javelin",
+    "qty": 20,
+    "ingredients": [
+      {
+        "item": "sturdy-fossil",
+        "qty": 1
+      }
+    ],
+    "station": "Iron Anvil"
+  },
+  {
+    "result": "bone-platform",
+    "qty": 2,
+    "ingredients": [
+      {
+        "item": "bone",
+        "qty": 1
+      }
+    ],
+    "station": "By Hand"
+  },
+  {
+    "result": "bone-throwing-knife",
+    "qty": 30,
+    "ingredients": [
+      {
+        "item": "sturdy-fossil",
+        "qty": 1
+      }
+    ],
+    "station": "Iron Anvil"
+  },
+  {
+    "result": "boreal-wood",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "boreal-wood-platform",
+        "qty": 2
+      }
+    ],
+    "station": "By Hand"
+  },
+  {
+    "result": "boreal-wood",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "boreal-wood-fence",
+        "qty": 4
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "boreal-wood",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "boreal-wood-wall",
+        "qty": 4
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "boreal-wood-fence",
+    "qty": 4,
+    "ingredients": [
+      {
+        "item": "boreal-wood",
+        "qty": 1
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "boreal-wood-platform",
+    "qty": 2,
+    "ingredients": [
+      {
+        "item": "boreal-wood",
+        "qty": 1
+      }
+    ],
+    "station": "By Hand"
+  },
+  {
+    "result": "boreal-wood-wall",
+    "qty": 4,
+    "ingredients": [
+      {
+        "item": "boreal-wood",
+        "qty": 1
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "bottle",
+    "qty": 2,
+    "ingredients": [
+      {
+        "item": "glass",
+        "qty": 1
+      }
+    ],
+    "station": "Furnace"
+  },
+  {
+    "result": "bottled-water",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "bottle",
+        "qty": 1
+      }
+    ],
+    "station": "Water"
+  },
+  {
+    "result": "bundle-of-balloons",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "blizzard-in-a-balloon",
+        "qty": 1
+      },
+      {
+        "item": "cloud-in-a-balloon",
+        "qty": 1
+      },
+      {
+        "item": "sandstorm-in-a-balloon",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "bundle-of-horseshoe-balloons",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "any-blizzard-balloon",
+        "qty": 1
+      },
+      {
+        "item": "any-cloud-balloon",
+        "qty": 1
+      },
+      {
+        "item": "yellow-horseshoe-balloon",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "bundle-of-horseshoe-balloons",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "any-blizzard-balloon",
+        "qty": 1
+      },
+      {
+        "item": "any-sandstorm-balloon",
+        "qty": 1
+      },
+      {
+        "item": "blue-horseshoe-balloon",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "bundle-of-horseshoe-balloons",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "any-cloud-balloon",
+        "qty": 1
+      },
+      {
+        "item": "any-sandstorm-balloon",
+        "qty": 1
+      },
+      {
+        "item": "white-horseshoe-balloon",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "bundle-of-horseshoe-balloons",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "blizzard-in-a-balloon",
+        "qty": 1
+      },
+      {
+        "item": "cloud-in-a-balloon",
+        "qty": 1
+      },
+      {
+        "item": "lucky-horseshoe",
+        "qty": 1
+      },
+      {
+        "item": "sandstorm-in-a-balloon",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "bundle-of-horseshoe-balloons",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "bundle-of-balloons",
+        "qty": 1
+      },
+      {
+        "item": "lucky-horseshoe",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "cactus",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "cactus-platform",
+        "qty": 2
+      }
+    ],
+    "station": "By Hand"
+  },
+  {
+    "result": "cactus",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "pumpkin",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "cactus",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "cactus-wall",
+        "qty": 4
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "cactus-platform",
+    "qty": 2,
+    "ingredients": [
+      {
+        "item": "cactus",
+        "qty": 1
+      }
+    ],
+    "station": "By Hand"
+  },
+  {
+    "result": "cactus-wall",
+    "qty": 4,
+    "ingredients": [
+      {
+        "item": "cactus",
+        "qty": 1
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "catalyst-band",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "philosophers-stone",
+        "qty": 1
+      },
+      {
+        "item": "poison-barb",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "celestial-cuffs",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "celestial-magnet",
+        "qty": 1
+      },
+      {
+        "item": "magic-cuffs",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "celestial-emblem",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "avenger-emblem",
+        "qty": 1
+      },
+      {
+        "item": "celestial-magnet",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "celestial-shell",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "celestial-stone",
+        "qty": 1
+      },
+      {
+        "item": "moon-shell",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "celestial-stone",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "moon-stone",
+        "qty": 1
+      },
+      {
+        "item": "sun-stone",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "chain",
+    "qty": 15,
+    "ingredients": [
+      {
+        "item": "any-iron-bar",
+        "qty": 1
+      }
+    ],
+    "station": "Iron Anvil"
+  },
+  {
+    "result": "charm-of-myths",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "band-of-regeneration",
+        "qty": 1
+      },
+      {
+        "item": "philosophers-stone",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "chik",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "crystal-shard",
+        "qty": 15
+      },
+      {
+        "item": "soul-of-light",
+        "qty": 10
+      },
+      {
+        "item": "wooden-yoyo",
+        "qty": 1
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "chlorophyte-arrow",
+    "qty": 150,
+    "ingredients": [
+      {
+        "item": "chlorophyte-bar",
+        "qty": 1
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "chlorophyte-bar",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "chlorophyte-ore",
+        "qty": 5
+      }
+    ],
+    "station": "Adamantite Forge"
+  },
+  {
+    "result": "chlorophyte-bullet",
+    "qty": 60,
+    "ingredients": [
+      {
+        "item": "chlorophyte-bar",
+        "qty": 1
+      },
+      {
+        "item": "musket-ball",
+        "qty": 60
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "chlorophyte-claymore",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "chlorophyte-bar",
+        "qty": 12
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "chlorophyte-headgear",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "chlorophyte-bar",
+        "qty": 12
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "chlorophyte-mask",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "chlorophyte-bar",
+        "qty": 12
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "chlorophyte-ore",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "luminite",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "chlorophyte-partisan",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "chlorophyte-bar",
+        "qty": 12
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "chlorophyte-saber",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "chlorophyte-bar",
+        "qty": 12
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "chlorophyte-shotbow",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "chlorophyte-bar",
+        "qty": 12
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "chlorophyte-visor",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "chlorophyte-bar",
+        "qty": 12
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "cinder-wall",
+    "qty": 4,
+    "ingredients": [
+      {
+        "item": "hellstone",
+        "qty": 1
+      }
+    ],
+    "station": "Work Bench and Ecto Mist"
+  },
+  {
+    "result": "clay-block",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "amethyst",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "clay-block",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "copper-ore",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "clay-bud-staff",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "blinkroot",
+        "qty": 1
+      },
+      {
+        "item": "clay-block",
+        "qty": 30
+      },
+      {
+        "item": "daybloom",
+        "qty": 1
+      },
+      {
+        "item": "lesser-healing-potion",
+        "qty": 1
+      }
+    ],
+    "station": "Furnace"
+  },
+  {
+    "result": "climbing-claws",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "shoe-spikes",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "cloud-in-a-balloon",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "cloud-in-a-bottle",
+        "qty": 1
+      },
+      {
+        "item": "shiny-red-balloon",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "cobalt-ore",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "palladium-ore",
+        "qty": 1
+      }
+    ],
+    "station": "Chlorophyte Extractinator"
+  },
+  {
+    "result": "cobalt-ore",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "palladium-ore",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "cobweb",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "decorative-cobweb",
+        "qty": 1
+      }
+    ],
+    "station": "Loom and Ecto Mist"
+  },
+  {
+    "result": "cobweb",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "spider-wall",
+        "qty": 4
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "cobwhip",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "any-wood",
+        "qty": 10
+      },
+      {
+        "item": "cobweb",
+        "qty": 30
+      }
+    ],
+    "station": "Loom"
+  },
+  {
+    "result": "cog",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "steampunk-platform",
+        "qty": 2
+      }
+    ],
+    "station": "By Hand"
+  },
+  {
+    "result": "cog",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "cog-wall",
+        "qty": 4
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "cog-wall",
+    "qty": 4,
+    "ingredients": [
+      {
+        "item": "cog",
+        "qty": 1
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "constellation",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "stardust-fragment",
+        "qty": 18
+      }
+    ],
+    "station": "Ancient Manipulator"
+  },
+  {
+    "result": "cooked-fish",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "atlantic-cod",
+        "qty": 1
+      }
+    ],
+    "station": "Cooking Pot"
+  },
+  {
+    "result": "cooked-fish",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "bass",
+        "qty": 1
+      }
+    ],
+    "station": "Cooking Pot"
+  },
+  {
+    "result": "cooked-fish",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "trout",
+        "qty": 1
+      }
+    ],
+    "station": "Cooking Pot"
+  },
+  {
+    "result": "cool-whip",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "frost-core",
+        "qty": 1
+      },
+      {
+        "item": "soul-of-light",
+        "qty": 8
+      },
+      {
+        "item": "soul-of-night",
+        "qty": 8
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "copper-bar",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "tin-bar",
+        "qty": 1
+      }
+    ],
+    "station": "Chlorophyte Extractinator"
+  },
+  {
+    "result": "copper-bar",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "copper-ore",
+        "qty": 3
+      }
+    ],
+    "station": "Furnace"
+  },
+  {
+    "result": "copper-ore",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "tin-ore",
+        "qty": 1
+      }
+    ],
+    "station": "Chlorophyte Extractinator"
+  },
+  {
+    "result": "copper-ore",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "tin-ore",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "copper-shortsword",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "copper-bar",
+        "qty": 5
+      }
+    ],
+    "station": "Iron Anvil"
+  },
+  {
+    "result": "corrupt-growth-wall",
+    "qty": 4,
+    "ingredients": [
+      {
+        "item": "ebonstone-block",
+        "qty": 1
+      }
+    ],
+    "station": "Work Bench and Ecto Mist"
+  },
+  {
+    "result": "corrupt-mass-wall",
+    "qty": 4,
+    "ingredients": [
+      {
+        "item": "ebonstone-block",
+        "qty": 1
+      }
+    ],
+    "station": "Work Bench and Ecto Mist"
+  },
+  {
+    "result": "corrupt-pustule-wall",
+    "qty": 4,
+    "ingredients": [
+      {
+        "item": "ebonstone-block",
+        "qty": 1
+      }
+    ],
+    "station": "Work Bench and Ecto Mist"
+  },
+  {
+    "result": "corrupt-tendril-wall",
+    "qty": 4,
+    "ingredients": [
+      {
+        "item": "ebonstone-block",
+        "qty": 1
+      }
+    ],
+    "station": "Work Bench and Ecto Mist"
+  },
+  {
+    "result": "countercurse-mantra",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "megaphone",
+        "qty": 1
+      },
+      {
+        "item": "nazar",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "craggy-stone-wall",
+    "qty": 4,
+    "ingredients": [
+      {
+        "item": "stone-block",
+        "qty": 1
+      }
+    ],
+    "station": "Work Bench and Ecto Mist"
+  },
+  {
+    "result": "crimson-blister-wall",
+    "qty": 4,
+    "ingredients": [
+      {
+        "item": "crimstone-block",
+        "qty": 1
+      }
+    ],
+    "station": "Work Bench and Ecto Mist"
+  },
+  {
+    "result": "crimson-crust-wall",
+    "qty": 4,
+    "ingredients": [
+      {
+        "item": "crimstone-block",
+        "qty": 1
+      }
+    ],
+    "station": "Work Bench and Ecto Mist"
+  },
+  {
+    "result": "crimson-greaves",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "crimtane-bar",
+        "qty": 20
+      },
+      {
+        "item": "tissue-sample",
+        "qty": 15
+      }
+    ],
+    "station": "Iron Anvil"
+  },
+  {
+    "result": "crimson-helmet",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "crimtane-bar",
+        "qty": 15
+      },
+      {
+        "item": "tissue-sample",
+        "qty": 10
+      }
+    ],
+    "station": "Iron Anvil"
+  },
+  {
+    "result": "crimson-scab-wall",
+    "qty": 4,
+    "ingredients": [
+      {
+        "item": "crimstone-block",
+        "qty": 1
+      }
+    ],
+    "station": "Work Bench and Ecto Mist"
+  },
+  {
+    "result": "crimson-scalemail",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "crimtane-bar",
+        "qty": 25
+      },
+      {
+        "item": "tissue-sample",
+        "qty": 20
+      }
+    ],
+    "station": "Iron Anvil"
+  },
+  {
+    "result": "crimson-teeth-wall",
+    "qty": 4,
+    "ingredients": [
+      {
+        "item": "crimstone-block",
+        "qty": 1
+      }
+    ],
+    "station": "Work Bench and Ecto Mist"
+  },
+  {
+    "result": "crimstone-block",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "crimson-blister-wall",
+        "qty": 4
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "crimstone-block",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "crimson-crust-wall",
+        "qty": 4
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "crimstone-block",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "crimson-scab-wall",
+        "qty": 4
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "crimstone-block",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "crimson-teeth-wall",
+        "qty": 4
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "crimstone-block",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "crimstone-wall",
+        "qty": 4
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "crimstone-wall",
+    "qty": 4,
+    "ingredients": [
+      {
+        "item": "crimstone-block",
+        "qty": 1
+      }
+    ],
+    "station": "Work Bench and Ecto Mist"
+  },
+  {
+    "result": "crimtane-bar",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "demonite-bar",
+        "qty": 1
+      }
+    ],
+    "station": "Chlorophyte Extractinator"
+  },
+  {
+    "result": "crimtane-bar",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "crimtane-ore",
+        "qty": 3
+      }
+    ],
+    "station": "Furnace"
+  },
+  {
+    "result": "crimtane-ore",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "demonite-ore",
+        "qty": 1
+      }
+    ],
+    "station": "Chlorophyte Extractinator"
+  },
+  {
+    "result": "crossed-heart-necklace",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "cross-necklace",
+        "qty": 1
+      },
+      {
+        "item": "panic-necklace",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "crystal-bullet",
+    "qty": 100,
+    "ingredients": [
+      {
+        "item": "crystal-shard",
+        "qty": 1
+      },
+      {
+        "item": "musket-ball",
+        "qty": 100
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "crystal-storm",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "crystal-shard",
+        "qty": 20
+      },
+      {
+        "item": "soul-of-light",
+        "qty": 15
+      },
+      {
+        "item": "spell-tome",
+        "qty": 1
+      }
+    ],
+    "station": "Bookcase"
+  },
+  {
+    "result": "cursed-arrow",
+    "qty": 150,
+    "ingredients": [
+      {
+        "item": "cursed-flame",
+        "qty": 1
+      },
+      {
+        "item": "wooden-arrow",
+        "qty": 150
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "cursed-dart",
+    "qty": 100,
+    "ingredients": [
+      {
+        "item": "cursed-flame",
+        "qty": 1
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "dao-of-pow",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "dark-shard",
+        "qty": 1
+      },
+      {
+        "item": "light-shard",
+        "qty": 1
+      },
+      {
+        "item": "soul-of-light",
+        "qty": 7
+      },
+      {
+        "item": "soul-of-night",
+        "qty": 7
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "daybloom-staff",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "daybloom",
+        "qty": 3
+      },
+      {
+        "item": "gel",
+        "qty": 5
+      },
+      {
+        "item": "wood",
+        "qty": 12
+      }
+    ],
+    "station": "By Hand"
+  },
+  {
+    "result": "daybreak",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "solar-fragment",
+        "qty": 18
+      }
+    ],
+    "station": "Ancient Manipulator"
+  },
+  {
+    "result": "decorative-cobweb",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "cobweb",
+        "qty": 1
+      }
+    ],
+    "station": "Loom and Ecto Mist"
+  },
+  {
+    "result": "demon-bow",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "demonite-bar",
+        "qty": 8
+      }
+    ],
+    "station": "Iron Anvil"
+  },
+  {
+    "result": "demon-wings",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "feather",
+        "qty": 10
+      },
+      {
+        "item": "soul-of-flight",
+        "qty": 20
+      },
+      {
+        "item": "soul-of-night",
+        "qty": 15
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "demonite-bar",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "crimtane-bar",
+        "qty": 1
+      }
+    ],
+    "station": "Chlorophyte Extractinator"
+  },
+  {
+    "result": "demonite-bar",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "demonite-ore",
+        "qty": 3
+      }
+    ],
+    "station": "Furnace"
+  },
+  {
+    "result": "demonite-ore",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "crimtane-ore",
+        "qty": 1
+      }
+    ],
+    "station": "Chlorophyte Extractinator"
+  },
+  {
+    "result": "destroyer-emblem",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "avenger-emblem",
+        "qty": 1
+      },
+      {
+        "item": "eye-of-the-golem",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "diamond",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "diamond-bunny",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "diamond",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "diamond-squirrel",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "diamond-robe",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "diamond",
+        "qty": 10
+      },
+      {
+        "item": "robe",
+        "qty": 1
+      }
+    ],
+    "station": "Loom"
+  },
+  {
+    "result": "diamond-staff",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "diamond",
+        "qty": 8
+      },
+      {
+        "item": "platinum-bar",
+        "qty": 7
+      }
+    ],
+    "station": "Iron Anvil"
+  },
+  {
+    "result": "druidic-serpent-cloak",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "snake-band",
+        "qty": 1
+      },
+      {
+        "item": "star-cloak",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "dungeon-shelf",
+    "qty": 2,
+    "ingredients": [
+      {
+        "item": "wood",
+        "qty": 1
+      }
+    ],
+    "station": "Bone Welder and Ecto Mist"
+  },
+  {
+    "result": "durendal",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "hallowed-bar",
+        "qty": 12
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "dynasty-wood",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "dynasty-wood-platform",
+        "qty": 2
+      }
+    ],
+    "station": "By Hand"
+  },
+  {
+    "result": "dynasty-wood",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "blue-dynasty-wall",
+        "qty": 4
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "dynasty-wood",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "white-dynasty-wall",
+        "qty": 4
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "dynasty-wood-platform",
+    "qty": 2,
+    "ingredients": [
+      {
+        "item": "dynasty-wood",
+        "qty": 1
+      }
+    ],
+    "station": "By Hand"
+  },
+  {
+    "result": "ebonstone-block",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "corrupt-growth-wall",
+        "qty": 4
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "ebonstone-block",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "corrupt-mass-wall",
+        "qty": 4
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "ebonstone-block",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "corrupt-pustule-wall",
+        "qty": 4
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "ebonstone-block",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "corrupt-tendril-wall",
+        "qty": 4
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "ebonstone-block",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "ebonstone-wall",
+        "qty": 4
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "ebonstone-wall",
+    "qty": 4,
+    "ingredients": [
+      {
+        "item": "ebonstone-block",
+        "qty": 1
+      }
+    ],
+    "station": "Work Bench and Ecto Mist"
+  },
+  {
+    "result": "ebonwood",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "ebonwood-platform",
+        "qty": 2
+      }
+    ],
+    "station": "By Hand"
+  },
+  {
+    "result": "ebonwood",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "ebonwood-fence",
+        "qty": 4
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "ebonwood",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "ebonwood-wall",
+        "qty": 4
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "ebonwood-fence",
+    "qty": 4,
+    "ingredients": [
+      {
+        "item": "ebonwood",
+        "qty": 1
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "ebonwood-platform",
+    "qty": 2,
+    "ingredients": [
+      {
+        "item": "ebonwood",
+        "qty": 1
+      }
+    ],
+    "station": "By Hand"
+  },
+  {
+    "result": "ebonwood-wall",
+    "qty": 4,
+    "ingredients": [
+      {
+        "item": "ebonwood",
+        "qty": 1
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "ember-wall",
+    "qty": 4,
+    "ingredients": [
+      {
+        "item": "hellstone",
+        "qty": 1
+      }
+    ],
+    "station": "Work Bench and Ecto Mist"
+  },
+  {
+    "result": "emerald",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "emerald-bunny",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "emerald",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "emerald-squirrel",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "emerald",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "ruby",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "emerald-robe",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "emerald",
+        "qty": 10
+      },
+      {
+        "item": "robe",
+        "qty": 1
+      }
+    ],
+    "station": "Loom"
+  },
+  {
+    "result": "enchanted-boomerang",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "fallen-star",
+        "qty": 1
+      },
+      {
+        "item": "wooden-boomerang",
+        "qty": 1
+      }
+    ],
+    "station": "By Hand"
+  },
+  {
+    "result": "endurance-potion",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "armored-cavefish",
+        "qty": 1
+      },
+      {
+        "item": "blinkroot",
+        "qty": 1
+      },
+      {
+        "item": "bottled-water",
+        "qty": 1
+      }
+    ],
+    "station": "Placed Bottle"
+  },
+  {
+    "result": "excalibur",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "hallowed-bar",
+        "qty": 12
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "explosive-trap-cane",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "ballista-cane",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "explosive-trap-rod",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "ballista-rod",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "explosive-trap-staff",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "ballista-staff",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "fairy-wings",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "pixie-dust",
+        "qty": 99
+      },
+      {
+        "item": "soul-of-flight",
+        "qty": 20
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "fast-clock",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "trifold-map",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "finch-staff",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "living-wood-wand",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "fire-gauntlet",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "magma-stone",
+        "qty": 1
+      },
+      {
+        "item": "mechanical-glove",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "flamarang",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "enchanted-boomerang",
+        "qty": 1
+      },
+      {
+        "item": "hellstone-bar",
+        "qty": 10
+      }
+    ],
+    "station": "Iron Anvil"
+  },
+  {
+    "result": "flameburst-cane",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "lightning-aura-cane",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "flameburst-rod",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "lightning-aura-rod",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "flameburst-staff",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "lightning-aura-staff",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "flamethrower",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "any-iron-bar",
+        "qty": 20
+      },
+      {
+        "item": "illegal-gun-parts",
+        "qty": 1
+      },
+      {
+        "item": "soul-of-fright",
+        "qty": 20
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "flaming-arrow",
+    "qty": 10,
+    "ingredients": [
+      {
+        "item": "torch",
+        "qty": 1
+      },
+      {
+        "item": "wooden-arrow",
+        "qty": 10
+      }
+    ],
+    "station": "By Hand"
+  },
+  {
+    "result": "flaming-mace",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "mace",
+        "qty": 1
+      },
+      {
+        "item": "torch",
+        "qty": 99
+      }
+    ],
+    "station": "By Hand"
+  },
+  {
+    "result": "flesh-knuckles",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "putrid-scent",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "flint",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "any-adamantite-bar",
+        "qty": 24
+      },
+      {
+        "item": "hellstone-bar",
+        "qty": 20
+      }
+    ],
+    "station": "Adamantite Forge"
+  },
+  {
+    "result": "flinx-fur-coat",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "flinx-fur",
+        "qty": 8
+      },
+      {
+        "item": "gold-bar",
+        "qty": 8
+      },
+      {
+        "item": "silk",
+        "qty": 10
+      }
+    ],
+    "station": "Loom"
+  },
+  {
+    "result": "flinx-fur-coat",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "flinx-fur",
+        "qty": 8
+      },
+      {
+        "item": "platinum-bar",
+        "qty": 8
+      },
+      {
+        "item": "silk",
+        "qty": 10
+      }
+    ],
+    "station": "Loom"
+  },
+  {
+    "result": "flinx-staff",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "flinx-fur",
+        "qty": 6
+      },
+      {
+        "item": "gold-bar",
+        "qty": 10
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "flinx-staff",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "flinx-fur",
+        "qty": 6
+      },
+      {
+        "item": "platinum-bar",
+        "qty": 10
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "forbidden-mask",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "any-adamantite-bar",
+        "qty": 10
+      },
+      {
+        "item": "forbidden-fragment",
+        "qty": 1
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "forbidden-treads",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "any-adamantite-bar",
+        "qty": 16
+      },
+      {
+        "item": "forbidden-fragment",
+        "qty": 1
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "fossil-greaves",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "sturdy-fossil",
+        "qty": 20
+      }
+    ],
+    "station": "Iron Anvil"
+  },
+  {
+    "result": "fossil-helmet",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "sturdy-fossil",
+        "qty": 15
+      }
+    ],
+    "station": "Iron Anvil"
+  },
+  {
+    "result": "fossil-plate",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "sturdy-fossil",
+        "qty": 25
+      }
+    ],
+    "station": "Iron Anvil"
+  },
+  {
+    "result": "fractured-stone-wall",
+    "qty": 4,
+    "ingredients": [
+      {
+        "item": "stone-block",
+        "qty": 1
+      }
+    ],
+    "station": "Work Bench and Ecto Mist"
+  },
+  {
+    "result": "frost-breastplate",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "any-adamantite-bar",
+        "qty": 20
+      },
+      {
+        "item": "frost-core",
+        "qty": 1
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "frostburn-arrow",
+    "qty": 10,
+    "ingredients": [
+      {
+        "item": "ice-torch",
+        "qty": 1
+      },
+      {
+        "item": "wooden-arrow",
+        "qty": 10
+      }
+    ],
+    "station": "By Hand"
+  },
+  {
+    "result": "frostspark-boots",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "ice-skates",
+        "qty": 1
+      },
+      {
+        "item": "lightning-boots",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "frozen-platform",
+    "qty": 2,
+    "ingredients": [
+      {
+        "item": "ice-block",
+        "qty": 1
+      }
+    ],
+    "station": "By Hand"
+  },
+  {
+    "result": "frozen-shield",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "frozen-turtle-shell",
+        "qty": 1
+      },
+      {
+        "item": "paladins-shield",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "frozen-wings",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "ice-feather",
+        "qty": 1
+      },
+      {
+        "item": "soul-of-flight",
+        "qty": 20
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "glacier-fang",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "snowball-cannon",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "gladiator-breastplate",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "gladiator-helmet",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "gladiator-helmet",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "gladiator-leggings",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "gladiator-leggings",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "gladiator-breastplate",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "glass",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "glass-platform",
+        "qty": 2
+      }
+    ],
+    "station": "By Hand"
+  },
+  {
+    "result": "glass",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "any-sand-block",
+        "qty": 2
+      }
+    ],
+    "station": "Furnace"
+  },
+  {
+    "result": "glass",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "glass-wall",
+        "qty": 4
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "glass-platform",
+    "qty": 2,
+    "ingredients": [
+      {
+        "item": "glass",
+        "qty": 1
+      }
+    ],
+    "station": "By Hand"
+  },
+  {
+    "result": "glass-wall",
+    "qty": 4,
+    "ingredients": [
+      {
+        "item": "glass",
+        "qty": 1
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "glowing-mushroom",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "mushroom-platform",
+        "qty": 2
+      }
+    ],
+    "station": "By Hand"
+  },
+  {
+    "result": "glowing-mushroom",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "mushroom-wall",
+        "qty": 4
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "gold-bar",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "platinum-bar",
+        "qty": 1
+      }
+    ],
+    "station": "Chlorophyte Extractinator"
+  },
+  {
+    "result": "gold-bar",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "gold-ore",
+        "qty": 4
+      }
+    ],
+    "station": "Furnace"
+  },
+  {
+    "result": "gold-broadsword",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "gold-bar",
+        "qty": 8
+      }
+    ],
+    "station": "Iron Anvil"
+  },
+  {
+    "result": "gold-ore",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "platinum-ore",
+        "qty": 1
+      }
+    ],
+    "station": "Chlorophyte Extractinator"
+  },
+  {
+    "result": "gold-ore",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "platinum-ore",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "golden-shower",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "ichor",
+        "qty": 20
+      },
+      {
+        "item": "soul-of-night",
+        "qty": 15
+      },
+      {
+        "item": "spell-tome",
+        "qty": 1
+      }
+    ],
+    "station": "Bookcase"
+  },
+  {
+    "result": "gungnir",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "hallowed-bar",
+        "qty": 12
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "hallowed-cavern-wall",
+    "qty": 4,
+    "ingredients": [
+      {
+        "item": "pearlstone-block",
+        "qty": 1
+      }
+    ],
+    "station": "Work Bench and Ecto Mist"
+  },
+  {
+    "result": "hallowed-crystalline-wall",
+    "qty": 4,
+    "ingredients": [
+      {
+        "item": "pearlstone-block",
+        "qty": 1
+      }
+    ],
+    "station": "Work Bench and Ecto Mist"
+  },
+  {
+    "result": "hallowed-greaves",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "hallowed-bar",
+        "qty": 18
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "hallowed-headgear",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "hallowed-bar",
+        "qty": 12
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "hallowed-helmet",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "hallowed-bar",
+        "qty": 12
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "hallowed-hood",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "hallowed-bar",
+        "qty": 12
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "hallowed-mask",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "hallowed-bar",
+        "qty": 12
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "hallowed-prism-wall",
+    "qty": 4,
+    "ingredients": [
+      {
+        "item": "pearlstone-block",
+        "qty": 1
+      }
+    ],
+    "station": "Work Bench and Ecto Mist"
+  },
+  {
+    "result": "hallowed-shard-wall",
+    "qty": 4,
+    "ingredients": [
+      {
+        "item": "pearlstone-block",
+        "qty": 1
+      }
+    ],
+    "station": "Work Bench and Ecto Mist"
+  },
+  {
+    "result": "harpy-charm",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "amber",
+        "qty": 3
+      },
+      {
+        "item": "any-silver-bar",
+        "qty": 5
+      },
+      {
+        "item": "feather",
+        "qty": 7
+      }
+    ],
+    "station": "Iron Anvil"
+  },
+  {
+    "result": "hellfire-arrow",
+    "qty": 100,
+    "ingredients": [
+      {
+        "item": "hellstone-bar",
+        "qty": 1
+      },
+      {
+        "item": "wooden-arrow",
+        "qty": 100
+      }
+    ],
+    "station": "Iron Anvil"
+  },
+  {
+    "result": "hellstone",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "cinder-wall",
+        "qty": 4
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "hellstone",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "ember-wall",
+        "qty": 4
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "hellstone",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "magma-wall",
+        "qty": 4
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "hellstone",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "smouldering-stone-wall",
+        "qty": 4
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "hellstone-bar",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "hellstone",
+        "qty": 3
+      },
+      {
+        "item": "obsidian",
+        "qty": 1
+      }
+    ],
+    "station": "Hellforge"
+  },
+  {
+    "result": "hero-shield",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "flesh-knuckles",
+        "qty": 1
+      },
+      {
+        "item": "paladins-shield",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "high-velocity-bullet",
+    "qty": 50,
+    "ingredients": [
+      {
+        "item": "cog",
+        "qty": 1
+      },
+      {
+        "item": "empty-bullet",
+        "qty": 50
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "hive-five",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "bee-wax",
+        "qty": 14
+      }
+    ],
+    "station": "Iron Anvil"
+  },
+  {
+    "result": "holy-arrow",
+    "qty": 200,
+    "ingredients": [
+      {
+        "item": "pixie-dust",
+        "qty": 3
+      },
+      {
+        "item": "unicorn-horn",
+        "qty": 1
+      },
+      {
+        "item": "wooden-arrow",
+        "qty": 200
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "hornet-staff",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "bee-wax",
+        "qty": 14
+      }
+    ],
+    "station": "Iron Anvil"
+  },
+  {
+    "result": "hoverboard",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "shroomite-bar",
+        "qty": 18
+      },
+      {
+        "item": "soul-of-flight",
+        "qty": 20
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "ice-blade",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "glacier-fang",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "ice-block",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "frozen-platform",
+        "qty": 2
+      }
+    ],
+    "station": "By Hand"
+  },
+  {
+    "result": "ice-block",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "pink-ice-block",
+        "qty": 1
+      }
+    ],
+    "station": "Chlorophyte Extractinator"
+  },
+  {
+    "result": "ice-block",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "purple-ice-block",
+        "qty": 1
+      }
+    ],
+    "station": "Chlorophyte Extractinator"
+  },
+  {
+    "result": "ice-block",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "red-ice-block",
+        "qty": 1
+      }
+    ],
+    "station": "Chlorophyte Extractinator"
+  },
+  {
+    "result": "ice-block",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "ice-wall",
+        "qty": 4
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "ice-boomerang",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "ice-blade",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "ice-torch",
+    "qty": 3,
+    "ingredients": [
+      {
+        "item": "ice-block",
+        "qty": 1
+      },
+      {
+        "item": "torch",
+        "qty": 3
+      }
+    ],
+    "station": "By Hand"
+  },
+  {
+    "result": "ice-torch",
+    "qty": 3,
+    "ingredients": [
+      {
+        "item": "pink-ice-block",
+        "qty": 1
+      },
+      {
+        "item": "torch",
+        "qty": 3
+      }
+    ],
+    "station": "By Hand"
+  },
+  {
+    "result": "ice-torch",
+    "qty": 3,
+    "ingredients": [
+      {
+        "item": "purple-ice-block",
+        "qty": 1
+      },
+      {
+        "item": "torch",
+        "qty": 3
+      }
+    ],
+    "station": "By Hand"
+  },
+  {
+    "result": "ice-torch",
+    "qty": 3,
+    "ingredients": [
+      {
+        "item": "red-ice-block",
+        "qty": 1
+      },
+      {
+        "item": "torch",
+        "qty": 3
+      }
+    ],
+    "station": "By Hand"
+  },
+  {
+    "result": "ice-wall",
+    "qty": 4,
+    "ingredients": [
+      {
+        "item": "ice-block",
+        "qty": 1
+      }
+    ],
+    "station": "Work Bench and Ecto Mist"
+  },
+  {
+    "result": "ichor-arrow",
+    "qty": 150,
+    "ingredients": [
+      {
+        "item": "ichor",
+        "qty": 1
+      },
+      {
+        "item": "wooden-arrow",
+        "qty": 150
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "ichor-dart",
+    "qty": 100,
+    "ingredients": [
+      {
+        "item": "ichor",
+        "qty": 1
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "imp-staff",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "hellstone-bar",
+        "qty": 17
+      }
+    ],
+    "station": "Iron Anvil"
+  },
+  {
+    "result": "iron-ore",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "lead-ore",
+        "qty": 1
+      }
+    ],
+    "station": "Chlorophyte Extractinator"
+  },
+  {
+    "result": "iron-ore",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "lead-ore",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "ironskin-potion",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "bottled-water",
+        "qty": 1
+      },
+      {
+        "item": "daybloom",
+        "qty": 1
+      },
+      {
+        "item": "iron-ore",
+        "qty": 1
+      }
+    ],
+    "station": "Placed Bottle"
+  },
+  {
+    "result": "ironskin-potion",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "bottled-water",
+        "qty": 1
+      },
+      {
+        "item": "daybloom",
+        "qty": 1
+      },
+      {
+        "item": "lead-ore",
+        "qty": 1
+      }
+    ],
+    "station": "Placed Bottle"
+  },
+  {
+    "result": "jesters-arrow",
+    "qty": 10,
+    "ingredients": [
+      {
+        "item": "fallen-star",
+        "qty": 1
+      },
+      {
+        "item": "wooden-arrow",
+        "qty": 10
+      }
+    ],
+    "station": "By Hand"
+  },
+  {
+    "result": "jungle-grass-seeds",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "mushroom-grass-seeds",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "jungle-grass-seeds",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "jungle-vine-wall",
+        "qty": 4
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "jungle-grass-seeds",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "leafy-jungle-wall",
+        "qty": 4
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "jungle-hat",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "jungle-spores",
+        "qty": 8
+      }
+    ],
+    "station": "Iron Anvil"
+  },
+  {
+    "result": "jungle-hat",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "ancient-cobalt-helmet",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "jungle-pants",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "jungle-spores",
+        "qty": 8
+      },
+      {
+        "item": "vine",
+        "qty": 2
+      }
+    ],
+    "station": "Iron Anvil"
+  },
+  {
+    "result": "jungle-pants",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "ancient-cobalt-leggings",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "jungle-shirt",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "jungle-spores",
+        "qty": 16
+      },
+      {
+        "item": "stinger",
+        "qty": 10
+      }
+    ],
+    "station": "Iron Anvil"
+  },
+  {
+    "result": "jungle-shirt",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "ancient-cobalt-breastplate",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "jungle-vine-wall",
+    "qty": 4,
+    "ingredients": [
+      {
+        "item": "jungle-grass-seeds",
+        "qty": 1
+      }
+    ],
+    "station": "Work Bench and Ecto Mist"
+  },
+  {
+    "result": "kinship-peach",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "life-fruit",
+        "qty": 1
+      },
+      {
+        "item": "soul-of-light",
+        "qty": 12
+      },
+      {
+        "item": "soul-of-night",
+        "qty": 12
+      }
+    ],
+    "station": "Crystal Ball"
+  },
+  {
+    "result": "lava-charm",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "magma-stone",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "lava-waders",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "lava-charm",
+        "qty": 1
+      },
+      {
+        "item": "obsidian-rose",
+        "qty": 1
+      },
+      {
+        "item": "obsidian-water-walking-boots",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "lava-waders",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "molten-charm",
+        "qty": 1
+      },
+      {
+        "item": "obsidian-rose",
+        "qty": 1
+      },
+      {
+        "item": "obsidian-water-walking-boots",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "lava-waders",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "molten-charm",
+        "qty": 1
+      },
+      {
+        "item": "obsidian-rose",
+        "qty": 1
+      },
+      {
+        "item": "water-walking-boots",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "lava-waders",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "molten-skull-rose",
+        "qty": 1
+      },
+      {
+        "item": "obsidian-water-walking-boots",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "lava-waders",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "molten-skull-rose",
+        "qty": 1
+      },
+      {
+        "item": "water-walking-boots",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "lead-ore",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "iron-ore",
+        "qty": 1
+      }
+    ],
+    "station": "Chlorophyte Extractinator"
+  },
+  {
+    "result": "lead-ore",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "silver-ore",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "leafy-jungle-wall",
+    "qty": 4,
+    "ingredients": [
+      {
+        "item": "jungle-grass-seeds",
+        "qty": 1
+      }
+    ],
+    "station": "Work Bench and Ecto Mist"
+  },
+  {
+    "result": "lesser-healing-potion",
+    "qty": 2,
+    "ingredients": [
+      {
+        "item": "bottle",
+        "qty": 2
+      },
+      {
+        "item": "gel",
+        "qty": 2
+      },
+      {
+        "item": "mushroom",
+        "qty": 1
+      }
+    ],
+    "station": "Placed Bottle"
+  },
+  {
+    "result": "light-s-bane",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "demonite-bar",
+        "qty": 10
+      }
+    ],
+    "station": "Iron Anvil"
+  },
+  {
+    "result": "lightning-aura-cane",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "explosive-trap-cane",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "lightning-aura-rod",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "explosive-trap-rod",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "lightning-aura-staff",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "explosive-trap-staff",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "lightning-boots",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "aglet",
+        "qty": 1
+      },
+      {
+        "item": "anklet-of-the-wind",
+        "qty": 1
+      },
+      {
+        "item": "spectre-boots",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "lightning-strike",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "any-adamantite-bar",
+        "qty": 24
+      },
+      {
+        "item": "soul-of-night",
+        "qty": 20
+      },
+      {
+        "item": "thunder-zapper",
+        "qty": 1
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "little-kinship-peach",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "any-fruit",
+        "qty": 1
+      },
+      {
+        "item": "soul-of-light",
+        "qty": 12
+      },
+      {
+        "item": "soul-of-night",
+        "qty": 12
+      }
+    ],
+    "station": "Crystal Ball"
+  },
+  {
+    "result": "living-leaf-wall",
+    "qty": 4,
+    "ingredients": [
+      {
+        "item": "wood",
+        "qty": 1
+      }
+    ],
+    "station": "Living Loom"
+  },
+  {
+    "result": "living-wood-platform",
+    "qty": 2,
+    "ingredients": [
+      {
+        "item": "wood",
+        "qty": 1
+      }
+    ],
+    "station": "Living Loom"
+  },
+  {
+    "result": "living-wood-wall",
+    "qty": 4,
+    "ingredients": [
+      {
+        "item": "wood",
+        "qty": 1
+      }
+    ],
+    "station": "Living Loom"
+  },
+  {
+    "result": "luminite-arrow",
+    "qty": 333,
+    "ingredients": [
+      {
+        "item": "luminite-bar",
+        "qty": 1
+      }
+    ],
+    "station": "Ancient Manipulator"
+  },
+  {
+    "result": "luminite-bar",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "luminite",
+        "qty": 4
+      }
+    ],
+    "station": "Ancient Manipulator"
+  },
+  {
+    "result": "luminite-bullet",
+    "qty": 333,
+    "ingredients": [
+      {
+        "item": "luminite-bar",
+        "qty": 1
+      }
+    ],
+    "station": "Ancient Manipulator"
+  },
+  {
+    "result": "magic-cuffs",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "band-of-starpower",
+        "qty": 1
+      },
+      {
+        "item": "shackle",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "magic-power-potion",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "bottled-water",
+        "qty": 1
+      },
+      {
+        "item": "deathweed",
+        "qty": 1
+      },
+      {
+        "item": "fallen-star",
+        "qty": 1
+      },
+      {
+        "item": "moonglow",
+        "qty": 1
+      }
+    ],
+    "station": "Placed Bottle"
+  },
+  {
+    "result": "magic-yoyo-bag",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "magic-string",
+        "qty": 1
+      },
+      {
+        "item": "yoyo-bag",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "magical-harp",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "crystal-shard",
+        "qty": 20
+      },
+      {
+        "item": "harp",
+        "qty": 1
+      },
+      {
+        "item": "soul-of-night",
+        "qty": 8
+      },
+      {
+        "item": "soul-of-sight",
+        "qty": 15
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "magma-skull",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "lava-charm",
+        "qty": 1
+      },
+      {
+        "item": "obsidian-skull",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "magma-stone",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "lava-charm",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "magma-wall",
+    "qty": 4,
+    "ingredients": [
+      {
+        "item": "hellstone",
+        "qty": 1
+      }
+    ],
+    "station": "Work Bench and Ecto Mist"
+  },
+  {
+    "result": "magnet-flower",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "celestial-magnet",
+        "qty": 1
+      },
+      {
+        "item": "mana-flower",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "mana-cloak",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "mana-flower",
+        "qty": 1
+      },
+      {
+        "item": "star-cloak",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "mana-crystal",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "fallen-star",
+        "qty": 5
+      }
+    ],
+    "station": "By Hand"
+  },
+  {
+    "result": "mana-flower",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "mana-potion",
+        "qty": 1
+      },
+      {
+        "item": "nature-s-gift",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "mana-potion",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "glowing-mushroom",
+        "qty": 1
+      },
+      {
+        "item": "lesser-mana-potion",
+        "qty": 2
+      }
+    ],
+    "station": "Placed Bottle"
+  },
+  {
+    "result": "mana-regeneration-band",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "band-of-regeneration",
+        "qty": 1
+      },
+      {
+        "item": "band-of-starpower",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "mana-regeneration-potion",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "bottled-water",
+        "qty": 1
+      },
+      {
+        "item": "daybloom",
+        "qty": 1
+      },
+      {
+        "item": "fallen-star",
+        "qty": 1
+      },
+      {
+        "item": "moonglow",
+        "qty": 1
+      }
+    ],
+    "station": "Placed Bottle"
+  },
+  {
+    "result": "master-ninja-gear",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "black-belt",
+        "qty": 1
+      },
+      {
+        "item": "tabi",
+        "qty": 1
+      },
+      {
+        "item": "tiger-climbing-gear",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "mechanical-glove",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "avenger-emblem",
+        "qty": 1
+      },
+      {
+        "item": "power-glove",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "medicated-bandage",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "adhesive-bandage",
+        "qty": 1
+      },
+      {
+        "item": "bezoar",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "megaphone",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "nazar",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "megashark",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "illegal-gun-parts",
+        "qty": 1
+      },
+      {
+        "item": "minishark",
+        "qty": 1
+      },
+      {
+        "item": "shark-fin",
+        "qty": 5
+      },
+      {
+        "item": "soul-of-might",
+        "qty": 20
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "meteor-helmet",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "meteorite-bar",
+        "qty": 10
+      }
+    ],
+    "station": "Iron Anvil"
+  },
+  {
+    "result": "meteor-leggings",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "meteorite-bar",
+        "qty": 15
+      }
+    ],
+    "station": "Iron Anvil"
+  },
+  {
+    "result": "meteor-shot",
+    "qty": 70,
+    "ingredients": [
+      {
+        "item": "meteorite-bar",
+        "qty": 1
+      },
+      {
+        "item": "musket-ball",
+        "qty": 70
+      }
+    ],
+    "station": "Iron Anvil"
+  },
+  {
+    "result": "meteor-staff",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "meteorite-bar",
+        "qty": 20
+      },
+      {
+        "item": "pixie-dust",
+        "qty": 10
+      },
+      {
+        "item": "soul-of-light",
+        "qty": 10
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "meteor-suit",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "meteorite-bar",
+        "qty": 20
+      }
+    ],
+    "station": "Iron Anvil"
+  },
+  {
+    "result": "meteorite-bar",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "meteorite",
+        "qty": 3
+      }
+    ],
+    "station": "Furnace"
+  },
+  {
+    "result": "mini-nuke-i",
+    "qty": 100,
+    "ingredients": [
+      {
+        "item": "rocket-iii",
+        "qty": 100
+      },
+      {
+        "item": "shroomite-bar",
+        "qty": 1
+      }
+    ],
+    "station": "Autohammer"
+  },
+  {
+    "result": "molotov-cocktail",
+    "qty": 5,
+    "ingredients": [
+      {
+        "item": "ale",
+        "qty": 5
+      },
+      {
+        "item": "gel",
+        "qty": 1
+      },
+      {
+        "item": "silk",
+        "qty": 1
+      },
+      {
+        "item": "torch",
+        "qty": 1
+      }
+    ],
+    "station": "By Hand"
+  },
+  {
+    "result": "molten-breastplate",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "hellstone-bar",
+        "qty": 20
+      }
+    ],
+    "station": "Iron Anvil"
+  },
+  {
+    "result": "molten-charm",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "lava-charm",
+        "qty": 1
+      },
+      {
+        "item": "obsidian-skull",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "molten-fury",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "hellstone-bar",
+        "qty": 15
+      }
+    ],
+    "station": "Iron Anvil"
+  },
+  {
+    "result": "molten-greaves",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "hellstone-bar",
+        "qty": 15
+      }
+    ],
+    "station": "Iron Anvil"
+  },
+  {
+    "result": "molten-helmet",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "hellstone-bar",
+        "qty": 10
+      }
+    ],
+    "station": "Iron Anvil"
+  },
+  {
+    "result": "molten-quiver",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "magic-quiver",
+        "qty": 1
+      },
+      {
+        "item": "magma-stone",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "molten-skull-rose",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "lava-charm",
+        "qty": 1
+      },
+      {
+        "item": "obsidian-skull-rose",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "molten-skull-rose",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "magma-skull",
+        "qty": 1
+      },
+      {
+        "item": "obsidian-rose",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "molten-skull-rose",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "magma-skull",
+        "qty": 1
+      },
+      {
+        "item": "obsidian-skull-rose",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "moon-shell",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "moon-charm",
+        "qty": 1
+      },
+      {
+        "item": "neptune-s-shell",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "mottled-stone-wall",
+    "qty": 4,
+    "ingredients": [
+      {
+        "item": "stone-block",
+        "qty": 1
+      }
+    ],
+    "station": "Work Bench and Ecto Mist"
+  },
+  {
+    "result": "mug",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "glass",
+        "qty": 1
+      }
+    ],
+    "station": "Furnace"
+  },
+  {
+    "result": "mushroom",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "vicious-mushroom",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "mushroom",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "vile-mushroom",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "mushroom-grass-seeds",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "jungle-grass-seeds",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "mushroom-platform",
+    "qty": 2,
+    "ingredients": [
+      {
+        "item": "glowing-mushroom",
+        "qty": 1
+      }
+    ],
+    "station": "By Hand"
+  },
+  {
+    "result": "mushroom-staff",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "glowing-mushroom",
+        "qty": 300
+      },
+      {
+        "item": "mushroom-grass-seeds",
+        "qty": 5
+      },
+      {
+        "item": "shadow-scale",
+        "qty": 5
+      }
+    ],
+    "station": "Iron Anvil"
+  },
+  {
+    "result": "mushroom-staff",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "glowing-mushroom",
+        "qty": 300
+      },
+      {
+        "item": "mushroom-grass-seeds",
+        "qty": 5
+      },
+      {
+        "item": "tissue-sample",
+        "qty": 5
+      }
+    ],
+    "station": "Iron Anvil"
+  },
+  {
+    "result": "mushroom-wall",
+    "qty": 4,
+    "ingredients": [
+      {
+        "item": "glowing-mushroom",
+        "qty": 1
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "mystic-arts-sash",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "black-belt",
+        "qty": 1
+      },
+      {
+        "item": "mana-regeneration-band",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "mystic-bloom",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "moonglow",
+        "qty": 2
+      },
+      {
+        "item": "nature-s-gift",
+        "qty": 1
+      },
+      {
+        "item": "rich-mahogany",
+        "qty": 7
+      },
+      {
+        "item": "vine",
+        "qty": 3
+      }
+    ],
+    "station": "Iron Anvil"
+  },
+  {
+    "result": "mythril-bar",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "orichalcum-bar",
+        "qty": 1
+      }
+    ],
+    "station": "Chlorophyte Extractinator"
+  },
+  {
+    "result": "mythril-bar",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "mythril-ore",
+        "qty": 4
+      }
+    ],
+    "station": "Furnace"
+  },
+  {
+    "result": "mythril-greaves",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "mythril-bar",
+        "qty": 15
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "mythril-ore",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "orichalcum-ore",
+        "qty": 1
+      }
+    ],
+    "station": "Chlorophyte Extractinator"
+  },
+  {
+    "result": "mythril-ore",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "orichalcum-ore",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "nano-bullet",
+    "qty": 50,
+    "ingredients": [
+      {
+        "item": "empty-bullet",
+        "qty": 50
+      },
+      {
+        "item": "nanites",
+        "qty": 1
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "nazar",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "megaphone",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "nebula-arcanum",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "nebula-fragment",
+        "qty": 18
+      }
+    ],
+    "station": "Ancient Manipulator"
+  },
+  {
+    "result": "nebula-blaze",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "nebula-fragment",
+        "qty": 18
+      }
+    ],
+    "station": "Ancient Manipulator"
+  },
+  {
+    "result": "nebula-breastplate",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "luminite-bar",
+        "qty": 16
+      },
+      {
+        "item": "nebula-fragment",
+        "qty": 20
+      }
+    ],
+    "station": "Ancient Manipulator"
+  },
+  {
+    "result": "nebula-fragment",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "solar-fragment",
+        "qty": 1
+      },
+      {
+        "item": "stardust-fragment",
+        "qty": 1
+      },
+      {
+        "item": "vortex-fragment",
+        "qty": 1
+      }
+    ],
+    "station": "Ancient Manipulator"
+  },
+  {
+    "result": "nebula-helmet",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "luminite-bar",
+        "qty": 8
+      },
+      {
+        "item": "nebula-fragment",
+        "qty": 10
+      }
+    ],
+    "station": "Ancient Manipulator"
+  },
+  {
+    "result": "nebula-leggings",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "luminite-bar",
+        "qty": 12
+      },
+      {
+        "item": "nebula-fragment",
+        "qty": 15
+      }
+    ],
+    "station": "Ancient Manipulator"
+  },
+  {
+    "result": "necro-helmet",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "ancient-necro-helmet",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "necro-helmet",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "bone",
+        "qty": 40
+      },
+      {
+        "item": "cobweb",
+        "qty": 40
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "night-s-edge",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "blade-of-grass",
+        "qty": 1
+      },
+      {
+        "item": "blood-butcherer",
+        "qty": 1
+      },
+      {
+        "item": "muramasa",
+        "qty": 1
+      },
+      {
+        "item": "volcano",
+        "qty": 1
+      }
+    ],
+    "station": "Demon Altar"
+  },
+  {
+    "result": "night-s-edge",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "blade-of-grass",
+        "qty": 1
+      },
+      {
+        "item": "light-s-bane",
+        "qty": 1
+      },
+      {
+        "item": "muramasa",
+        "qty": 1
+      },
+      {
+        "item": "volcano",
+        "qty": 1
+      }
+    ],
+    "station": "Demon Altar"
+  },
+  {
+    "result": "obsidian",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "obsidian-wall",
+        "qty": 4
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "obsidian-pants",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "obsidian",
+        "qty": 20
+      },
+      {
+        "item": "shadow-scale",
+        "qty": 5
+      },
+      {
+        "item": "silk",
+        "qty": 10
+      }
+    ],
+    "station": "Hellforge"
+  },
+  {
+    "result": "obsidian-pants",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "obsidian",
+        "qty": 20
+      },
+      {
+        "item": "silk",
+        "qty": 10
+      },
+      {
+        "item": "tissue-sample",
+        "qty": 5
+      }
+    ],
+    "station": "Hellforge"
+  },
+  {
+    "result": "obsidian-shield",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "cobalt-shield",
+        "qty": 1
+      },
+      {
+        "item": "obsidian-skull",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "obsidian-skull",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "obsidian",
+        "qty": 20
+      }
+    ],
+    "station": "Furnace"
+  },
+  {
+    "result": "obsidian-skull-rose",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "obsidian-rose",
+        "qty": 1
+      },
+      {
+        "item": "obsidian-skull",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "obsidian-wall",
+    "qty": 4,
+    "ingredients": [
+      {
+        "item": "obsidian",
+        "qty": 1
+      }
+    ],
+    "station": "Work Bench and Ecto Mist"
+  },
+  {
+    "result": "obsidian-water-walking-boots",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "obsidian-skull",
+        "qty": 1
+      },
+      {
+        "item": "water-walking-boots",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "old-stone-wall",
+    "qty": 4,
+    "ingredients": [
+      {
+        "item": "stone-block",
+        "qty": 1
+      }
+    ],
+    "station": "Work Bench and Ecto Mist"
+  },
+  {
+    "result": "onyx-blaster",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "dark-shard",
+        "qty": 2
+      },
+      {
+        "item": "shotgun",
+        "qty": 1
+      },
+      {
+        "item": "soul-of-night",
+        "qty": 10
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "optic-staff",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "black-lens",
+        "qty": 1
+      },
+      {
+        "item": "hallowed-bar",
+        "qty": 12
+      },
+      {
+        "item": "lens",
+        "qty": 2
+      },
+      {
+        "item": "soul-of-sight",
+        "qty": 20
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "orichalcum-bar",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "mythril-bar",
+        "qty": 1
+      }
+    ],
+    "station": "Chlorophyte Extractinator"
+  },
+  {
+    "result": "orichalcum-bar",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "orichalcum-ore",
+        "qty": 4
+      }
+    ],
+    "station": "Furnace"
+  },
+  {
+    "result": "orichalcum-ore",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "mythril-ore",
+        "qty": 1
+      }
+    ],
+    "station": "Chlorophyte Extractinator"
+  },
+  {
+    "result": "orichalcum-ore",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "adamantite-ore",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "ouroboros-ring",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "mobius-strip",
+        "qty": 1
+      },
+      {
+        "item": "snake-band",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "palladium-ore",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "cobalt-ore",
+        "qty": 1
+      }
+    ],
+    "station": "Chlorophyte Extractinator"
+  },
+  {
+    "result": "palladium-ore",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "mythril-ore",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "palm-wood",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "palm-wood-platform",
+        "qty": 2
+      }
+    ],
+    "station": "By Hand"
+  },
+  {
+    "result": "palm-wood",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "palm-wood-fence",
+        "qty": 4
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "palm-wood",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "palm-wood-wall",
+        "qty": 4
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "palm-wood-fence",
+    "qty": 4,
+    "ingredients": [
+      {
+        "item": "palm-wood",
+        "qty": 1
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "palm-wood-platform",
+    "qty": 2,
+    "ingredients": [
+      {
+        "item": "palm-wood",
+        "qty": 1
+      }
+    ],
+    "station": "By Hand"
+  },
+  {
+    "result": "palm-wood-wall",
+    "qty": 4,
+    "ingredients": [
+      {
+        "item": "palm-wood",
+        "qty": 1
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "panic-necklace",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "band-of-starpower",
+        "qty": 1
+      },
+      {
+        "item": "life-crystal",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop and Ecto Mist"
+  },
+  {
+    "result": "papyrus-scarab",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "hercules-beetle",
+        "qty": 1
+      },
+      {
+        "item": "necromantic-scroll",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "pearlstone-block",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "hallowed-cavern-wall",
+        "qty": 4
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "pearlstone-block",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "hallowed-crystalline-wall",
+        "qty": 4
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "pearlstone-block",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "hallowed-prism-wall",
+        "qty": 4
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "pearlstone-block",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "hallowed-shard-wall",
+        "qty": 4
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "pearlstone-block",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "pearlstone-wall",
+        "qty": 4
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "pearlstone-wall",
+    "qty": 4,
+    "ingredients": [
+      {
+        "item": "pearlstone-block",
+        "qty": 1
+      }
+    ],
+    "station": "Work Bench and Ecto Mist"
+  },
+  {
+    "result": "pearlwood",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "pearlwood-platform",
+        "qty": 2
+      }
+    ],
+    "station": "By Hand"
+  },
+  {
+    "result": "pearlwood",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "pearlwood-fence",
+        "qty": 4
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "pearlwood",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "pearlwood-wall",
+        "qty": 4
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "pearlwood-fence",
+    "qty": 4,
+    "ingredients": [
+      {
+        "item": "pearlwood",
+        "qty": 1
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "pearlwood-platform",
+    "qty": 2,
+    "ingredients": [
+      {
+        "item": "pearlwood",
+        "qty": 1
+      }
+    ],
+    "station": "By Hand"
+  },
+  {
+    "result": "pearlwood-wall",
+    "qty": 4,
+    "ingredients": [
+      {
+        "item": "pearlwood",
+        "qty": 1
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "phantasm",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "vortex-fragment",
+        "qty": 18
+      }
+    ],
+    "station": "Ancient Manipulator"
+  },
+  {
+    "result": "pharaohs-mask",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "sandstorm-in-a-bottle",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "phoenix-blaster",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "handgun",
+        "qty": 1
+      },
+      {
+        "item": "hellstone-bar",
+        "qty": 10
+      }
+    ],
+    "station": "Iron Anvil"
+  },
+  {
+    "result": "phoenix-quiver",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "harpy-charm",
+        "qty": 1
+      },
+      {
+        "item": "molten-quiver",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "platinum-bar",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "gold-bar",
+        "qty": 1
+      }
+    ],
+    "station": "Chlorophyte Extractinator"
+  },
+  {
+    "result": "platinum-bar",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "platinum-ore",
+        "qty": 4
+      }
+    ],
+    "station": "Furnace"
+  },
+  {
+    "result": "platinum-bow",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "platinum-bar",
+        "qty": 7
+      }
+    ],
+    "station": "Iron Anvil"
+  },
+  {
+    "result": "platinum-broadsword",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "platinum-bar",
+        "qty": 8
+      }
+    ],
+    "station": "Iron Anvil"
+  },
+  {
+    "result": "platinum-chainmail",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "platinum-bar",
+        "qty": 30
+      }
+    ],
+    "station": "Iron Anvil"
+  },
+  {
+    "result": "platinum-greaves",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "platinum-bar",
+        "qty": 25
+      }
+    ],
+    "station": "Iron Anvil"
+  },
+  {
+    "result": "platinum-helmet",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "platinum-bar",
+        "qty": 20
+      }
+    ],
+    "station": "Iron Anvil"
+  },
+  {
+    "result": "platinum-ore",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "gold-ore",
+        "qty": 1
+      }
+    ],
+    "station": "Chlorophyte Extractinator"
+  },
+  {
+    "result": "platinum-ore",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "cobalt-ore",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "pocket-mirror",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "blindfold",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "poisoned-knife",
+    "qty": 50,
+    "ingredients": [
+      {
+        "item": "throwing-knife",
+        "qty": 50
+      },
+      {
+        "item": "vicious-powder",
+        "qty": 1
+      }
+    ],
+    "station": "By Hand"
+  },
+  {
+    "result": "poisoned-knife",
+    "qty": 50,
+    "ingredients": [
+      {
+        "item": "throwing-knife",
+        "qty": 50
+      },
+      {
+        "item": "vile-powder",
+        "qty": 1
+      }
+    ],
+    "station": "By Hand"
+  },
+  {
+    "result": "power-glove",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "feral-claws",
+        "qty": 1
+      },
+      {
+        "item": "titan-glove",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "pumpkin",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "pumpkin-platform",
+        "qty": 2
+      }
+    ],
+    "station": "By Hand"
+  },
+  {
+    "result": "pumpkin",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "cactus",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "pumpkin",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "pumpkin-wall",
+        "qty": 4
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "pumpkin-platform",
+    "qty": 2,
+    "ingredients": [
+      {
+        "item": "pumpkin",
+        "qty": 1
+      }
+    ],
+    "station": "By Hand"
+  },
+  {
+    "result": "pumpkin-wall",
+    "qty": 4,
+    "ingredients": [
+      {
+        "item": "pumpkin",
+        "qty": 1
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "putrid-scent",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "flesh-knuckles",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "pyroclastic-stone",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "magma-stone",
+        "qty": 1
+      },
+      {
+        "item": "snapping-stone",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "queen-spider-staff",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "spider-fang",
+        "qty": 24
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "rage-potion",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "bottled-water",
+        "qty": 1
+      },
+      {
+        "item": "deathweed",
+        "qty": 1
+      },
+      {
+        "item": "hemopiranha",
+        "qty": 1
+      }
+    ],
+    "station": "Placed Bottle"
+  },
+  {
+    "result": "rainbow-rod",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "crystal-shard",
+        "qty": 10
+      },
+      {
+        "item": "pixie-dust",
+        "qty": 10
+      },
+      {
+        "item": "soul-of-light",
+        "qty": 8
+      },
+      {
+        "item": "soul-of-sight",
+        "qty": 15
+      },
+      {
+        "item": "unicorn-horn",
+        "qty": 2
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "ranger-emblem",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "warrior-emblem",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "recon-scope",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "putrid-scent",
+        "qty": 1
+      },
+      {
+        "item": "sniper-scope",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "reflective-shades",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "blindfold",
+        "qty": 1
+      },
+      {
+        "item": "pocket-mirror",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "regeneration-potion",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "bottled-water",
+        "qty": 1
+      },
+      {
+        "item": "daybloom",
+        "qty": 1
+      },
+      {
+        "item": "mushroom",
+        "qty": 1
+      }
+    ],
+    "station": "Placed Bottle"
+  },
+  {
+    "result": "restoration-shield",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "cobalt-shield",
+        "qty": 1
+      },
+      {
+        "item": "mana-regeneration-band",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "rich-mahogany",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "rich-mahogany-platform",
+        "qty": 2
+      }
+    ],
+    "station": "By Hand"
+  },
+  {
+    "result": "rich-mahogany",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "rich-mahogany-fence",
+        "qty": 4
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "rich-mahogany",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "rich-mahogany-wall",
+        "qty": 4
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "rich-mahogany-fence",
+    "qty": 4,
+    "ingredients": [
+      {
+        "item": "rich-mahogany",
+        "qty": 1
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "rich-mahogany-platform",
+    "qty": 2,
+    "ingredients": [
+      {
+        "item": "rich-mahogany",
+        "qty": 1
+      }
+    ],
+    "station": "By Hand"
+  },
+  {
+    "result": "rich-mahogany-wall",
+    "qty": 4,
+    "ingredients": [
+      {
+        "item": "rich-mahogany",
+        "qty": 1
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "robe",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "silk",
+        "qty": 20
+      }
+    ],
+    "station": "Loom"
+  },
+  {
+    "result": "royal-guard-s-harness",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "cobalt-shield",
+        "qty": 1
+      },
+      {
+        "item": "heavy-sling",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "ruby",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "diamond",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "ruby",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "ruby-bunny",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "ruby",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "ruby-squirrel",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "ruby-robe",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "robe",
+        "qty": 1
+      },
+      {
+        "item": "ruby",
+        "qty": 10
+      }
+    ],
+    "station": "Loom"
+  },
+  {
+    "result": "ruby-staff",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "gold-bar",
+        "qty": 7
+      },
+      {
+        "item": "ruby",
+        "qty": 8
+      }
+    ],
+    "station": "Iron Anvil"
+  },
+  {
+    "result": "ruinous-staff",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "dark-shard",
+        "qty": 1
+      },
+      {
+        "item": "forbidden-fragment",
+        "qty": 2
+      },
+      {
+        "item": "light-shard",
+        "qty": 1
+      },
+      {
+        "item": "soul-of-light",
+        "qty": 5
+      },
+      {
+        "item": "soul-of-night",
+        "qty": 5
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "sandstorm-in-a-balloon",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "sandstorm-in-a-bottle",
+        "qty": 1
+      },
+      {
+        "item": "shiny-red-balloon",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "sandstorm-in-a-bottle",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "cloud-in-a-bottle",
+        "qty": 1
+      },
+      {
+        "item": "forbidden-fragment",
+        "qty": 1
+      }
+    ],
+    "station": "Crystal Ball"
+  },
+  {
+    "result": "sandstorm-in-a-bottle",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "pharaohs-mask",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "sapphire",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "emerald",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "sapphire",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "sapphire-bunny",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "sapphire",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "sapphire-squirrel",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "sapphire-robe",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "robe",
+        "qty": 1
+      },
+      {
+        "item": "sapphire",
+        "qty": 10
+      }
+    ],
+    "station": "Loom"
+  },
+  {
+    "result": "scout-s-sling",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "heavy-sling",
+        "qty": 1
+      },
+      {
+        "item": "putrid-scent",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "seraph-necklace",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "cross-necklace",
+        "qty": 1
+      },
+      {
+        "item": "harpy-charm",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "shadewood",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "shadewood-platform",
+        "qty": 2
+      }
+    ],
+    "station": "By Hand"
+  },
+  {
+    "result": "shadewood",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "shadewood-fence",
+        "qty": 4
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "shadewood",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "shadewood-wall",
+        "qty": 4
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "shadewood-fence",
+    "qty": 4,
+    "ingredients": [
+      {
+        "item": "shadewood",
+        "qty": 1
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "shadewood-platform",
+    "qty": 2,
+    "ingredients": [
+      {
+        "item": "shadewood",
+        "qty": 1
+      }
+    ],
+    "station": "By Hand"
+  },
+  {
+    "result": "shadewood-wall",
+    "qty": 4,
+    "ingredients": [
+      {
+        "item": "shadewood",
+        "qty": 1
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "shadow-greaves",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "demonite-bar",
+        "qty": 20
+      },
+      {
+        "item": "shadow-scale",
+        "qty": 15
+      }
+    ],
+    "station": "Iron Anvil"
+  },
+  {
+    "result": "shadow-greaves",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "ancient-shadow-greaves",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "shadow-helmet",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "demonite-bar",
+        "qty": 15
+      },
+      {
+        "item": "shadow-scale",
+        "qty": 10
+      }
+    ],
+    "station": "Iron Anvil"
+  },
+  {
+    "result": "shadow-helmet",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "ancient-shadow-helmet",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "shadow-scale",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "tissue-sample",
+        "qty": 1
+      }
+    ],
+    "station": "Chlorophyte Extractinator"
+  },
+  {
+    "result": "shadow-scalemail",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "demonite-bar",
+        "qty": 25
+      },
+      {
+        "item": "shadow-scale",
+        "qty": 20
+      }
+    ],
+    "station": "Iron Anvil"
+  },
+  {
+    "result": "shadow-scalemail",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "ancient-shadow-scalemail",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "shiny-red-balloon",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "balloon-pufferfish",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "shoe-spikes",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "climbing-claws",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "shroomite-bar",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "chlorophyte-bar",
+        "qty": 1
+      },
+      {
+        "item": "glowing-mushroom",
+        "qty": 15
+      }
+    ],
+    "station": "Autohammer"
+  },
+  {
+    "result": "shroomite-breastplate",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "shroomite-bar",
+        "qty": 24
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "shroomite-headgear",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "shroomite-bar",
+        "qty": 12
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "shroomite-legs",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "shroomite-bar",
+        "qty": 18
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "silk",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "cobweb",
+        "qty": 7
+      }
+    ],
+    "station": "Loom"
+  },
+  {
+    "result": "silver-ore",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "tungsten-ore",
+        "qty": 1
+      }
+    ],
+    "station": "Chlorophyte Extractinator"
+  },
+  {
+    "result": "silver-ore",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "tungsten-ore",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "silver-shield",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "obsidian-shield",
+        "qty": 1
+      },
+      {
+        "item": "silver-bracer",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "sky-fracture",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "light-shard",
+        "qty": 2
+      },
+      {
+        "item": "magic-missile",
+        "qty": 1
+      },
+      {
+        "item": "soul-of-light",
+        "qty": 16
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "slime-whip",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "gel",
+        "qty": 50
+      }
+    ],
+    "station": "Solidifier"
+  },
+  {
+    "result": "smouldering-stone-wall",
+    "qty": 4,
+    "ingredients": [
+      {
+        "item": "hellstone",
+        "qty": 1
+      }
+    ],
+    "station": "Work Bench and Ecto Mist"
+  },
+  {
+    "result": "snap-thorn",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "jungle-spores",
+        "qty": 12
+      },
+      {
+        "item": "stinger",
+        "qty": 15
+      },
+      {
+        "item": "vine",
+        "qty": 3
+      }
+    ],
+    "station": "Iron Anvil"
+  },
+  {
+    "result": "sniper-scope",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "destroyer-emblem",
+        "qty": 1
+      },
+      {
+        "item": "rifle-scope",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "snow-block",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "snow-platform",
+        "qty": 2
+      }
+    ],
+    "station": "By Hand"
+  },
+  {
+    "result": "snow-block",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "ice-block",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "snow-block",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "snow-wall",
+        "qty": 4
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "snow-platform",
+    "qty": 2,
+    "ingredients": [
+      {
+        "item": "snow-block",
+        "qty": 1
+      }
+    ],
+    "station": "By Hand"
+  },
+  {
+    "result": "snow-wall",
+    "qty": 4,
+    "ingredients": [
+      {
+        "item": "snow-block",
+        "qty": 1
+      }
+    ],
+    "station": "Work Bench and Ecto Mist"
+  },
+  {
+    "result": "snowball",
+    "qty": 15,
+    "ingredients": [
+      {
+        "item": "snow-block",
+        "qty": 1
+      }
+    ],
+    "station": "By Hand"
+  },
+  {
+    "result": "snowball-cannon",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "ice-boomerang",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "solar-eruption",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "solar-fragment",
+        "qty": 18
+      }
+    ],
+    "station": "Ancient Manipulator"
+  },
+  {
+    "result": "solar-flare-breastplate",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "luminite-bar",
+        "qty": 16
+      },
+      {
+        "item": "solar-fragment",
+        "qty": 20
+      }
+    ],
+    "station": "Ancient Manipulator"
+  },
+  {
+    "result": "solar-flare-helmet",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "luminite-bar",
+        "qty": 8
+      },
+      {
+        "item": "solar-fragment",
+        "qty": 10
+      }
+    ],
+    "station": "Ancient Manipulator"
+  },
+  {
+    "result": "solar-flare-leggings",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "luminite-bar",
+        "qty": 12
+      },
+      {
+        "item": "solar-fragment",
+        "qty": 15
+      }
+    ],
+    "station": "Ancient Manipulator"
+  },
+  {
+    "result": "solar-fragment",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "nebula-fragment",
+        "qty": 1
+      },
+      {
+        "item": "stardust-fragment",
+        "qty": 1
+      },
+      {
+        "item": "vortex-fragment",
+        "qty": 1
+      }
+    ],
+    "station": "Ancient Manipulator"
+  },
+  {
+    "result": "solar-wings",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "luminite-bar",
+        "qty": 10
+      },
+      {
+        "item": "solar-fragment",
+        "qty": 14
+      }
+    ],
+    "station": "Ancient Manipulator"
+  },
+  {
+    "result": "sorcerer-emblem",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "ranger-emblem",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "soulscourge",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "demonite-bar",
+        "qty": 12
+      }
+    ],
+    "station": "Iron Anvil"
+  },
+  {
+    "result": "space-gun",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "meteorite-bar",
+        "qty": 20
+      }
+    ],
+    "station": "Iron Anvil"
+  },
+  {
+    "result": "spectre-bar",
+    "qty": 2,
+    "ingredients": [
+      {
+        "item": "chlorophyte-bar",
+        "qty": 2
+      },
+      {
+        "item": "ectoplasm",
+        "qty": 1
+      }
+    ],
+    "station": "Adamantite Forge"
+  },
+  {
+    "result": "spectre-boots",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "dunerider-boots",
+        "qty": 1
+      },
+      {
+        "item": "rocket-boots",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "spectre-boots",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "flurry-boots",
+        "qty": 1
+      },
+      {
+        "item": "rocket-boots",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "spectre-boots",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "hermes-boots",
+        "qty": 1
+      },
+      {
+        "item": "rocket-boots",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "spectre-boots",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "rocket-boots",
+        "qty": 1
+      },
+      {
+        "item": "sailfish-boots",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "spectre-hood",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "spectre-bar",
+        "qty": 12
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "spectre-mask",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "spectre-bar",
+        "qty": 12
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "spectre-pants",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "spectre-bar",
+        "qty": 18
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "spectre-robe",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "spectre-bar",
+        "qty": 24
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "spider-breastplate",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "spider-fang",
+        "qty": 16
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "spider-greaves",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "spider-fang",
+        "qty": 12
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "spider-mask",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "spider-fang",
+        "qty": 8
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "spider-staff",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "spider-fang",
+        "qty": 16
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "spider-wall",
+    "qty": 4,
+    "ingredients": [
+      {
+        "item": "cobweb",
+        "qty": 1
+      }
+    ],
+    "station": "Work Bench and Ecto Mist"
+  },
+  {
+    "result": "spinal-tap",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "bone",
+        "qty": 90
+      },
+      {
+        "item": "cobweb",
+        "qty": 55
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "spirit-flame",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "desert-spirit-lamp",
+        "qty": 1
+      },
+      {
+        "item": "forbidden-fragment",
+        "qty": 2
+      },
+      {
+        "item": "soul-of-night",
+        "qty": 12
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "spooky-breastplate",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "spooky-wood",
+        "qty": 300
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "spooky-helmet",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "spooky-wood",
+        "qty": 200
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "spooky-leggings",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "spooky-wood",
+        "qty": 250
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "spooky-wood",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "spooky-wood-platform",
+        "qty": 2
+      }
+    ],
+    "station": "By Hand"
+  },
+  {
+    "result": "spooky-wood",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "spooky-wood-wall",
+        "qty": 4
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "spooky-wood-platform",
+    "qty": 2,
+    "ingredients": [
+      {
+        "item": "spooky-wood",
+        "qty": 1
+      }
+    ],
+    "station": "By Hand"
+  },
+  {
+    "result": "spooky-wood-wall",
+    "qty": 4,
+    "ingredients": [
+      {
+        "item": "spooky-wood",
+        "qty": 1
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "stalactite-stone-wall",
+    "qty": 4,
+    "ingredients": [
+      {
+        "item": "stone-block",
+        "qty": 1
+      }
+    ],
+    "station": "Work Bench and Ecto Mist"
+  },
+  {
+    "result": "stalkers-quiver",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "magic-quiver",
+        "qty": 1
+      },
+      {
+        "item": "putrid-scent",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "star-cannon",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "fallen-star",
+        "qty": 5
+      },
+      {
+        "item": "meteorite-bar",
+        "qty": 20
+      },
+      {
+        "item": "minishark",
+        "qty": 1
+      }
+    ],
+    "station": "Iron Anvil"
+  },
+  {
+    "result": "star-veil",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "cross-necklace",
+        "qty": 1
+      },
+      {
+        "item": "star-cloak",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "starcrash",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "chain",
+        "qty": 10
+      },
+      {
+        "item": "fallen-star",
+        "qty": 10
+      },
+      {
+        "item": "meteorite-bar",
+        "qty": 20
+      }
+    ],
+    "station": "Iron Anvil"
+  },
+  {
+    "result": "stardust-cell-staff",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "stardust-fragment",
+        "qty": 18
+      }
+    ],
+    "station": "Ancient Manipulator"
+  },
+  {
+    "result": "stardust-dragon-staff",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "stardust-fragment",
+        "qty": 18
+      }
+    ],
+    "station": "Ancient Manipulator"
+  },
+  {
+    "result": "stardust-fragment",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "nebula-fragment",
+        "qty": 1
+      },
+      {
+        "item": "solar-fragment",
+        "qty": 1
+      },
+      {
+        "item": "vortex-fragment",
+        "qty": 1
+      }
+    ],
+    "station": "Ancient Manipulator"
+  },
+  {
+    "result": "stardust-helmet",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "luminite-bar",
+        "qty": 8
+      },
+      {
+        "item": "stardust-fragment",
+        "qty": 10
+      }
+    ],
+    "station": "Ancient Manipulator"
+  },
+  {
+    "result": "stardust-leggings",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "luminite-bar",
+        "qty": 12
+      },
+      {
+        "item": "stardust-fragment",
+        "qty": 15
+      }
+    ],
+    "station": "Ancient Manipulator"
+  },
+  {
+    "result": "steampunk-platform",
+    "qty": 2,
+    "ingredients": [
+      {
+        "item": "cog",
+        "qty": 1
+      }
+    ],
+    "station": "By Hand"
+  },
+  {
+    "result": "stinger-necklace",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "honey-comb",
+        "qty": 1
+      },
+      {
+        "item": "shark-tooth-necklace",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "stone-block",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "crimstone-block",
+        "qty": 1
+      }
+    ],
+    "station": "Chlorophyte Extractinator"
+  },
+  {
+    "result": "stone-block",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "ebonstone-block",
+        "qty": 1
+      }
+    ],
+    "station": "Chlorophyte Extractinator"
+  },
+  {
+    "result": "stone-block",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "pearlstone-block",
+        "qty": 1
+      }
+    ],
+    "station": "Chlorophyte Extractinator"
+  },
+  {
+    "result": "stone-block",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "clay-block",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "stone-block",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "craggy-stone-wall",
+        "qty": 4
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "stone-block",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "fractured-stone-wall",
+        "qty": 4
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "stone-block",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "mottled-stone-wall",
+        "qty": 4
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "stone-block",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "old-stone-wall",
+        "qty": 4
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "stone-block",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "stalactite-stone-wall",
+        "qty": 4
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "stone-block",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "stone-wall",
+        "qty": 4
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "stone-block",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "worn-stone-wall",
+        "qty": 4
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "stone-wall",
+    "qty": 4,
+    "ingredients": [
+      {
+        "item": "stone-block",
+        "qty": 1
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "strung-counterweight",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "black-counterweight",
+        "qty": 1
+      },
+      {
+        "item": "white-string",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "strung-counterweight",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "blue-counterweight",
+        "qty": 1
+      },
+      {
+        "item": "white-string",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "strung-counterweight",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "green-counterweight",
+        "qty": 1
+      },
+      {
+        "item": "white-string",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "strung-counterweight",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "purple-counterweight",
+        "qty": 1
+      },
+      {
+        "item": "white-string",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "strung-counterweight",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "red-counterweight",
+        "qty": 1
+      },
+      {
+        "item": "white-string",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "strung-counterweight",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "white-string",
+        "qty": 1
+      },
+      {
+        "item": "yellow-counterweight",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "summoner-emblem",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "sorcerer-emblem",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "summoning-potion",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "bottled-water",
+        "qty": 1
+      },
+      {
+        "item": "moonglow",
+        "qty": 1
+      },
+      {
+        "item": "variegated-lardfish",
+        "qty": 1
+      }
+    ],
+    "station": "Placed Bottle"
+  },
+  {
+    "result": "super-mana-potion",
+    "qty": 8,
+    "ingredients": [
+      {
+        "item": "ectoplasm",
+        "qty": 1
+      },
+      {
+        "item": "fallen-star",
+        "qty": 2
+      },
+      {
+        "item": "greater-mana-potion",
+        "qty": 8
+      }
+    ],
+    "station": "Placed Bottle"
+  },
+  {
+    "result": "super-star-shooter",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "hallowed-bar",
+        "qty": 12
+      },
+      {
+        "item": "star-cannon",
+        "qty": 1
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "sweet-barb",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "honey-comb",
+        "qty": 1
+      },
+      {
+        "item": "poison-barb",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "swiftness-potion",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "blinkroot",
+        "qty": 1
+      },
+      {
+        "item": "bottled-water",
+        "qty": 1
+      },
+      {
+        "item": "cactus",
+        "qty": 1
+      }
+    ],
+    "station": "Placed Bottle"
+  },
+  {
+    "result": "templar-s-sling",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "eye-of-the-golem",
+        "qty": 1
+      },
+      {
+        "item": "heavy-sling",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "tendon-bow",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "crimtane-bar",
+        "qty": 8
+      }
+    ],
+    "station": "Iron Anvil"
+  },
+  {
+    "result": "terra-blade",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "broken-hero-sword",
+        "qty": 1
+      },
+      {
+        "item": "true-excalibur",
+        "qty": 1
+      },
+      {
+        "item": "true-night-s-edge",
+        "qty": 1
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "terraspark-boots",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "frostspark-boots",
+        "qty": 1
+      },
+      {
+        "item": "lava-waders",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "the-plan",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "fast-clock",
+        "qty": 1
+      },
+      {
+        "item": "trifold-map",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "thorn-chakram",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "jungle-spores",
+        "qty": 6
+      },
+      {
+        "item": "stinger",
+        "qty": 9
+      }
+    ],
+    "station": "Iron Anvil"
+  },
+  {
+    "result": "tiger-climbing-gear",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "climbing-claws",
+        "qty": 1
+      },
+      {
+        "item": "shoe-spikes",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "tin-bar",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "copper-bar",
+        "qty": 1
+      }
+    ],
+    "station": "Chlorophyte Extractinator"
+  },
+  {
+    "result": "tin-bar",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "tin-ore",
+        "qty": 3
+      }
+    ],
+    "station": "Furnace"
+  },
+  {
+    "result": "tin-ore",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "copper-ore",
+        "qty": 1
+      }
+    ],
+    "station": "Chlorophyte Extractinator"
+  },
+  {
+    "result": "tin-ore",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "iron-ore",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "tissue-sample",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "shadow-scale",
+        "qty": 1
+      }
+    ],
+    "station": "Chlorophyte Extractinator"
+  },
+  {
+    "result": "titanium-bar",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "titanium-ore",
+        "qty": 4
+      }
+    ],
+    "station": "Adamantite Forge"
+  },
+  {
+    "result": "titanium-bar",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "adamantite-bar",
+        "qty": 1
+      }
+    ],
+    "station": "Chlorophyte Extractinator"
+  },
+  {
+    "result": "titanium-breastplate",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "titanium-bar",
+        "qty": 26
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "titanium-headgear",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "titanium-bar",
+        "qty": 13
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "titanium-helmet",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "titanium-bar",
+        "qty": 13
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "titanium-leggings",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "titanium-bar",
+        "qty": 20
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "titanium-mask",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "titanium-bar",
+        "qty": 13
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "titanium-ore",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "adamantite-ore",
+        "qty": 1
+      }
+    ],
+    "station": "Chlorophyte Extractinator"
+  },
+  {
+    "result": "titanium-ore",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "chlorophyte-ore",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "titanium-sword",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "titanium-bar",
+        "qty": 13
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "topaz",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "sapphire",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "topaz",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "topaz-bunny",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "topaz",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "topaz-squirrel",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "topaz-robe",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "robe",
+        "qty": 1
+      },
+      {
+        "item": "topaz",
+        "qty": 10
+      }
+    ],
+    "station": "Loom"
+  },
+  {
+    "result": "torch",
+    "qty": 3,
+    "ingredients": [
+      {
+        "item": "any-wood",
+        "qty": 1
+      },
+      {
+        "item": "gel",
+        "qty": 1
+      }
+    ],
+    "station": "By Hand"
+  },
+  {
+    "result": "trifold-map",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "fast-clock",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "true-excalibur",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "chlorophyte-bar",
+        "qty": 24
+      },
+      {
+        "item": "excalibur",
+        "qty": 1
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "true-night-s-edge",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "night-s-edge",
+        "qty": 1
+      },
+      {
+        "item": "soul-of-fright",
+        "qty": 20
+      },
+      {
+        "item": "soul-of-might",
+        "qty": 20
+      },
+      {
+        "item": "soul-of-sight",
+        "qty": 20
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "tungsten-ore",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "silver-ore",
+        "qty": 1
+      }
+    ],
+    "station": "Chlorophyte Extractinator"
+  },
+  {
+    "result": "tungsten-ore",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "gold-ore",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "turtle-helmet",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "chlorophyte-bar",
+        "qty": 12
+      },
+      {
+        "item": "turtle-shell",
+        "qty": 1
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "turtle-leggings",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "chlorophyte-bar",
+        "qty": 18
+      },
+      {
+        "item": "turtle-shell",
+        "qty": 1
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "turtle-scale-mail",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "chlorophyte-bar",
+        "qty": 24
+      },
+      {
+        "item": "turtle-shell",
+        "qty": 1
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "twilight-grasp",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "silver-bracer",
+        "qty": 1
+      },
+      {
+        "item": "wicked-armlet",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "unholy-arrow",
+    "qty": 10,
+    "ingredients": [
+      {
+        "item": "vertebra",
+        "qty": 1
+      },
+      {
+        "item": "wooden-arrow",
+        "qty": 10
+      }
+    ],
+    "station": "Iron Anvil"
+  },
+  {
+    "result": "unholy-arrow",
+    "qty": 20,
+    "ingredients": [
+      {
+        "item": "wooden-arrow",
+        "qty": 20
+      },
+      {
+        "item": "worm-tooth",
+        "qty": 1
+      }
+    ],
+    "station": "Iron Anvil"
+  },
+  {
+    "result": "vasculash",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "crimtane-bar",
+        "qty": 12
+      }
+    ],
+    "station": "Iron Anvil"
+  },
+  {
+    "result": "venom-arrow",
+    "qty": 35,
+    "ingredients": [
+      {
+        "item": "vial-of-venom",
+        "qty": 1
+      },
+      {
+        "item": "wooden-arrow",
+        "qty": 35
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "venom-bullet",
+    "qty": 50,
+    "ingredients": [
+      {
+        "item": "empty-bullet",
+        "qty": 50
+      },
+      {
+        "item": "vial-of-venom",
+        "qty": 1
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "venom-staff",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "chlorophyte-bar",
+        "qty": 14
+      },
+      {
+        "item": "poison-staff",
+        "qty": 1
+      }
+    ],
+    "station": "Mythril Anvil"
+  },
+  {
+    "result": "vicious-powder",
+    "qty": 5,
+    "ingredients": [
+      {
+        "item": "vicious-mushroom",
+        "qty": 1
+      }
+    ],
+    "station": "Placed Bottle"
+  },
+  {
+    "result": "vile-powder",
+    "qty": 5,
+    "ingredients": [
+      {
+        "item": "vile-mushroom",
+        "qty": 1
+      }
+    ],
+    "station": "Placed Bottle"
+  },
+  {
+    "result": "vitamins",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "armor-polish",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "volcano",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "hellstone-bar",
+        "qty": 20
+      }
+    ],
+    "station": "Iron Anvil"
+  },
+  {
+    "result": "vortex-beater",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "vortex-fragment",
+        "qty": 18
+      }
+    ],
+    "station": "Ancient Manipulator"
+  },
+  {
+    "result": "vortex-breastplate",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "luminite-bar",
+        "qty": 16
+      },
+      {
+        "item": "vortex-fragment",
+        "qty": 20
+      }
+    ],
+    "station": "Ancient Manipulator"
+  },
+  {
+    "result": "vortex-fragment",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "nebula-fragment",
+        "qty": 1
+      },
+      {
+        "item": "solar-fragment",
+        "qty": 1
+      },
+      {
+        "item": "stardust-fragment",
+        "qty": 1
+      }
+    ],
+    "station": "Ancient Manipulator"
+  },
+  {
+    "result": "vortex-helmet",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "luminite-bar",
+        "qty": 8
+      },
+      {
+        "item": "vortex-fragment",
+        "qty": 10
+      }
+    ],
+    "station": "Ancient Manipulator"
+  },
+  {
+    "result": "vortex-leggings",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "luminite-bar",
+        "qty": 12
+      },
+      {
+        "item": "vortex-fragment",
+        "qty": 15
+      }
+    ],
+    "station": "Ancient Manipulator"
+  },
+  {
+    "result": "warrior-emblem",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "summoner-emblem",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "white-dynasty-wall",
+    "qty": 4,
+    "ingredients": [
+      {
+        "item": "dynasty-wood",
+        "qty": 1
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "white-horseshoe-balloon",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "blizzard-in-a-balloon",
+        "qty": 1
+      },
+      {
+        "item": "lucky-horseshoe",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "white-string",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "cobweb",
+        "qty": 30
+      }
+    ],
+    "station": "Loom"
+  },
+  {
+    "result": "wicked-claws",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "feral-claws",
+        "qty": 1
+      },
+      {
+        "item": "wicked-armlet",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "wood",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "dungeon-shelf",
+        "qty": 2
+      }
+    ],
+    "station": "Bone Welder"
+  },
+  {
+    "result": "wood",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "wood-shelf",
+        "qty": 2
+      }
+    ],
+    "station": "Bone Welder"
+  },
+  {
+    "result": "wood",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "wood-platform",
+        "qty": 2
+      }
+    ],
+    "station": "By Hand"
+  },
+  {
+    "result": "wood",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "living-leaf-wall",
+        "qty": 4
+      }
+    ],
+    "station": "Living Loom"
+  },
+  {
+    "result": "wood",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "living-wood-platform",
+        "qty": 2
+      }
+    ],
+    "station": "Living Loom"
+  },
+  {
+    "result": "wood",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "living-wood-wall",
+        "qty": 4
+      }
+    ],
+    "station": "Living Loom"
+  },
+  {
+    "result": "wood",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "ash-wood",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "wood",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "boreal-wood",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "wood",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "dynasty-wood",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "wood",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "ebonwood",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "wood",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "palm-wood",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "wood",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "pearlwood",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "wood",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "rich-mahogany",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "wood",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "shadewood",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "wood",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "spooky-wood",
+        "qty": 1
+      }
+    ],
+    "station": "Shimmer"
+  },
+  {
+    "result": "wood",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "wood-wall",
+        "qty": 4
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "wood",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "wooden-fence",
+        "qty": 4
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "wood-platform",
+    "qty": 2,
+    "ingredients": [
+      {
+        "item": "wood",
+        "qty": 1
+      }
+    ],
+    "station": "By Hand"
+  },
+  {
+    "result": "wood-shelf",
+    "qty": 2,
+    "ingredients": [
+      {
+        "item": "wood",
+        "qty": 1
+      }
+    ],
+    "station": "Bone Welder and Ecto Mist"
+  },
+  {
+    "result": "wood-wall",
+    "qty": 4,
+    "ingredients": [
+      {
+        "item": "wood",
+        "qty": 1
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "wooden-arrow",
+    "qty": 25,
+    "ingredients": [
+      {
+        "item": "any-wood",
+        "qty": 1
+      },
+      {
+        "item": "stone-block",
+        "qty": 1
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "wooden-fence",
+    "qty": 4,
+    "ingredients": [
+      {
+        "item": "wood",
+        "qty": 1
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "wooden-yoyo",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "any-wood",
+        "qty": 10
+      },
+      {
+        "item": "cobweb",
+        "qty": 20
+      }
+    ],
+    "station": "Work Bench"
+  },
+  {
+    "result": "worn-stone-wall",
+    "qty": 4,
+    "ingredients": [
+      {
+        "item": "stone-block",
+        "qty": 1
+      }
+    ],
+    "station": "Work Bench and Ecto Mist"
+  },
+  {
+    "result": "wrath-potion",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "bottled-water",
+        "qty": 1
+      },
+      {
+        "item": "deathweed",
+        "qty": 1
+      },
+      {
+        "item": "ebonkoi",
+        "qty": 1
+      }
+    ],
+    "station": "Placed Bottle"
+  },
+  {
+    "result": "yellow-horseshoe-balloon",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "lucky-horseshoe",
+        "qty": 1
+      },
+      {
+        "item": "sandstorm-in-a-balloon",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "yoyo-bag",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "strung-counterweight",
+        "qty": 1
+      },
+      {
+        "item": "yoyo-glove",
+        "qty": 1
+      }
+    ],
+    "station": "Tinkerer's Workshop"
+  },
+  {
+    "result": "zenith",
+    "qty": 1,
+    "ingredients": [
+      {
+        "item": "bee-keeper",
+        "qty": 1
+      },
+      {
+        "item": "copper-shortsword",
+        "qty": 1
+      },
+      {
+        "item": "enchanted-sword",
+        "qty": 1
+      },
+      {
+        "item": "influx-waver",
+        "qty": 1
+      },
+      {
+        "item": "meowmere",
+        "qty": 1
+      },
+      {
+        "item": "seedler",
+        "qty": 1
+      },
+      {
+        "item": "star-wrath",
+        "qty": 1
+      },
+      {
+        "item": "starfury",
+        "qty": 1
+      },
+      {
+        "item": "terra-blade",
+        "qty": 1
+      },
+      {
+        "item": "the-horseman-s-blade",
+        "qty": 1
+      }
+    ],
+    "station": "Mythril Anvil"
+  }
+]

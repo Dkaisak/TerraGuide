@@ -1,0 +1,101 @@
+[
+  {
+    "id": "PRE_BOSSES",
+    "order": 0,
+    "title": "Pre-Bosses",
+    "short": "Explora, mina y equipa lo básico",
+    "description": "Exploración inicial: cobre/hierro, primeros accesorios y sets básicos. El Ojo de Cthulhu es opcional, pero facilita el meteorito.",
+    "gate": {
+      "bars": ["Iron/Lead", "Silver/Tungsten", "Gold/Platinum"],
+      "boss": "Eye of Cthulhu (opcional)"
+    }
+  },
+  {
+    "id": "PRE_SKELETRON",
+    "order": 1,
+    "title": "Pre-Esqueleto",
+    "short": "Tras los primeros jefes",
+    "description": "Después de los primeros jefes (Ojo de Cthulhu, Eater of Worlds/Brain of Cthulhu): armaduras Shadow/Crimson, armas del bioma maligno y mejor movilidad. Prepárate para la Dungeon.",
+    "gate": {
+      "bars": ["Demonite/Crimtane", "Hellstone (Molten)"],
+      "boss": "Skeletron"
+    }
+  },
+  {
+    "id": "PRE_HARDMODE",
+    "order": 2,
+    "title": "Pre-Modo Difícil",
+    "short": "Todo listo para el Wall of Flesh",
+    "description": "Stock de pociones y crafteos finales. Derrota a la Muralha de Carne para desbloquear el Hardmode.",
+    "gate": {
+      "bars": ["Hellstone", "Obsidian"],
+      "boss": "Wall of Flesh"
+    }
+  },
+  {
+    "id": "PRE_MECH_BOSSES",
+    "order": 3,
+    "title": "Pre-Bosses Mecánicos",
+    "short": "Primeras armaduras de Hardmode",
+    "description": "Hardmode recién iniciado: minerales nuevos (Adamantite/Titanium), armaduras y farmeo de drops.",
+    "gate": {
+      "bars": ["Adamantite/Titanium"],
+      "boss": "The Destroyer / The Twins / Skeletron Prime"
+    }
+  },
+  {
+    "id": "PRE_PLANTERA",
+    "order": 4,
+    "title": "Pre-Plantera",
+    "short": "Hallowed y armas de fragmentos",
+    "description": "Tras un jefe mecánico: armaduras Hallowed/Chlorophyte y armas de fragmentos. Plantera abre la Jungla profunda.",
+    "gate": {
+      "bars": ["Hallowed", "Chlorophyte"],
+      "boss": "Plantera"
+    }
+  },
+  {
+    "id": "PRE_GOLEM",
+    "order": 5,
+    "title": "Pre-Gólem",
+    "short": "Eventos post-Plantera",
+    "description": "Accedes a los eventos post-Plantera (Eclipse Solar, Pumpkin/Frost Moon) y a las mejores armas pre-Lunar.",
+    "gate": {
+      "bars": ["Chlorophyte", "Shroomite", "Spectre", "Beetle", "Tiki/Spooky"],
+      "boss": "Golem"
+    }
+  },
+  {
+    "id": "PRE_LUNAR_EVENTS",
+    "order": 6,
+    "title": "Pre-Eventos Lunares",
+    "short": "Equipo máximo antes del Cultista",
+    "description": "Equipo maximizado y eventos especiales. Derrota al Cultista Lunático para invocar los Pilares Celestiales.",
+    "gate": {
+      "bars": ["Chlorophyte", "Shroomite", "Spectre", "Beetle", "Tiki/Spooky"],
+      "boss": "Lunatic Cultist"
+    }
+  },
+  {
+    "id": "PRE_MOON_LORD",
+    "order": 7,
+    "title": "Pre-Moon Lord",
+    "short": "Pilares Celestiales",
+    "description": "Tras el Cultista Lunático: derrota a los cuatro Pilares Celestiales y craftea armas de fragmentos antes de enfrentarte al Moon Lord.",
+    "gate": {
+      "bars": ["Fragmentos Celestiales"],
+      "boss": "Celestial Pillars"
+    }
+  },
+  {
+    "id": "POST_MOON_LORD",
+    "order": 8,
+    "title": "Post-Moon Lord",
+    "short": "Fragmentos y Luminite definitivos",
+    "description": "Armaduras y armas definitivas con fragmentos y Luminite. La build final de la clase.",
+    "gate": {
+      "bars": ["Luminite", "Fragmentos Celestiales"],
+      "boss": "Moon Lord"
+    }
+  }
+]
