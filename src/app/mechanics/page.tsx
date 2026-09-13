@@ -6,7 +6,7 @@ import { getDataset } from "@/lib/loadData";
 export const metadata: Metadata = {
   title: "Notas de mecánicas",
   description:
-    "Notas sobre mecánicas de Terraria 1.4.5.7: whip stacking, tags de invocación, velocidad de látigos, huecos de accesorio y más.",
+    "Notas sobre mecánicas de Terraria 1.4.5.8: whip stacking, tags de invocación, velocidad de látigos, huecos de accesorio y más.",
 };
 
 export default function MechanicsPage() {

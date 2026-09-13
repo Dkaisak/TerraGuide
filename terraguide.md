@@ -2,7 +2,7 @@
 
 > Documento vivo. Qué es, qué hay hecho, qué está pendiente, y cómo validar.
 > Conversación en español. Precisión ante invento: **verificable > rápido**.
-> Versión base de datos del juego: **Terraria 1.4.5.7**.
+> Versión base de datos del juego: **Terraria 1.4.5.8**.
 
 ## 1. Qué es
 Guía interactiva de **builds de Terraria** con Next.js 16 (App Router + Turbopack),

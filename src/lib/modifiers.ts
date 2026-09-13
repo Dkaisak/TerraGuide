@@ -7,7 +7,7 @@ export interface ReforgeModifier {
   mods: ItemModifiers;
 }
 
-// Modificadores de accesorios (Goblin Tinkerer / "chapucero"), Terraria 1.4.5.7.
+// Modificadores de accesorios (Goblin Tinkerer / "chapucero"), Terraria 1.4.5.8.
 export const ACCESSORY_MODIFIERS: ReforgeModifier[] = [
   { id: "none", name: "Sin modificar", effect: "—", mods: {} },
   { id: "warding", name: "Warding", effect: "+4 defensa", mods: { defense: 4 } },

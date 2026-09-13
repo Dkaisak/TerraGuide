@@ -8,7 +8,7 @@ import { subclassTone } from "@/components/build/subclassTone";
 import { useLocale } from "@/components/i18n/LocaleProvider";
 import { Badge } from "@/components/ui/Badge";
 import { DifficultyToggle } from "@/components/ui/DifficultyToggle";
-import { itemObtain, setBonus } from "@/lib/dataI18n";
+import { dropFrom, itemObtain, sellText, setBonus } from "@/lib/dataI18n";
 import type { DataIndexes } from "@/lib/indexing";
 import { isExpertOrMasterOnly, refName, resolveRef, wikiUrl } from "@/lib/indexing";
 import type { Difficulty } from "@/types/data";
@@ -127,7 +127,7 @@ export function ItemModal({
     if (stats.rare !== undefined)
       statChips.push({ label: t("stat.rarity"), value: String(stats.rare), color: rarityColor(stats.rare) });
     if (stats.autoswing) statChips.push({ label: t("stat.autoswing"), value: t("common.yes") });
-    if (stats.sell) statChips.push({ label: t("stat.sell"), value: stats.sell });
+    if (stats.sell) statChips.push({ label: t("stat.sell"), value: sellText(locale, stats.sell) });
   }
 
   return (
@@ -209,7 +209,7 @@ export function ItemModal({
                   className="rounded-lg border border-edge bg-surface px-3 py-2"
                 >
                   <div className="flex flex-wrap items-baseline justify-between gap-x-3 gap-y-1">
-                    <span className="text-sm font-medium">{drop.from}</span>
+                    <span className="text-sm font-medium">{dropFrom(locale, drop.from)}</span>
                     {drop.biomes.length > 0 ? (
                       <span className="text-xs text-zinc-500">
                         {drop.biomes.join(", ")}

@@ -1,6 +1,6 @@
 # TerraGuide
 
-Guía interactiva de **builds de Terraria (1.4.5.7)**. Elige una **clase** (Melee /
+Guía interactiva de **builds de Terraria (1.4.5.8)**. Elige una **clase** (Melee /
 Ranged / Magic / Summoner) y una **fase de la partida** (9 hitos progresivos) y la
 app te muestra la build óptima para ese momento: armadura, armas, accesorios
 (con variantes de subclase y alternativas), buffs y munición, con el **porqué** de

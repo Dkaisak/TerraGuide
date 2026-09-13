@@ -20,7 +20,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "TerraGuide — Builds de Terraria 1.4.5.7",
+    default: "TerraGuide — Builds de Terraria 1.4.5.8",
     template: "%s · TerraGuide",
   },
   description:

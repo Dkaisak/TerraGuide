@@ -977,6 +977,25 @@ export function setBonus(
   return (locale === "en" && SET_EN[set.id]?.bonus) || set.bonus;
 }
 
+/** Convierte el valor de venta (p. ej. "20 oro") al idioma actual. */
+export function sellText(locale: Locale, sell: string): string {
+  if (locale !== "en") return sell;
+  return sell
+    .replaceAll("oro", "gold")
+    .replaceAll("plata", "silver")
+    .replaceAll("cobre", "copper");
+}
+
+/** Fuentes de drops con texto en español. */
+export const DROP_FROM_EN: Partial<Record<string, string>> = {
+  "Bioma Cementerio": "Graveyard biome",
+  "Comercio Goblin Tinkerer": "Goblin Tinkerer shop",
+};
+
+export function dropFrom(locale: Locale, from: string): string {
+  return (locale === "en" && DROP_FROM_EN[from]) || from;
+}
+
 export function buildTitle(locale: Locale, build: Build): string {
   return (locale === "en" && BUILD_EN[build.id]?.title) || build.title;
 }

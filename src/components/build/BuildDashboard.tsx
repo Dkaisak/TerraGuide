@@ -18,6 +18,7 @@ import {
   buildIntro,
   buildStartGuide,
   buildTitle,
+  dropFrom,
   slotWhy,
   stageTips as stageTipsOf,
   stageTitle,
@@ -419,9 +420,9 @@ export function BuildDashboard({
                           <span
                             key={`${s.from}-${i}`}
                             className="block truncate"
-                            title={`${s.from}${s.chance ? ` · ${s.chance}` : ""}`}
+                            title={`${dropFrom(locale, s.from)}${s.chance ? ` · ${s.chance}` : ""}`}
                           >
-                            {s.from}
+                            {dropFrom(locale, s.from)}
                             {s.chance ? (
                               <span className="text-accent"> · {s.chance}</span>
                             ) : null}

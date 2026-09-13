@@ -5,7 +5,7 @@ import { getDataset } from "@/lib/loadData";
 export const metadata: Metadata = {
   title: "Base de datos de ítems",
   description:
-    "Explora todos los ítems de Terraria 1.4.5.7 por clase, tipo, rol y rareza, con sus fuentes de obtención y recetas.",
+    "Explora todos los ítems de Terraria 1.4.5.8 por clase, tipo, rol y rareza, con sus fuentes de obtención y recetas.",
 };
 
 export default function ItemsPage() {

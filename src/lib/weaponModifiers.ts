@@ -13,7 +13,7 @@ export interface WeaponModifier {
   manaCost: number;
 }
 
-// Modificadores de armas (Goblin Tinkerer), Terraria 1.4.5.7.
+// Modificadores de armas (Goblin Tinkerer), Terraria 1.4.5.8.
 // Se omiten los claramente negativos; se listan los útiles.
 export const WEAPON_MODIFIERS: WeaponModifier[] = [
   { id: "none", name: "Sin modificar", applies: "UNIVERSAL", damage: 0, crit: 0, speed: 0, knockback: 0, size: 0, velocity: 0, manaCost: 0 },

@@ -1,7 +1,7 @@
 # TerraGuide — Información completa del proyecto
 
 > Documento generado a partir de `plan.md`, `terraguide.md` y el código fuente completo del repo.
-> Versión base de datos del juego: **Terraria 1.4.5.7**.
+> Versión base de datos del juego: **Terraria 1.4.5.8**.
 
 ## 1. Visión general
 
@@ -113,7 +113,7 @@ TerraGuide/
 
 Conteo devuelto por `npm run validate`:
 
-- **Versión del juego:** `1.4.5.7`.
+- **Versión del juego:** `1.4.5.8`.
 - **Fases:** 9 (`PRE_BOSSES` … `POST_MOON_LORD`).
 - **Ítems:** 873.
 - **Sets de armadura:** 32.
@@ -157,7 +157,7 @@ cabecera de la build.
 
 - **Armas por clase y subclase** (espadas, yoyos, flails, lanzas, boomerangs,
   arcos, armas de fuego, lanzadores, arrojadizos, varitas, tomos, magic-guns,
-  minions, látigos y sentries), con las mejores opciones por fase en 1.4.5.7.
+  minions, látigos y sentries), con las mejores opciones por fase en 1.4.5.8.
 - **Sets clave:** Platinum, Shadow/Crimson, Molten, Necro, Fossil, Meteor, Jungle,
   Bee, Obsidian, Spider, Forbidden, Adamantite/Titanium, Hallowed, Chlorophyte,
   Shroomite, Spectre, Beetle, Tiki, Spooky, Vortex, Nebula, Solar Flare, Stardust,
@@ -417,7 +417,7 @@ npm run modifiers  # parsea modificadores de los tooltips → items.json
 - El dashboard responde al checklist guardado (el reload no pierde progreso).
 - Árboles de crafteo correctos para ítems derivados (Ankh Shield, Terraspark Boots…).
 - `npm run validate && npm run build` en verde.
-- Desplegado como sitio estático apuntando a `gameVersion: 1.4.5.7`.
+- Desplegado como sitio estático apuntando a `gameVersion: 1.4.5.8`.
 
 ## 13. Notas y decisiones
 
