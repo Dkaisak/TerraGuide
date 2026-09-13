@@ -1,7 +1,8 @@
 "use client";
 
+import { useLocale } from "@/components/i18n/LocaleProvider";
 import type { Difficulty } from "@/types/data";
-import { DIFFICULTY_LABEL, DIFFICULTY_ORDER } from "@/types/data";
+import { DIFFICULTY_ORDER } from "@/types/data";
 
 export function DifficultyToggle({
   value,
@@ -14,10 +15,11 @@ export function DifficultyToggle({
   label?: boolean;
   className?: string;
 }) {
+  const { t, difficultyLabel } = useLocale();
   return (
     <div
       role="group"
-      aria-label="Dificultad"
+      aria-label={t("common.difficulty")}
       className={`inline-flex items-center overflow-hidden rounded border border-edge ${className}`}
     >
       {label ? (
@@ -25,7 +27,7 @@ export function DifficultyToggle({
           aria-hidden="true"
           className="border-r border-edge bg-surface px-2 text-[10px] font-semibold uppercase tracking-wide text-zinc-500"
         >
-          Dificultad
+          {t("common.difficulty")}
         </span>
       ) : null}
       {DIFFICULTY_ORDER.map((d) => {
@@ -42,7 +44,7 @@ export function DifficultyToggle({
                 : "bg-surface text-zinc-400 hover:text-zinc-200"
             }`}
           >
-            {DIFFICULTY_LABEL[d]}
+            {difficultyLabel(d)}
           </button>
         );
       })}

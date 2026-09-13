@@ -88,6 +88,50 @@ body {
     color: var(--color-accent);
   }
 
+  /* CTA destacado (Builder): acento dorado con brillo pulsante. */
+  .tg-cta {
+    position: relative;
+    background: linear-gradient(
+      180deg,
+      color-mix(in srgb, var(--color-accent) 90%, #ffffff),
+      color-mix(in srgb, var(--color-accent) 85%, #b26b00)
+    );
+    border: 1px solid color-mix(in srgb, var(--color-accent) 60%, #7a4a00);
+    color: #2a1c00;
+    box-shadow: inset 0 1px 0 0 color-mix(in srgb, #ffffff 45%, transparent);
+    transition:
+      transform 0.15s ease,
+      box-shadow 0.15s ease;
+  }
+  .tg-cta::after {
+    content: "";
+    position: absolute;
+    inset: -1px;
+    border-radius: inherit;
+    pointer-events: none;
+    animation: tg-cta-pulse 2.6s ease-in-out infinite;
+  }
+  .tg-cta:hover {
+    transform: translateY(-1px);
+    box-shadow:
+      inset 0 1px 0 0 color-mix(in srgb, #ffffff 45%, transparent),
+      0 0 16px 1px color-mix(in srgb, var(--color-accent) 50%, transparent);
+  }
+  @keyframes tg-cta-pulse {
+    0%,
+    100% {
+      box-shadow: 0 0 0 0 color-mix(in srgb, var(--color-accent) 55%, transparent);
+    }
+    50% {
+      box-shadow: 0 0 0 5px color-mix(in srgb, var(--color-accent) 0%, transparent);
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .tg-cta::after {
+      animation: none;
+    }
+  }
+
   /* Barra de progreso estilo Terraria (oro). */
   .tg-progress {
     background: color-mix(in srgb, var(--color-background) 80%, #000000);

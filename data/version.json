@@ -37,6 +37,20 @@
     "Reforge con criterio por accesorio (segun su stat/rol) guardado en las 36 builds y mostrado en las tarjetas.",
     "Build Tester: compartir builds por URL y guardar/favoritos en localStorage.",
     "Build Tester: comparacion A/B de builds (curadas o guardadas) con tabla de stats.",
-    "Build Tester: editor de Build B personalizada para comparar dos builds propias."
+    "Build Tester: editor de Build B personalizada para comparar dos builds propias.",
+    "Crafteo: ingredientes con imagen y clickeables para ver sus fuentes de obtencion.",
+    "UI mas compacta: menos espaciado vertical en guia y tester (navegacion, timeline, cabecera y tarjetas).",
+    "Nueva mini-guia Cómo empezar esta fase en las 36 builds.",
+    "Summoner Pre-Mecanicos (latigos): loadout optimo de whip stacking (Twilight Grasp, Armlet of Ruin, Wicked Claws, Druidic Serpent Cloak, Summoner Emblem) y 2do latigo.",
+    "Nuevas secciones: base de datos de items (/items), ruta de farmeo por zona, tips de arena y estrategia por fase, y notas de mecanicas (/mechanics).",
+    "El buscador global (Ctrl/Command+K) ahora abre la ficha del item en la app (stats, fuentes y recetas) en vez de saltar a la wiki.",
+    "Buscador de items fijo en la cabecera con desplegable de resultados (abre la ficha en la app).",
+    "Fix buscadores: storeFields.id sobrescribia el id de MiniSearch (no aparecian resultados).",
+    "Buscadores: los resultados muestran el sprite del item (antes la inicial).",
+    "i18n (en progreso): infraestructura ES/EN, toggle de idioma en la cabecera y cabecera/footer/home traducidos.",
+    "i18n fase 2: interfaz completa bilingue ES/EN (cabecera, home, builds, items, mecanicas, buscadores y tester) + toggle persistente. Fases de la timeline ya en EN.",
+    "i18n fase 3+4: contenido EN de 9 fases, 36 builds (titulo/intro/guia), 32 sets y 5 mecanicas; y ficha de item EN generada desde drops/recetas.",
+    "i18n: contenido curado EN completo (262 notas de slots y titulos de variantes). Web bilingue ES/EN.",
+    "Cabecera: boton Builder convertido en CTA dorado destacado (Crea tu build / Build your own) con icono y brillo pulsante."
   ]
 }

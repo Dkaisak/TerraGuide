@@ -6,9 +6,18 @@
     "short": "Explora, mina y equipa lo básico",
     "description": "Exploración inicial: cobre/hierro, primeros accesorios y sets básicos. El Ojo de Cthulhu es opcional, pero facilita el meteorito.",
     "gate": {
-      "bars": ["Iron/Lead", "Silver/Tungsten", "Gold/Platinum"],
+      "bars": [
+        "Iron/Lead",
+        "Silver/Tungsten",
+        "Gold/Platinum"
+      ],
       "boss": "Eye of Cthulhu (opcional)"
-    }
+    },
+    "tips": [
+      "Arena: una plataforma larga de madera con 3-4 niveles, hogueras y linternas para regeneración.",
+      "Lleva pociones de Ironskin, Regeneration y Swiftness antes de cada intento.",
+      "Usa el grappling hook para reposicionarte y deja hueco para esquivar por debajo."
+    ]
   },
   {
     "id": "PRE_SKELETRON",
@@ -17,9 +26,17 @@
     "short": "Tras los primeros jefes",
     "description": "Después de los primeros jefes (Ojo de Cthulhu, Eater of Worlds/Brain of Cthulhu): armaduras Shadow/Crimson, armas del bioma maligno y mejor movilidad. Prepárate para la Dungeon.",
     "gate": {
-      "bars": ["Demonite/Crimtane", "Hellstone (Molten)"],
+      "bars": [
+        "Demonite/Crimtane",
+        "Hellstone (Molten)"
+      ],
       "boss": "Skeletron"
-    }
+    },
+    "tips": [
+      "Arena: aplana la azotea de la Dungeon o construye una plataforma delante; deja espacio para volar en círculos.",
+      "Habla con el Old Man de noche en la entrada; no entres a la Dungeon antes de vencerlo.",
+      "Ataca primero los brazos y evita cruzarte por encima cuando la cabeza empieza a girar."
+    ]
   },
   {
     "id": "PRE_HARDMODE",
@@ -28,9 +45,17 @@
     "short": "Todo listo para el Wall of Flesh",
     "description": "Stock de pociones y crafteos finales. Derrota a la Muralha de Carne para desbloquear el Hardmode.",
     "gate": {
-      "bars": ["Hellstone", "Obsidian"],
+      "bars": [
+        "Hellstone",
+        "Obsidian"
+      ],
       "boss": "Wall of Flesh"
-    }
+    },
+    "tips": [
+      "Prepara un puente largo (1-2 pantallas) sobre la lava del Inframundo con bloques no inflamables.",
+      "Usa Obsidian Skin y Water Walking; el Wall of Flesh se acelera al perder vida.",
+      "Tira el Guide Voodoo Doll a la lava; el puente evita que te acorrale contra el borde."
+    ]
   },
   {
     "id": "PRE_MECH_BOSSES",
@@ -39,9 +64,16 @@
     "short": "Primeras armaduras de Hardmode",
     "description": "Hardmode recién iniciado: minerales nuevos (Adamantite/Titanium), armaduras y farmeo de drops.",
     "gate": {
-      "bars": ["Adamantite/Titanium"],
+      "bars": [
+        "Adamantite/Titanium"
+      ],
       "boss": "The Destroyer / The Twins / Skeletron Prime"
-    }
+    },
+    "tips": [
+      "Arena: una plataforma de 1-2 pantallas de ancho con 3 filas; un techo ayuda a bloquear los rayos.",
+      "The Twins: elimina primero a Spazmatism (el verde), que hace más daño.",
+      "The Destroyer: usa armas que penetren y una arena elevada; cuidado con sus proyectiles."
+    ]
   },
   {
     "id": "PRE_PLANTERA",
@@ -50,9 +82,17 @@
     "short": "Hallowed y armas de fragmentos",
     "description": "Tras un jefe mecánico: armaduras Hallowed/Chlorophyte y armas de fragmentos. Plantera abre la Jungla profunda.",
     "gate": {
-      "bars": ["Hallowed", "Chlorophyte"],
+      "bars": [
+        "Hallowed",
+        "Chlorophyte"
+      ],
       "boss": "Plantera"
-    }
+    },
+    "tips": [
+      "Arena: excava una sala amplia en la Jungla subterránea (rompe los bulbos) con varias capas de plataformas.",
+      "Quita el fondo de pared para frenar enredaderas y mantente dentro de la Jungla o se enfurece.",
+      "Fase 2: mantén distancia; sus enganches y el rango de ataque aumentan."
+    ]
   },
   {
     "id": "PRE_GOLEM",
@@ -61,9 +101,20 @@
     "short": "Eventos post-Plantera",
     "description": "Accedes a los eventos post-Plantera (Eclipse Solar, Pumpkin/Frost Moon) y a las mejores armas pre-Lunar.",
     "gate": {
-      "bars": ["Chlorophyte", "Shroomite", "Spectre", "Beetle", "Tiki/Spooky"],
+      "bars": [
+        "Chlorophyte",
+        "Shroomite",
+        "Spectre",
+        "Beetle",
+        "Tiki/Spooky"
+      ],
       "boss": "Golem"
-    }
+    },
+    "tips": [
+      "Arena: amplía la sala del Lihzahrd Temple retirando bloques y añadiendo plataformas.",
+      "Los bloques del templo son indestructibles hasta vencer al Golem; usa el Picksaw si ya lo tienes.",
+      "Fase 2: salta sobre su cabeza para atacar; esquiva los puños y el fuego."
+    ]
   },
   {
     "id": "PRE_LUNAR_EVENTS",
@@ -72,9 +123,20 @@
     "short": "Equipo máximo antes del Cultista",
     "description": "Equipo maximizado y eventos especiales. Derrota al Cultista Lunático para invocar los Pilares Celestiales.",
     "gate": {
-      "bars": ["Chlorophyte", "Shroomite", "Spectre", "Beetle", "Tiki/Spooky"],
+      "bars": [
+        "Chlorophyte",
+        "Shroomite",
+        "Spectre",
+        "Beetle",
+        "Tiki/Spooky"
+      ],
       "boss": "Lunatic Cultist"
-    }
+    },
+    "tips": [
+      "Invoca al Lunatic Cultist en la entrada de la Dungeon tras los 3 mecánicos y Plantera.",
+      "Esquiva en círculo y prioriza al clon real: el falso desaparece al golpearlo.",
+      "Tras el Cultista, prepara armas de área y buena movilidad para los Pilares."
+    ]
   },
   {
     "id": "PRE_MOON_LORD",
@@ -83,9 +145,16 @@
     "short": "Pilares Celestiales",
     "description": "Tras el Cultista Lunático: derrota a los cuatro Pilares Celestiales y craftea armas de fragmentos antes de enfrentarte al Moon Lord.",
     "gate": {
-      "bars": ["Fragmentos Celestiales"],
+      "bars": [
+        "Fragmentos Celestiales"
+      ],
       "boss": "Celestial Pillars"
-    }
+    },
+    "tips": [
+      "Derrota los 4 Pilares (Solar, Vortex, Nebula, Stardust) para reunir fragmentos.",
+      "Cada Pilar tiene su oleada: limpia la zona, esquiva y golpea el núcleo.",
+      "Deja la arena lista para el Moon Lord: espacio amplio y pociones."
+    ]
   },
   {
     "id": "POST_MOON_LORD",
@@ -94,8 +163,16 @@
     "short": "Fragmentos y Luminite definitivos",
     "description": "Armaduras y armas definitivas con fragmentos y Luminite. La build final de la clase.",
     "gate": {
-      "bars": ["Luminite", "Fragmentos Celestiales"],
+      "bars": [
+        "Luminite",
+        "Fragmentos Celestiales"
+      ],
       "boss": "Moon Lord"
-    }
+    },
+    "tips": [
+      "Arena: gran extensión plana con plataformas y un techo sólido para cubrirte de los rayos.",
+      "El Phantasmal Deathray no atraviesa bloques: úsalos para cubrirte y contraataca.",
+      "Pociones: Ironskin, Regeneration, Endurance, Lifeforce y Wrath/Rage."
+    ]
   }
 ]

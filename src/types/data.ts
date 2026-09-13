@@ -68,6 +68,7 @@ export interface Stage {
   short: string;
   description: string;
   gate: { bars?: string[]; boss: string };
+  tips?: string[];
 }
 
 export interface ItemStats {
@@ -190,9 +191,18 @@ export interface Build {
   subclass?: Subclass;
   title: string;
   intro: string;
+  startGuide?: string[];
   orderHint: string[];
   slots: BuildSlot[];
   subclassSlots?: BuildSubclassVariant[];
+}
+
+export interface Mechanic {
+  id: string;
+  title: string;
+  summary: string;
+  points: string[];
+  wikiPage?: string;
 }
 
 export interface Dataset {
@@ -203,6 +213,7 @@ export interface Dataset {
   recipes: Recipe[];
   drops: Drop[];
   builds: Build[];
+  mechanics: Mechanic[];
 }
 
 export type SlimDataset = Pick<Dataset, "items" | "sets" | "recipes" | "drops">;

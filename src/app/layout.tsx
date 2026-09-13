@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import Link from "next/link";
-import { DifficultySelector } from "@/components/navigation/DifficultySelector";
+import { LocaleProvider } from "@/components/i18n/LocaleProvider";
+import { ItemDetailProvider } from "@/components/items/ItemDetailProvider";
+import { SiteFooter } from "@/components/layout/SiteFooter";
+import { SiteHeader } from "@/components/layout/SiteHeader";
 import { CommandPalette } from "@/components/ui/CommandPalette";
 import { getDataset } from "@/lib/loadData";
 import "./globals.css";
@@ -33,52 +35,14 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="flex min-h-screen flex-col bg-background text-foreground">
-        <header
-          className="border-b border-edge"
-          style={{
-            background:
-              "linear-gradient(180deg, color-mix(in srgb, var(--color-surface) 80%, transparent), transparent)",
-          }}
-        >
-          <div className="mx-auto flex w-full max-w-7xl items-center justify-between px-6 py-4">
-            <Link href="/" className="flex items-baseline gap-2">
-              <span className="tg-title text-xl font-black tracking-tight">
-                Terra<span className="text-accent">Guide</span>
-              </span>
-              <span className="hidden text-xs text-zinc-500 sm:inline">
-                Builds de Terraria
-              </span>
-            </Link>
-            <div className="flex items-center gap-2">
-              <Link
-                href="/builder"
-                className="tg-btn rounded-md px-2.5 py-1 text-xs font-medium text-zinc-300"
-              >
-                Builder
-              </Link>
-              <DifficultySelector />
-              <span className="tg-slot rounded px-2 py-0.5 font-mono text-[11px] text-accent">
-                v{version.gameVersion}
-              </span>
-            </div>
-          </div>
-        </header>
-        <main className="mx-auto w-full max-w-7xl flex-1 px-6 py-8">{children}</main>
-        <CommandPalette />
-        <footer className="border-t border-edge">
-          <div className="mx-auto flex w-full max-w-7xl flex-wrap items-center justify-between gap-2 px-6 py-4 text-xs text-zinc-600">
-            <div className="flex flex-wrap items-center gap-3">
-              <span>Datos alineados a Terraria {version.gameVersion}.</span>
-              <Link
-                href="/changelog"
-                className="text-zinc-500 transition-colors hover:text-accent"
-              >
-                Changelog →
-              </Link>
-            </div>
-            <span>No afiliado a Re-Logic. Ítems y sprites © Re-Logic.</span>
-          </div>
-        </footer>
+        <LocaleProvider>
+          <ItemDetailProvider>
+            <SiteHeader version={version.gameVersion} />
+            <main className="mx-auto w-full max-w-7xl flex-1 px-6 py-5">{children}</main>
+            <CommandPalette />
+            <SiteFooter version={version.gameVersion} />
+          </ItemDetailProvider>
+        </LocaleProvider>
       </body>
     </html>
   );

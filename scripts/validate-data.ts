@@ -15,6 +15,7 @@ const FILES = [
   "recipes.json",
   "drops.json",
   "builds.json",
+  "mechanics.json",
 ] as const;
 
 const VALID_CLASSES: ClassType[] = [
@@ -208,6 +209,7 @@ function main() {
       `  Recetas: ${data.recipes.length}`,
       `  Drops: ${data.drops.length}`,
       `  Builds: ${data.builds.length} (slots referenciados: ${slotRefs.length})`,
+      `  Mecánicas: ${data.mechanics.length}`,
       "",
     ].join("\n"),
   );

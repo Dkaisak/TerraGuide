@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { rarityColor } from "@/components/build/rarityTone";
+import { useLocale } from "@/components/i18n/LocaleProvider";
 import { Badge } from "@/components/ui/Badge";
 import { ItemSprite } from "@/components/ui/ItemSprite";
 import { SearchSelect } from "@/components/ui/SearchSelect";
@@ -12,17 +13,13 @@ import { ACCESSORY_MODIFIERS, ACCESSORY_MODIFIER_BY_ID } from "@/lib/modifiers";
 import { bestWeaponReforge, recommendAccessoryReforge } from "@/lib/reforge";
 import { BUILDER_SAVES_STORAGE_KEY } from "@/lib/storage";
 import { WEAPON_MODIFIER_BY_ID, weaponModifiersFor } from "@/lib/weaponModifiers";
+import { MOD_LABEL_I18N } from "@/lib/i18n";
 import type { Build, ClassType, Item, ItemModifiers, SlimDataset } from "@/types/data";
-import { CLASS_LABEL, CLASS_ORDER } from "@/types/data";
+import { CLASS_ORDER } from "@/types/data";
 
 type ArmorSlot = "HELMET" | "CHEST" | "LEGS";
 
 const ARMOR_SLOTS: ArmorSlot[] = ["HELMET", "CHEST", "LEGS"];
-const ARMOR_LABEL: Record<ArmorSlot, string> = {
-  HELMET: "Casco",
-  CHEST: "Pecho",
-  LEGS: "Piernas",
-};
 
 const ACCESSORY_COUNT = 7;
 const emptyAccessories = () => Array<string>(ACCESSORY_COUNT).fill("");
@@ -229,12 +226,13 @@ function LoadoutEditor({
   onToggleAllWeapons?: (value: boolean) => void;
   indexes: DataIndexes;
 }) {
+  const { locale, t, slotLabel, classLabel } = useLocale();
   const weaponItem = state.weapon ? indexes.items.get(state.weapon) : undefined;
   return (
     <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
       <div className="flex flex-col gap-1">
         <span className="flex items-center justify-between text-[11px] text-zinc-500">
-          <span>Arma</span>
+          <span>{t("build.weapon")}</span>
           {onToggleAllWeapons ? (
             <label className="flex cursor-pointer items-center gap-1 text-[10px] text-zinc-500">
               <input
@@ -243,22 +241,22 @@ function LoadoutEditor({
                 onChange={(e) => onToggleAllWeapons(e.target.checked)}
                 className="accent-[var(--color-accent)]"
               />
-              Todas las clases (mixto)
+              {t("build.allClasses")}
             </label>
           ) : null}
         </span>
         <SearchSelect
           value={state.weapon}
           onChange={(id) => onChange({ weapon: id })}
-          ariaLabel="Arma"
-          placeholder="— Sin arma —"
+          ariaLabel={t("build.weapon")}
+          placeholder={t("build.noWeapon")}
           options={[
-            { id: "", label: "— Sin arma —" },
+            { id: "", label: t("build.noWeapon") },
             ...weaponOptions.map((i) => ({
               id: i.id,
               label: i.name,
               itemId: i.id,
-              group: allWeapons ? CLASS_LABEL[i.classType] : undefined,
+              group: allWeapons ? classLabel(i.classType) : undefined,
             })),
           ]}
         />
@@ -266,22 +264,22 @@ function LoadoutEditor({
           value={state.weaponReforge}
           onChange={(id) => onChange({ weaponReforge: id })}
           disabled={!state.weapon}
-          ariaLabel="Modificador del arma"
+          ariaLabel={t("build.weaponMod")}
           options={weaponModifiersFor(weaponItem?.classType ?? state.classType).map((m) => ({
             id: m.id,
-            label: m.id === "none" ? m.name : `${m.name} · ${weaponModEffect(m)}`,
+            label: m.id === "none" ? m.name : `${m.name} · ${weaponModEffect(m, locale)}`,
           }))}
         />
       </div>
       {ARMOR_SLOTS.map((slot) => (
         <div key={slot} className="flex flex-col gap-1">
-          <span className="text-[11px] text-zinc-500">{ARMOR_LABEL[slot]}</span>
+          <span className="text-[11px] text-zinc-500">{slotLabel(slot)}</span>
           <SearchSelect
             value={state.armor[slot]}
             onChange={(id) => onChange({ armor: { ...state.armor, [slot]: id } })}
-            ariaLabel={ARMOR_LABEL[slot]}
+            ariaLabel={slotLabel(slot)}
             options={[
-              { id: "", label: "— Ninguno —" },
+              { id: "", label: t("build.none") },
               ...(armorOptions.get(slot) ?? []).map((i) => ({
                 id: i.id,
                 label: i.name,
@@ -293,15 +291,17 @@ function LoadoutEditor({
       ))}
       {state.accessories.map((acc, idx) => (
         <div key={idx} className="flex flex-col gap-1">
-          <span className="text-[11px] text-zinc-500">Accesorio {idx + 1}</span>
+          <span className="text-[11px] text-zinc-500">
+            {t("build.accessoryN", { n: idx + 1 })}
+          </span>
           <SearchSelect
             value={acc}
             onChange={(id) =>
               onChange({ accessories: state.accessories.map((v, i) => (i === idx ? id : v)) })
             }
-            ariaLabel={`Accesorio ${idx + 1}`}
+            ariaLabel={t("build.accessoryN", { n: idx + 1 })}
             options={[
-              { id: "", label: "— Ninguno —" },
+              { id: "", label: t("build.none") },
               ...accessoryOptions.map((i) => ({
                 id: i.id,
                 label: i.name,
@@ -315,7 +315,7 @@ function LoadoutEditor({
               onChange({ reforges: state.reforges.map((v, i) => (i === idx ? id : v)) })
             }
             disabled={!acc}
-            ariaLabel={`Modificador del accesorio ${idx + 1}`}
+            ariaLabel={t("build.accessoryModN", { n: idx + 1 })}
             options={ACCESSORY_MODIFIERS.map((m) => ({
               id: m.id,
               label: m.id === "none" ? m.name : `${m.name} · ${m.effect}`,
@@ -334,42 +334,23 @@ const CLASS_KEY: Record<string, string> = {
   SUMMONER: "Summon",
 };
 
-const MOD_LABEL: Record<string, string> = {
-  damageAll: "daño",
-  damageMelee: "daño melee",
-  damageRanged: "daño ranged",
-  damageMagic: "daño mágico",
-  damageSummon: "daño summon",
-  critAll: "crítico",
-  critMelee: "crítico melee",
-  critRanged: "crítico ranged",
-  critMagic: "crítico mágico",
-  critSummon: "crítico summon",
-  defense: "defensa",
-  meleeSpeed: "vel. melee",
-  moveSpeed: "vel. mov.",
-  manaMax: "maná",
-  manaCost: "-coste maná",
-  lifeRegen: "vida/s",
-  damageReduction: "red. daño",
-  ammoSave: "ahorro munición",
-};
-
 function byName(a: Item, b: Item) {
   return a.name.localeCompare(b.name);
 }
 
-function weaponModEffect(m: {
-  damage: number;
-  crit: number;
-  speed: number;
-  manaCost: number;
-}): string {
+function weaponModEffect(
+  m: { damage: number; crit: number; speed: number; manaCost: number },
+  lang: "es" | "en",
+): string {
+  const L =
+    lang === "en"
+      ? { dmg: "dmg", crit: "crit", spd: "spd", mana: "mana" }
+      : { dmg: "daño", crit: "crít", spd: "vel", mana: "maná" };
   const parts: string[] = [];
-  if (m.damage) parts.push(`${m.damage > 0 ? "+" : ""}${m.damage}% daño`);
-  if (m.crit) parts.push(`${m.crit > 0 ? "+" : ""}${m.crit}% crít`);
-  if (m.speed) parts.push(`${m.speed > 0 ? "+" : ""}${m.speed}% vel`);
-  if (m.manaCost) parts.push(`${m.manaCost > 0 ? "+" : ""}${m.manaCost}% maná`);
+  if (m.damage) parts.push(`${m.damage > 0 ? "+" : ""}${m.damage}% ${L.dmg}`);
+  if (m.crit) parts.push(`${m.crit > 0 ? "+" : ""}${m.crit}% ${L.crit}`);
+  if (m.speed) parts.push(`${m.speed > 0 ? "+" : ""}${m.speed}% ${L.spd}`);
+  if (m.manaCost) parts.push(`${m.manaCost > 0 ? "+" : ""}${m.manaCost}% ${L.mana}`);
   return parts.join(", ");
 }
 
@@ -441,6 +422,7 @@ export function BuildTester({
   dataset: SlimDataset;
   builds: Build[];
 }) {
+  const { locale, t, classLabel, slotLabel } = useLocale();
   const indexes = useMemo(
     () => buildIndexes({ ...dataset, stages: [], builds: [] }),
     [dataset],
@@ -563,11 +545,11 @@ export function BuildTester({
 
   const compareRows = statsB
     ? [
-        { label: "Defensa", a: statsA.totalDefense, b: statsB.totalDefense, higher: true, fmt: (v: number) => String(v) },
-        { label: "Daño efectivo", a: statsA.effDamage, b: statsB.effDamage, higher: true, fmt: (v: number) => v.toFixed(1) },
-        { label: "Crítico", a: statsA.effCrit, b: statsB.effCrit, higher: true, fmt: (v: number) => `${v}%` },
-        { label: "Uso", a: statsA.effUseTime, b: statsB.effUseTime, higher: false, fmt: (v: number) => v.toFixed(1) },
-        { label: "DPS", a: statsA.dps, b: statsB.dps, higher: true, fmt: (v: number) => Math.round(v).toLocaleString("es") },
+        { label: t("tester.stat.defense"), a: statsA.totalDefense, b: statsB.totalDefense, higher: true, fmt: (v: number) => String(v) },
+        { label: t("tester.stat.effDamage"), a: statsA.effDamage, b: statsB.effDamage, higher: true, fmt: (v: number) => v.toFixed(1) },
+        { label: t("tester.stat.crit"), a: statsA.effCrit, b: statsB.effCrit, higher: true, fmt: (v: number) => `${v}%` },
+        { label: t("tester.stat.use"), a: statsA.effUseTime, b: statsB.effUseTime, higher: false, fmt: (v: number) => v.toFixed(1) },
+        { label: "DPS", a: statsA.dps, b: statsB.dps, higher: true, fmt: (v: number) => Math.round(v).toLocaleString(locale) },
       ]
     : [];
 
@@ -655,44 +637,38 @@ export function BuildTester({
   }
 
   const stats: { label: string; value: string; tone?: "accent" | "accent2" }[] = [
-    { label: "Defensa total", value: String(statsA.totalDefense) },
-    { label: "Daño efectivo", value: ws ? statsA.effDamage.toFixed(1) : "—" },
-    { label: "Bonus de daño", value: statsA.dmgBonus ? `+${statsA.dmgBonus}%` : "—" },
-    { label: "Crítico", value: ws ? `${statsA.effCrit}%` : "—" },
-    { label: "Bonus de crítico", value: statsA.critBonus ? `+${statsA.critBonus}%` : "—" },
-    { label: "Uso", value: statsA.effUseTime ? statsA.effUseTime.toFixed(1) : "—" },
-    { label: "Golpes/s", value: statsA.hitsPerSec ? statsA.hitsPerSec.toFixed(2) : "—" },
+    { label: t("tester.stat.defenseTotal"), value: String(statsA.totalDefense) },
+    { label: t("tester.stat.effDamage"), value: ws ? statsA.effDamage.toFixed(1) : "—" },
+    { label: t("tester.stat.dmgBonus"), value: statsA.dmgBonus ? `+${statsA.dmgBonus}%` : "—" },
+    { label: t("tester.stat.crit"), value: ws ? `${statsA.effCrit}%` : "—" },
+    { label: t("tester.stat.critBonus"), value: statsA.critBonus ? `+${statsA.critBonus}%` : "—" },
+    { label: t("tester.stat.use"), value: statsA.effUseTime ? statsA.effUseTime.toFixed(1) : "—" },
+    { label: t("tester.stat.hitsPerSec"), value: statsA.hitsPerSec ? statsA.hitsPerSec.toFixed(2) : "—" },
     {
-      label: "DPS estimado",
-      value: statsA.dps ? Math.round(statsA.dps).toLocaleString("es") : "—",
+      label: t("tester.stat.dps"),
+      value: statsA.dps ? Math.round(statsA.dps).toLocaleString(locale) : "—",
       tone: "accent",
     },
-    { label: "Maná máx.", value: statsA.manaMax ? `+${statsA.manaMax}` : "—" },
+    { label: t("tester.stat.manaMax"), value: statsA.manaMax ? `+${statsA.manaMax}` : "—" },
     {
-      label: "Coste de maná",
+      label: t("tester.stat.manaCost"),
       value: statsA.effMana !== undefined ? statsA.effMana.toFixed(1) : "—",
     },
     {
-      label: "Reducción daño",
+      label: t("tester.stat.dmgReduction"),
       value: statsA.damageReduction ? `${statsA.damageReduction}%` : "—",
     },
-    { label: "Ahorro munición", value: statsA.ammoSave ? `${statsA.ammoSave}%` : "—" },
+    { label: t("tester.stat.ammoSave"), value: statsA.ammoSave ? `${statsA.ammoSave}%` : "—" },
   ];
 
   const selectClass =
     "w-full rounded-md border border-edge bg-background px-2 py-1.5 text-sm text-foreground outline-none transition-colors focus:border-accent";
 
   return (
-    <div className="flex flex-col gap-6">
-      <header className="border-b border-edge pb-5">
-        <h1 className="tg-title text-2xl font-bold">Build Tester</h1>
-        <p className="mt-1 max-w-3xl text-sm text-zinc-400">
-          Viste a tu personaje con armas, armaduras y accesorios y compara las
-          estadísticas en vivo. El DPS es una estimación con los bonus
-          porcentuales de accesorios/armadura (daño × golpes/s, crítico como
-          doble daño); no incluye efectos especiales ni set bonuses no
-          numéricos.
-        </p>
+    <div className="flex flex-col gap-4">
+      <header className="border-b border-edge pb-3">
+        <h1 className="tg-title text-2xl font-bold">{t("tester.title")}</h1>
+        <p className="mt-1 max-w-3xl text-sm text-zinc-400">{t("tester.intro")}</p>
       </header>
 
       <div className="flex flex-wrap items-center gap-2">
@@ -708,7 +684,7 @@ export function BuildTester({
               classType === c ? "border-accent text-accent" : ""
             }`}
           >
-            {CLASS_LABEL[c]}
+            {classLabel(c)}
           </button>
         ))}
         <span className="mx-1 h-4 w-px bg-edge" />
@@ -717,7 +693,7 @@ export function BuildTester({
           onChange={(e) => loadBuild(e.target.value)}
           className={`${selectClass} w-auto`}
         >
-          <option value="">Cargar una build…</option>
+          <option value="">{t("tester.loadBuild")}</option>
           {classBuilds.map((b) => (
             <option key={b.id} value={b.id}>
               {b.title}
@@ -729,9 +705,9 @@ export function BuildTester({
           onChange={(e) => setCompareId(e.target.value)}
           className={`${selectClass} w-auto`}
         >
-          <option value="">Comparar con…</option>
-          <option value="custom">Personalizada (editar abajo)</option>
-          <optgroup label="Builds curadas">
+          <option value="">{t("tester.compare")}</option>
+          <option value="custom">{t("tester.compareCustom")}</option>
+          <optgroup label={t("tester.curated")}>
             {builds.map((b) => (
               <option key={b.id} value={`build:${b.id}`}>
                 {b.title}
@@ -739,7 +715,7 @@ export function BuildTester({
             ))}
           </optgroup>
           {saves.length > 0 ? (
-            <optgroup label="Guardadas">
+            <optgroup label={t("tester.saved")}>
               {saves.map((s) => (
                 <option key={s.name} value={`save:${s.name}`}>
                   {s.name}
@@ -752,15 +728,15 @@ export function BuildTester({
           type="button"
           onClick={applyOptimalReforges}
           className="tg-btn rounded-full px-3 py-1 text-xs"
-          title="Aplica el mejor modificador a cada accesorio (según su rol) y al arma (según su clase)"
+          title={t("tester.optimalReforgeTitle")}
         >
-          Reforjar óptimo
+          {t("tester.optimalReforge")}
         </button>
         <button type="button" onClick={reset} className="tg-btn rounded-full px-3 py-1 text-xs">
-          Limpiar
+          {t("common.clear")}
         </button>
         <button type="button" onClick={share} className="tg-btn rounded-full px-3 py-1 text-xs">
-          {copied ? "¡Copiado!" : "Compartir"}
+          {copied ? t("common.copied") : t("common.share")}
         </button>
         <span className="flex items-center gap-1">
           <input
@@ -769,18 +745,18 @@ export function BuildTester({
             onKeyDown={(e) => {
               if (e.key === "Enter") save();
             }}
-            placeholder="Nombre…"
+            placeholder={t("tester.saveName")}
             className="w-28 rounded-full border border-edge bg-background px-2 py-1 text-xs text-foreground outline-none focus:border-accent"
           />
           <button type="button" onClick={save} className="tg-btn rounded-full px-3 py-1 text-xs">
-            Guardar
+            {t("tester.save")}
           </button>
         </span>
       </div>
 
       {saves.length > 0 ? (
         <div className="flex flex-wrap items-center gap-2">
-          <span className="text-[11px] text-zinc-500">Guardadas:</span>
+          <span className="text-[11px] text-zinc-500">{t("tester.saved")}:</span>
           {saves.map((s) => (
             <span
               key={s.name}
@@ -790,7 +766,7 @@ export function BuildTester({
                 type="button"
                 onClick={() => applyState(parseState(s.data) ?? {})}
                 className="font-medium transition-colors hover:text-accent"
-                title="Cargar esta build"
+                title={t("tester.loadBuild")}
               >
                 {s.name}
               </button>
@@ -798,7 +774,7 @@ export function BuildTester({
                 type="button"
                 onClick={() => setSaves((prev) => prev.filter((x) => x.name !== s.name))}
                 className="text-zinc-600 transition-colors hover:text-red-400"
-                title="Eliminar"
+                title={t("common.delete")}
               >
                 ✕
               </button>
@@ -807,12 +783,12 @@ export function BuildTester({
         </div>
       ) : null}
 
-      <div className="grid grid-cols-1 gap-6 lg:grid-cols-[1fr_360px]">
-        <div className="flex flex-col gap-5">
+      <div className="grid grid-cols-1 gap-4 lg:grid-cols-[1fr_360px]">
+        <div className="flex flex-col gap-4">
           <section className="tg-surface rounded-lg p-4">
             <div className="flex items-start justify-center gap-4 sm:gap-8">
               <div className="flex flex-col items-center pt-16">
-                <Slot label="Arma" itemId={weapon} name={name(weapon)} size="lg" />
+                <Slot label={t("build.weapon")} itemId={weapon} name={name(weapon)} size="lg" />
               </div>
 
               <div className="relative h-[300px] w-[150px]">
@@ -820,26 +796,28 @@ export function BuildTester({
                   <GuideSprite />
                 </div>
                 <div className="absolute left-1/2 top-0 -translate-x-1/2">
-                  <Slot label="Casco" itemId={armor.HELMET} name={name(armor.HELMET)} />
+                  <Slot label={slotLabel("HELMET")} itemId={armor.HELMET} name={name(armor.HELMET)} />
                 </div>
                 <div className="absolute left-1/2 top-[100px] -translate-x-1/2">
-                  <Slot label="Pecho" itemId={armor.CHEST} name={name(armor.CHEST)} />
+                  <Slot label={slotLabel("CHEST")} itemId={armor.CHEST} name={name(armor.CHEST)} />
                 </div>
                 <div className="absolute left-1/2 top-[200px] -translate-x-1/2">
-                  <Slot label="Piernas" itemId={armor.LEGS} name={name(armor.LEGS)} />
+                  <Slot label={slotLabel("LEGS")} itemId={armor.LEGS} name={name(armor.LEGS)} />
                 </div>
               </div>
 
               <div className="grid grid-cols-2 gap-1 pt-2">
                 {accessories.map((a, i) => (
-                  <Slot key={i} label={`Acc ${i + 1}`} itemId={a} name={name(a)} />
+                  <Slot key={i} label={t("build.accessoryN", { n: i + 1 })} itemId={a} name={name(a)} />
                 ))}
               </div>
             </div>
 
             {fullSet ? (
               <p className="mt-4 text-center text-xs text-zinc-400">
-                <span className="font-semibold text-accent">Set {fullSet.name}:</span>{" "}
+                <span className="font-semibold text-accent">
+                  {t("build.setBonus", { name: fullSet.name })}
+                </span>{" "}
                 {fullSet.bonus}
               </p>
             ) : null}
@@ -847,7 +825,7 @@ export function BuildTester({
 
           <section className="tg-surface rounded-lg p-4">
             <h2 className="mb-3 text-xs font-semibold uppercase tracking-wide text-zinc-500">
-              Elegir ítems
+              {t("build.chooseItems")}
             </h2>
             <LoadoutEditor
               state={stateA}
@@ -864,7 +842,7 @@ export function BuildTester({
           {compareId === "custom" ? (
             <section className="tg-surface rounded-lg p-4">
               <h2 className="mb-3 text-xs font-semibold uppercase tracking-wide text-zinc-500">
-                Build B (personalizada)
+                {t("tester.buildB")}
               </h2>
               <LoadoutEditor
                 state={customB}
@@ -882,7 +860,7 @@ export function BuildTester({
         <aside className="flex flex-col gap-4 lg:sticky lg:top-6 lg:self-start">
           <section className="tg-surface rounded-lg p-4">
             <h2 className="mb-3 text-xs font-semibold uppercase tracking-wide text-zinc-500">
-              Estadísticas
+              {t("tester.stats")}
             </h2>
             <dl className="flex flex-col gap-1.5">
               {stats.map((s) => (
@@ -903,13 +881,13 @@ export function BuildTester({
           {stateB && statsB ? (
             <section className="tg-surface rounded-lg p-4">
               <h2 className="mb-3 text-xs font-semibold uppercase tracking-wide text-zinc-500">
-                Comparación
+                {t("tester.comparison")}
               </h2>
               <table className="w-full text-sm">
                 <thead>
                   <tr className="text-[10px] uppercase tracking-wide text-zinc-600">
-                    <th className="text-left font-medium">Stat</th>
-                    <th className="text-right font-medium">Actual</th>
+                    <th className="text-left font-medium">{t("tester.colStat")}</th>
+                    <th className="text-right font-medium">{t("tester.colCurrent")}</th>
                     <th className="text-right font-medium">B</th>
                   </tr>
                 </thead>
@@ -945,7 +923,7 @@ export function BuildTester({
           {selected.length > 0 ? (
             <section className="tg-surface rounded-lg p-4">
               <h2 className="mb-3 text-xs font-semibold uppercase tracking-wide text-zinc-500">
-                Equipado ({selected.length})
+                {t("tester.equipped", { n: selected.length })}
               </h2>
               <ul className="flex flex-col gap-2">
                 {selected.map((it) => {
@@ -963,13 +941,15 @@ export function BuildTester({
                             {it.name}
                           </span>
                           {it.stats?.defense !== undefined ? (
-                            <Badge tone="neutral">{it.stats.defense} def</Badge>
+                            <Badge tone="neutral">
+                              {t("stat.defenseShort", { n: it.stats.defense })}
+                            </Badge>
                           ) : null}
                           {it.modifiers
                             ? Object.entries(it.modifiers).map(([k, v]) => (
                                 <Badge key={k} tone="accent">
                                   {k === "manaCost" ? "-" : "+"}
-                                  {v} {MOD_LABEL[k] ?? k}
+                                  {v} {MOD_LABEL_I18N[locale][k] ?? k}
                                 </Badge>
                               ))
                             : null}

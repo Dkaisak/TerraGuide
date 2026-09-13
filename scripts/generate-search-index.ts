@@ -8,6 +8,7 @@ import { CLASS_LABEL, SUB_CLASS_LABEL } from "../src/types/data.js";
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const DATA_DIR = resolve(ROOT, "data");
 const OUT = resolve(ROOT, "public", "search-index.json");
+const DATASET_OUT = resolve(ROOT, "public", "dataset.json");
 
 const FILES = [
   "version.json",
@@ -17,6 +18,7 @@ const FILES = [
   "recipes.json",
   "drops.json",
   "builds.json",
+  "mechanics.json",
 ] as const;
 
 function load(): Dataset {
@@ -107,6 +109,17 @@ function main() {
   }));
 
   writeFileSync(OUT, JSON.stringify({ items, builds }));
+
+  writeFileSync(
+    DATASET_OUT,
+    JSON.stringify({
+      items: data.items,
+      sets: data.sets,
+      recipes: data.recipes,
+      drops: data.drops,
+    }),
+  );
+
   console.log(
     `search-index.json generado: ${items.length} ítems, ${builds.length} builds`,
   );

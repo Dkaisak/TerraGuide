@@ -1,19 +1,23 @@
+"use client";
+
 import Link from "next/link";
-import type { ClassType, GameStage } from "@/types/data";
-import type { DataIndexes } from "@/lib/indexing";
+import { useLocale } from "@/components/i18n/LocaleProvider";
+import type { ClassType, GameStage, Stage } from "@/types/data";
 import { classSlug, stageSlug } from "@/lib/indexing";
+import { stageTitle, stageShort, stageBoss } from "@/lib/dataI18n";
 
 export function TimelineStages({
-  indexes,
+  stages,
   classType,
   currentStage,
 }: {
-  indexes: DataIndexes;
+  stages: Stage[];
   classType?: ClassType;
   currentStage?: GameStage;
 }) {
+  const { locale, t } = useLocale();
   const currentOrder = currentStage
-    ? indexes.stagesById.get(currentStage)?.order ?? -1
+    ? stages.find((s) => s.id === currentStage)?.order ?? -1
     : -1;
 
   return (
@@ -23,7 +27,7 @@ export function TimelineStages({
         className="pointer-events-none absolute inset-x-0 top-6 h-px bg-edge"
       />
       <ol className="relative flex gap-2 overflow-x-auto pb-1">
-        {indexes.stages.map((stage) => {
+        {stages.map((stage) => {
           const done = currentOrder > stage.order;
           const isCurrent = currentStage === stage.id;
           const href =
@@ -31,7 +35,7 @@ export function TimelineStages({
               ? `/${classSlug(classType)}/${stageSlug(stage.id)}`
               : null;
 
-          const classes = `flex w-[200px] min-w-[200px] shrink-0 flex-col gap-2 rounded-lg p-3 transition-colors ${
+          const classes = `flex w-[150px] min-w-[150px] shrink-0 flex-col gap-1 rounded-lg p-2 transition-colors ${
             isCurrent
               ? "tg-surface border-accent ring-1 ring-accent/40"
               : done
@@ -43,7 +47,7 @@ export function TimelineStages({
             <>
               <div className="flex items-center justify-between gap-2">
                 <span
-                  className={`flex h-6 w-6 items-center justify-center rounded font-mono text-[11px] font-bold ${
+                  className={`flex h-5 w-5 items-center justify-center rounded font-mono text-[10px] font-bold ${
                     isCurrent
                       ? "bg-accent text-background"
                       : done
@@ -54,23 +58,23 @@ export function TimelineStages({
                   {done ? "✓" : String(stage.order + 1).padStart(2, "0")}
                 </span>
                 {isCurrent ? (
-                  <span className="text-[10px] font-semibold uppercase tracking-wide text-accent">
-                    Actual
+                  <span className="text-[9px] font-semibold uppercase tracking-wide text-accent">
+                    {t("common.current")}
                   </span>
                 ) : null}
               </div>
-              <span className="text-sm font-semibold leading-tight">
-                {stage.title}
+              <span className="truncate text-xs font-semibold leading-tight">
+                {stageTitle(locale, stage)}
               </span>
-              <span className="line-clamp-2 text-[11px] leading-snug text-zinc-400">
-                {stage.short}
+              <span className="line-clamp-2 text-[10px] leading-snug text-zinc-400">
+                {stageShort(locale, stage)}
               </span>
               <span
                 className="mt-auto truncate text-[10px] text-zinc-500"
-                title={`Jefe: ${stage.gate.boss}`}
+                title={`${t("common.boss")}: ${stageBoss(locale, stage)}`}
               >
-                <span className="text-zinc-600">Jefe: </span>
-                {stage.gate.boss}
+                <span className="text-zinc-600">{t("common.boss")}: </span>
+                {stageBoss(locale, stage)}
               </span>
             </>
           );

@@ -1,8 +1,9 @@
 "use client";
 
 import { subclassTone } from "@/components/build/subclassTone";
+import { useLocale } from "@/components/i18n/LocaleProvider";
 import type { Build, Subclass } from "@/types/data";
-import { CLASS_SUBCLASSES, SUB_CLASS_LABEL } from "@/types/data";
+import { CLASS_SUBCLASSES } from "@/types/data";
 
 export function SubclassPicker({
   build,
@@ -13,6 +14,7 @@ export function SubclassPicker({
   selected?: Subclass;
   onChange: (subclass: Subclass) => void;
 }) {
+  const { t, subclassLabel } = useLocale();
   const base = build.subclass;
   const variantSubclasses = build.subclassSlots?.map((v) => v.subclass) ?? [];
   const options = base ? [base, ...variantSubclasses] : variantSubclasses;
@@ -28,9 +30,9 @@ export function SubclassPicker({
   if (unique.length <= 1) return null;
 
   return (
-    <section className="mb-6">
-      <h2 className="mb-2 text-xs font-semibold uppercase tracking-wide text-zinc-500">
-        Subclase
+    <section className="mb-4">
+      <h2 className="mb-1.5 text-xs font-semibold uppercase tracking-wide text-zinc-500">
+        {t("build.subclassTitle")}
       </h2>
       <div className="flex flex-wrap gap-2" role="group" aria-label="Subclase">
         {unique.map((sub) => {
@@ -49,7 +51,7 @@ export function SubclassPicker({
               }`}
             >
               {active ? "● " : ""}
-              {SUB_CLASS_LABEL[sub]}
+              {subclassLabel(sub)}
             </button>
           );
         })}

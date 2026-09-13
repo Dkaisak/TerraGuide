@@ -85,6 +85,7 @@ export const stageSchema = z.object({
     bars: z.array(z.string()).optional(),
     boss: z.string(),
   }),
+  tips: z.array(z.string()).optional(),
 });
 
 export const itemStatsSchema = z.object({
@@ -199,6 +200,7 @@ export const buildSchema = z.object({
   subclass: subclassSchema.optional(),
   title: z.string().min(1),
   intro: z.string(),
+  startGuide: z.array(z.string()).optional(),
   orderHint: z.array(z.string()),
   slots: z.array(buildSlotSchema),
   subclassSlots: z.array(buildSubclassVariantSchema).optional(),
@@ -212,6 +214,14 @@ export const buildSchema = z.object({
   }
 });
 
+export const mechanicSchema = z.object({
+  id: z.string().min(1),
+  title: z.string().min(1),
+  summary: z.string(),
+  points: z.array(z.string()),
+  wikiPage: z.string().optional(),
+});
+
 export const datasetSchema = z.object({
   version: gameVersionSchema,
   stages: z.array(stageSchema),
@@ -220,4 +230,5 @@ export const datasetSchema = z.object({
   recipes: z.array(recipeSchema),
   drops: z.array(dropSchema),
   builds: z.array(buildSchema),
+  mechanics: z.array(mechanicSchema),
 });

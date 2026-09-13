@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { T } from "@/components/i18n/T";
 import { getDataset } from "@/lib/loadData";
 
 export const metadata: Metadata = {
@@ -11,11 +12,11 @@ export default function ChangelogPage() {
   return (
     <div className="mx-auto flex max-w-3xl flex-col gap-8">
       <section className="flex flex-col gap-3">
-        <h1 className="text-3xl font-black tracking-tight">Changelog de datos</h1>
+        <h1 className="text-3xl font-black tracking-tight">
+          <T k="changelog.title" />
+        </h1>
         <p className="text-sm text-zinc-400">
-          El dataset de TerraGuide se mantiene a mano y se versiona: cada cambio
-          en los JSON es un diff revisable. Esta página lista las actualizaciones
-          alineadas a la versión del juego.
+          <T k="changelog.intro" />
         </p>
       </section>
 
@@ -25,7 +26,7 @@ export default function ChangelogPage() {
             Terraria {version.gameVersion}
           </h2>
           <span className="rounded border border-edge-2 bg-surface px-2 py-0.5 font-mono text-[11px] text-accent">
-            actualizado {version.updatedAt}
+            <T k="changelog.updated" vars={{ date: version.updatedAt }} />
           </span>
         </div>
         <ol className="flex flex-col gap-2">

@@ -4,11 +4,14 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import MiniSearch from "minisearch";
 import { subclassTone } from "@/components/build/subclassTone";
 import { rarityColor } from "@/components/build/rarityTone";
+import { useLocale } from "@/components/i18n/LocaleProvider";
+import { useItemDetail } from "@/components/items/ItemDetailProvider";
 import { Badge } from "@/components/ui/Badge";
+import { ItemSprite } from "@/components/ui/ItemSprite";
 import { usePersistedState } from "@/hooks/usePersistedState";
 import { DIFFICULTY_STORAGE_KEY } from "@/lib/storage";
-import type { ClassType, Difficulty, GameStage, Subclass } from "@/types/data";
-import { CLASS_LABEL, CLASS_ORDER, STAGE_LABEL } from "@/types/data";
+import type { ClassType, Difficulty, GameStage, ItemType, Subclass } from "@/types/data";
+import { CLASS_ORDER } from "@/types/data";
 
 interface ItemEntry {
   k: "item";
@@ -42,15 +45,6 @@ function docId(entry: Entry): string {
 
 const RESULT_LIMIT = 10;
 
-const TYPE_LABEL: Record<string, string> = {
-  WEAPON: "Armas",
-  ARMOR: "Armadura",
-  ACCESSORY: "Accesorios",
-  AMMO: "Munición",
-  BUFF: "Pociones",
-  MATERIAL: "Materiales",
-};
-
 const ITEM_TYPES = ["WEAPON", "ARMOR", "ACCESSORY", "AMMO", "BUFF", "MATERIAL"] as const;
 
 function FilterChip({
@@ -80,6 +74,8 @@ function FilterChip({
 export function CommandPalette() {
   const [open, setOpen] = useState(false);
   const [query, setQuery] = useState("");
+  const { t, itemTypeLabel, classLabel } = useLocale();
+  const { openItem } = useItemDetail();
   const [activeIndex, setActiveIndex] = useState(0);
   const [entries, setEntries] = useState<Entry[]>([]);
   const inputRef = useRef<HTMLInputElement>(null);
@@ -97,7 +93,6 @@ export function CommandPalette() {
         fields: ["name", "title", "classLabel", "subclassLabel", "type"],
         storeFields: [
           "k",
-          "id",
           "name",
           "title",
           "type",
@@ -121,7 +116,9 @@ export function CommandPalette() {
       .then((r) => (r.ok ? r.json() : Promise.reject(new Error("index no disponible"))))
       .then((data: { items: ItemEntry[]; builds: BuildEntry[] }) => {
         const all: Entry[] = [...data.items, ...data.builds];
-        mini.addAll(all.map((e) => ({ ...e, _id: docId(e) })));
+        if (mini.documentCount === 0) {
+          mini.addAll(all.map((e) => ({ ...e, _id: docId(e) })));
+        }
         setEntries(all);
       })
       .catch(() => {
@@ -202,7 +199,7 @@ export function CommandPalette() {
           setActiveIndex(0);
           setOpen(true);
         }}
-        title="Buscar (Ctrl/⌘+K)"
+        title={t("search.open")}
         className="tg-btn fixed bottom-4 right-4 z-40 flex items-center gap-2 rounded-full px-3 py-1.5 text-xs text-zinc-400 shadow-lg"
       >
         <span className="text-sm leading-none">⌕</span>
@@ -216,7 +213,7 @@ export function CommandPalette() {
 
   const select = (entry: Entry) => {
     if (entry.k === "item") {
-      window.open(entry.wiki, "_blank", "noopener,noreferrer");
+      openItem(entry.id);
     } else {
       window.location.href = entry.path;
     }
@@ -258,38 +255,38 @@ export function CommandPalette() {
               setActiveIndex(0);
             }}
             onKeyDown={onKeyDown}
-            placeholder="Buscar ítem o build… (Night's Edge, Tomo, Minión…)"
+            placeholder={t("search.placeholder")}
             className="flex-1 bg-transparent text-sm text-foreground outline-none placeholder:text-zinc-600"
           />
-          <kbd className="font-mono text-[10px] text-zinc-600">esc</kbd>
+          <kbd className="font-mono text-[10px] text-zinc-600">{t("search.close")}</kbd>
         </div>
         <div className="flex flex-wrap items-center gap-1.5 border-b border-edge px-4 py-2">
           <FilterChip active={classFilter === "ALL"} onClick={() => applyClassFilter("ALL")}>
-            Todas
+            {t("search.allClasses")}
           </FilterChip>
           {CLASS_ORDER.map((c) => (
             <FilterChip key={c} active={classFilter === c} onClick={() => applyClassFilter(c)}>
-              {CLASS_LABEL[c]}
+              {classLabel(c)}
             </FilterChip>
           ))}
           <span className="mx-1 h-4 w-px bg-edge" />
           <FilterChip active={typeFilter === "ALL"} onClick={() => applyTypeFilter("ALL")}>
-            Todo
+            {t("search.allTypes")}
           </FilterChip>
-          {ITEM_TYPES.map((t) => (
-            <FilterChip key={t} active={typeFilter === t} onClick={() => applyTypeFilter(t)}>
-              {TYPE_LABEL[t]}
+          {ITEM_TYPES.map((ty) => (
+            <FilterChip key={ty} active={typeFilter === ty} onClick={() => applyTypeFilter(ty)}>
+              {itemTypeLabel(ty)}
             </FilterChip>
           ))}
           <span className="mx-1 h-4 w-px bg-edge" />
           <FilterChip active={hideExpert} onClick={toggleHideExpert}>
-            Ocultar Expert+
+            {t("search.hideExpert")}
           </FilterChip>
         </div>
         <ul ref={listRef} className="max-h-[60vh] overflow-y-auto p-2">
           {results.length === 0 ? (
             <li className="px-3 py-6 text-center text-sm text-zinc-500">
-              Sin resultados para “{query}”.
+              {t("search.noResults", { query })}
             </li>
           ) : (
             results.map((entry, i) => (
@@ -305,7 +302,7 @@ export function CommandPalette() {
           )}
         </ul>
         <footer className="border-t border-edge px-4 py-2 text-[11px] text-zinc-600">
-          ↑↓ navegar · Enter abrir · Esc cerrar · Cmd/Ctrl+K para alternar
+          {t("search.footer")}
         </footer>
       </div>
     </div>
@@ -323,14 +320,17 @@ function ResultRow({
   onMouseEnter: () => void;
   onClick: () => void;
 }) {
+  const { t, classLabel, stageLabel, subclassLabel, itemTypeLabel } = useLocale();
   const isItem = entry.k === "item";
   const name = isItem ? entry.name : entry.title;
   const nameColor =
     isItem && entry.rare !== undefined ? rarityColor(entry.rare) : undefined;
   const subclass = isItem ? entry.subclass : undefined;
   const meta = isItem
-    ? entry.subclassLabel ?? entry.type
-    : STAGE_LABEL[entry.stage];
+    ? entry.subclass
+      ? subclassLabel(entry.subclass)
+      : itemTypeLabel(entry.type as ItemType)
+    : stageLabel(entry.stage);
   return (
     <button
       type="button"
@@ -345,7 +345,11 @@ function ResultRow({
           subclass ? subclassTone(subclass) : "border-edge-2 text-zinc-400"
         }`}
       >
-        {name.charAt(0).toUpperCase()}
+        {isItem ? (
+          <ItemSprite itemId={entry.id} fallback={name.charAt(0).toUpperCase()} size="sm" />
+        ) : (
+          name.charAt(0).toUpperCase()
+        )}
       </span>
       <span className="min-w-0 flex-1">
         <span className="flex items-center gap-2">
@@ -358,15 +362,15 @@ function ResultRow({
             {name}
           </span>
           {entry.k === "item" && entry.expertOnly ? (
-            <Badge tone="accent2" title="Solo disponible en Expert/Master">
-              Expert+
+            <Badge tone="accent2" title={t("item.expertOnly")}>
+              {t("common.expertPlus")}
             </Badge>
           ) : null}
         </span>
         <span className="block text-[11px] text-zinc-500">{meta}</span>
       </span>
       <span className="shrink-0 text-[10px] font-medium uppercase tracking-wide text-zinc-500">
-        {entry.classLabel}
+        {classLabel(entry.classType)}
       </span>
     </button>
   );

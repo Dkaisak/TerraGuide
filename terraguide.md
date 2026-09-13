@@ -21,30 +21,36 @@ de materiales.
 ## 3. Estructura del repo
 ```
 data/            ← JSON fuente (los "datos del juego")
-  items.json     ← 873 ítems + stats
+  items.json     ← 873 ítems + stats + modifiers
   recipes.json   ← 672 recetas (con cantidades y estación)
   drops.json     ← 1.199 fuentes (drops con % por dificultad + tiendas de NPC)
-  builds.json    ← 36 builds por clase/fase + variantes de subclase
-  stages.json    ← 9 fases (pre-bosses → post-moon-lord)
-  sets.json      ← 32 sets de armadura
+  builds.json    ← 36 builds por clase/fase + startGuide + variantes de subclase
+  stages.json    ← 9 fases (pre-bosses → post-moon-lord) + tips de arena
+  sets.json      ← 32 sets de armadura (+ modifiers)
+  mechanics.json ← 5 notas de mecánicas (whip stacking, tags, huecos…)
   version.json   ← gameVersion + changelog
 scripts/
-  validate-data.ts · generate-search-index.ts
+  validate-data.ts · generate-search-index.ts (search-index.json + dataset.json)
   fetch-item-images.ts (npm run images)
   fetch-set-images.ts  (npm run sets)
   fetch-wiki-details.ts (npm run details)
-src/             ← app, componentes, hooks, lib, schemas, types
-public/          ← search-index.json, items/ (sprites), sets/ (imágenes de set)
+  parse-modifiers.ts    (npm run modifiers)
+src/             ← app (guía, /items, /mechanics, /builder), componentes, hooks, lib, schemas, types
+public/          ← search-index.json, dataset.json, items/ (sprites), sets/ (imágenes de set)
 ```
+
+Rutas: `/` (home), `/[classType]/[stage]` (build), `/items` (base de datos),
+`/mechanics` (notas), `/builder` (Build Tester), `/changelog`.
 
 ## 4. Los datos (conteo verificado en validación)
 9 fases / **873 ítems** / **672 recetas** / **1.199 drops** / **36 builds** (más
-variantes de subclase) / **32 sets**.
+variantes de subclase) / **32 sets** / **5 mecánicas**.
 
 - **Variantes de subclase:** Melee (SWORD + YOYO), Ranged (BOW + GUN/LAUNCHER/THROWN),
   Summoner (MINION + WHIP/SENTRY); Magic sin variantes.
 - **Stats por ítem:** daño + tipo, defensa, crítico, uso, knockback, maná, velocidad,
-  rareza, autoswing, tooltip y valor de venta.
+  rareza, autoswing, tooltip y valor de venta. Además `modifiers` (bonus numéricos).
+- **Por fase:** `startGuide` en cada build ("cómo empezar") y `tips` de arena/estrategia.
 - Los IDs son kebab-case y **deben existir en `items.json`**. Nada se inventa.
 
 ## 5. Validación (siempre en este orden)
@@ -83,14 +89,33 @@ Armas de nuevas subclases, recetas y drops; `validate`/`lint`/`build` verdes.
 - **Lista de materiales por build** (recursiva, `computeMaterials`).
 - **Fuentes de obtención**: drops con % por dificultad + **90 tiendas de NPC** con
   precio; tasas por bioma separadas.
-- **Marcadores de dificultad**: cupos de accesorio (Clásico 5, Experto 5/6,
-  Maestro 6/7) e ítems Expert/Master-only; filtrado real de la build.
+- **Filtrado por dificultad**: cupos de accesorio (Clásico 5, Experto 5/6,
+  Maestro 6/7) e ítems Expert/Master-only aplicados a la build.
 - **Comparar fases**: "Cambios desde <fase anterior>" (nuevo / ya no se usa).
-- **Búsqueda con filtros**: clase, tipo y "Ocultar Expert+".
 - **Imágenes de sets completos** (`public/sets/`, 32).
+- **Paleta de Terraria**, rareza por color, UI compacta y árbol de crafteo con
+  sprites e ingredientes clicables.
+
+### Build Tester ✅
+- `/builder`: paper-doll, stats en vivo (defensa, daño, crítico, uso, DPS),
+  reforges recomendados (`reforge.ts` + `modifiers.ts` + `weaponModifiers.ts`),
+  clases mixtas, compartir por URL, guardar/favoritos y **comparación A/B**
+  (curadas, guardadas o una build B personalizada).
+
+### Contenido y secciones nuevas ✅
+- **Mini-guía "Cómo empezar esta fase"** (`startGuide`) en las 36 builds.
+- **Tips de arena y estrategia** (`tips`) en las 9 fases.
+- **Ruta de farmeo por zona** (`zones.ts`) en cada build.
+- **Base de datos de ítems** (`/items`): filtros por clase/tipo/rol/rareza.
+- **Notas de mecánicas** (`/mechanics` + `mechanics.json`) con enlaces a la wiki.
+
+### Búsqueda ✅
+- Input fijo en la cabecera (`HeaderSearch`) + paleta global **Ctrl/⌘+K**.
+- Al elegir un ítem se abre la **ficha dentro de la app** (`ItemDetailProvider`
+  carga `public/dataset.json` bajo demanda); las builds navegan a su ruta.
+- ⚠️ MiniSearch: no poner `"id"` en `storeFields` (rompe el lookup de resultados).
 
 ### Pendiente / siguiente
-- **Pulido visual final** y **paleta de colores de Terraria**.
 - Deploy (Vercel) y flujo de update de datos.
 
 ## 7. Comandos útiles
@@ -101,6 +126,7 @@ npm run build       # ¿SSG completa?
 npm run images      # descarga sprites de ítems
 npm run sets        # descarga imágenes de sets
 npm run details     # sincroniza drops/recetas/stats/tiendas desde la wiki
+npm run modifiers   # parsea modificadores de los tooltips → items.json
 ```
 
 ## 8. Notas y decisiones

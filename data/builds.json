@@ -6,6 +6,12 @@
     "subclass": "SWORD",
     "title": "Melee inicial — Mina y sube vida",
     "intro": "Espadas y yoyos tempranos; sube vida y mina minerales.",
+    "startGuide": [
+      "Empieza minando hierro/plomo y crea el yunque y armas básicas (espada de hierro, bumerán).",
+      "Sube vida con 5 Crystal Hearts de las cuevas (200 de vida).",
+      "Consigue el Starfury en los cofres Skyware de las islas flotantes (usa Gravity Potions).",
+      "El Feral Claws sale de los Ivy Chests de la selva; el Ironskin Potion cae de slimes o crates."
+    ],
     "orderHint": [
       "starfury",
       "feral-claws",
@@ -227,6 +233,11 @@
     "subclass": "SWORD",
     "title": "Melee — Rushear la Dungeon",
     "intro": "Volcano y movilidad del Underworld para la Dungeon.",
+    "startGuide": [
+      "Derrota a Skeletron de noche frente a la Dungeon (habla con el Old Man) para poder entrar.",
+      "Baja al Inframundo y mina Hellstone: 20 barras para el Volcano y 10 para el Molten Helmet.",
+      "Craftea el Stinger Necklace con Honey Comb (Queen Bee) + Shark Tooth Necklace (Blood Moon)."
+    ],
     "orderHint": [
       "volcano",
       "molten-helmet",
@@ -448,6 +459,11 @@
     "subclass": "SWORD",
     "title": "Melee pre-Hardmode — Molten y Night's Edge",
     "intro": "Molten y Night's Edge para el Wall of Flesh.",
+    "startGuide": [
+      "Craftea la Night's Edge fusionando Blade of Grass, Blood Butcherer (o Light's Bane), Muramasa y Volcano.",
+      "Completa el set Molten con Hellstone Bars antes de matar al Wall of Flesh.",
+      "Consigue el Feral Claws en los Ivy Chests de la selva (o en crates)."
+    ],
     "orderHint": [
       "night-s-edge",
       "molten-helmet",
@@ -662,6 +678,11 @@
     "subclass": "SWORD",
     "title": "Melee — Los bosses mecánicos",
     "intro": "Hardmode: Amarok y armas de mimico contra los mecánicos.",
+    "startGuide": [
+      "Al entrar en Hardmode, rompe altares y mina Adamantite/Titanium: 12 barras para el casco.",
+      "Consigue el Warrior Emblem del Wall of Flesh (25%).",
+      "Farma el Drippler Crippler de los Blood Eels durante la Blood Moon (12.5%)."
+    ],
     "orderHint": [
       "drippler-crippler",
       "warrior-emblem",
@@ -912,6 +933,11 @@
     "subclass": "SWORD",
     "title": "Melee — Excalibur y Terra Blade",
     "intro": "True Night's Edge y guantes post-mech para la Jungla.",
+    "startGuide": [
+      "Tras los mecánicos, craftea la True Night's Edge (Night's Edge + 20 Souls of Fright/Might/Sight).",
+      "Craftea Excalibur con 12 Hallowed Bars y luego la True Excalibur con la Broken Hero Sword (Solar Eclipse).",
+      "Consigue el Warrior Emblem del Wall of Flesh (25%)."
+    ],
     "orderHint": [
       "true-night-s-edge",
       "hallowed-helmet",
@@ -1157,6 +1183,11 @@
     "subclass": "SWORD",
     "title": "Melee — Beetle y Terra Blade",
     "intro": "Beetle y Terra Blade: el pico melee pre-Lunar.",
+    "startGuide": [
+      "Tras Plantera, farmea Beetle Husks del Golem y craftea la Beetle armor (Turtle Helmet + 4 Husks).",
+      "Craftea la Terra Blade (True Excalibur + True Night's Edge + Broken Hero Sword).",
+      "Mantén el Warrior Emblem del Wall of Flesh."
+    ],
     "orderHint": [
       "terra-blade",
       "beetle-helmet",
@@ -1386,6 +1417,11 @@
     "subclass": "SWORD",
     "title": "Melee — Eventos lunares",
     "intro": "Flying Dragon e Influx Waver para los Pilares.",
+    "startGuide": [
+      "Farma el Old One's Army hasta Betsy para la Flying Dragon (25%).",
+      "Craftea el Destroyer Emblem (Avenger Emblem + Eye of the Golem).",
+      "Completa la Beetle armor y consigue alas (Fishron o Steampunk) antes de los Pilares."
+    ],
     "orderHint": [
       "flying-dragon",
       "beetle-helmet",
@@ -1618,6 +1654,11 @@
     "subclass": "SWORD",
     "title": "Melee endgame — Solar Flare",
     "intro": "Solar Flare y Zenith: el techo del melee.",
+    "startGuide": [
+      "Derrota al Moon Lord y craftea la Solar Flare armor (Luminite Bars + Solar Fragments).",
+      "Reúne las espadas de la Zenith: Terra Blade, Meowmere, Star Wrath, Influx Waver, Seedler, etc.",
+      "El Destroyer Emblem (Avenger Emblem + Eye of the Golem) da el mejor DPS."
+    ],
     "orderHint": [
       "zenith",
       "solar-flare-helmet",
@@ -1846,6 +1887,11 @@
     "subclass": "BOW",
     "title": "Ranged inicial — Arco y flechas",
     "intro": "Arcos, escopetas y lanzables para empezar.",
+    "startGuide": [
+      "Craftea un arco de madera y flechas, y sube vida con Crystal Hearts.",
+      "Consigue el Blood Rain Bow de Zombie Merman/Wandering Eye Fish pescando en Blood Moon con lluvia.",
+      "Craftea el Harpy Charm (3 Amber + 5 barras de plata/tungsteno + 7 Feathers)."
+    ],
     "orderHint": [
       "blood-rain-bow",
       "harpy-charm",
@@ -2158,6 +2204,11 @@
     "subclass": "BOW",
     "title": "Ranged — Minishark",
     "intro": "Molten Fury y Minishark para la Dungeon.",
+    "startGuide": [
+      "Compra la Minishark al Arms Dealer (35 oro) y craftea el Fossil armor con Sturdy Fossils del desierto.",
+      "Craftea el Molten Fury con 15 Hellstone Bars en el Inframundo.",
+      "Consigue el Harpy Charm (Amber + barras de plata/tungsteno + Feathers)."
+    ],
     "orderHint": [
       "molten-fury",
       "fossil-helmet",
@@ -2491,6 +2542,11 @@
     "subclass": "BOW",
     "title": "Ranged pre-Hardmode — Necro Armor",
     "intro": "Necro armor y Star Cannon para el Wall of Flesh.",
+    "startGuide": [
+      "Farma huesos en la Dungeon y craftea la Necro armor (incluye el Ancient Necro Helmet).",
+      "Craftea la Star Cannon (5 Fallen Stars + 20 Meteorite Bars + Minishark).",
+      "Craftea la Sweet Barb (Honey Comb + Poison Barb de las Hornets de la selva)."
+    ],
     "orderHint": [
       "necro-helmet",
       "star-cannon",
@@ -2798,6 +2854,11 @@
     "subclass": "BOW",
     "title": "Ranged — Megashark",
     "intro": "Daedalus Stormbow y Uzi contra los mecánicos.",
+    "startGuide": [
+      "Al entrar en Hardmode, mina Titanium (o Adamantite): 13 barras para el casco.",
+      "Farma la Daedalus Stormbow de los Mimics de Hardmode (20%); úsala con Holy Arrows.",
+      "Consigue el Ranger Emblem del Wall of Flesh (25%)."
+    ],
     "orderHint": [
       "daedalus-stormbow",
       "ranger-emblem",
@@ -3027,6 +3088,11 @@
     "subclass": "BOW",
     "title": "Ranged — Shroomite",
     "intro": "Shotbow y Flamethrower para la Jungla.",
+    "startGuide": [
+      "Tras los mecánicos, craftea el Chlorophyte Shotbow (12 Chlorophyte Bars).",
+      "Cultiva Glowing Mushrooms y craftea la Shroomite armor (Shroomite Bars).",
+      "Consigue el Ranger Emblem del Wall of Flesh."
+    ],
     "orderHint": [
       "chlorophyte-shotbow",
       "hallowed-helmet",
@@ -3254,6 +3320,11 @@
     "subclass": "BOW",
     "title": "Ranged — Tactical Shotgun",
     "intro": "Shroomite y armas de la Dungeon post-Plantera.",
+    "startGuide": [
+      "Farma la Tactical Shotgun de los Tactical Skeletons de la Dungeon (8.33%).",
+      "Craftea el Shroomite Headgear con 12 Shroomite Bars.",
+      "Mantén el Ranger Emblem del Wall of Flesh."
+    ],
     "orderHint": [
       "tactical-shotgun",
       "shroomite-headgear",
@@ -3581,6 +3652,11 @@
     "subclass": "BOW",
     "title": "Ranged — Tsunami y eventos",
     "intro": "Tsunami y Xenopopper para los Pilares.",
+    "startGuide": [
+      "Derrota a Duke Fishron para la Tsunami (14.29%) y las Fishron Wings.",
+      "Farma el evento marciano para el Xenopopper (Martian Saucer, 16.66%).",
+      "Craftea el Destroyer Emblem (Avenger Emblem + Eye of the Golem)."
+    ],
     "orderHint": [
       "tsunami",
       "xenopopper",
@@ -3917,6 +3993,11 @@
     "subclass": "BOW",
     "title": "Ranged endgame — Vortex y Phantasm",
     "intro": "Vortex, Phantasm y S.D.M.G.: el techo del ranged.",
+    "startGuide": [
+      "Derrota al Moon Lord y craftea la Vortex armor (Luminite + Vortex Fragments).",
+      "Craftea la Phantasm con 18 Vortex Fragments.",
+      "Consigue la S.D.M.G. del Moon Lord (20%)."
+    ],
     "orderHint": [
       "vortex-helmet",
       "phantasm",
@@ -4232,6 +4313,12 @@
     "subclass": "STAFF",
     "title": "Magic inicial — Gemas y maná",
     "intro": "Gem staves y Gem Robes reworkeadas en 1.4.5.7, con pociones de maná para los primeros bosses.",
+    "startGuide": [
+      "Craftea el set de gemas (Diamond/Ruby Robe) y un bastón de gema para empezar.",
+      "Sube vida y maná con Crystal Hearts y Mana Crystals.",
+      "Craftea la Mana Regeneration Band (Band of Regeneration + Band of Starpower).",
+      "Farma la Demon Scythe de los Demons del Inframundo (2.86%)."
+    ],
     "orderHint": [
       "demon-scythe",
       "mana-regeneration-band",
@@ -4363,6 +4450,11 @@
     "subclass": "STAFF",
     "title": "Magic — Jungle Armor",
     "intro": "Jungle Armor y armas de área antes de la Dungeon.",
+    "startGuide": [
+      "Farma Jungle Spores en la selva y craftea el Jungle armor (Jungle Hat = 8 Spores).",
+      "Craftea la Mana Flower (Mana Potion + Nature's Gift).",
+      "Consigue la Demon Scythe de Demons/Voodoo Demons del Inframundo (2.86%)."
+    ],
     "orderHint": [
       "jungle-hat",
       "demon-scythe",
@@ -4488,6 +4580,11 @@
     "subclass": "TOME",
     "title": "Magic pre-Hardmode — Demon Scythe",
     "intro": "Demon Scythe y Water Bolt para el Wall of Flesh.",
+    "startGuide": [
+      "Consigue la Demon Scythe en el Inframundo y la Flower of Fire en Shadow Chests (o de Red Devils).",
+      "Craftea el Celestial Cuffs (Celestial Magnet + Magic Cuffs).",
+      "Antes de Hardmode, prepara el set Jungle y pociones de maná."
+    ],
     "orderHint": [
       "demon-scythe",
       "flower-of-fire",
@@ -4604,6 +4701,11 @@
     "subclass": "STAFF",
     "title": "Magic — Sky Fracture",
     "intro": "Titanium Headgear y armas de fragmentos para los jefes mecánicos.",
+    "startGuide": [
+      "Al entrar en Hardmode, craftea la Sky Fracture (2 Light Shards + Magic Missile + 16 Souls of Light).",
+      "Compra la Orange Zapinator al Traveling Merchant (50 oro).",
+      "Consigue el Sorcerer Emblem del Wall of Flesh (25%)."
+    ],
     "orderHint": [
       "orange-zapinator",
       "sky-fracture",
@@ -4737,6 +4839,11 @@
     "subclass": "STAFF",
     "title": "Magic — Chlorophyte y Plantera",
     "intro": "Chlorophyte o el mix Hallowed + Apprentice para la Jungla.",
+    "startGuide": [
+      "Tras los mecánicos, craftea el Chlorophyte Headgear (12 Chlorophyte Bars).",
+      "Farma la Unholy Trident de los Red Devils del Inframundo (3.33%).",
+      "Consigue el Sorcerer Emblem del Wall of Flesh."
+    ],
     "orderHint": [
       "unholy-trident",
       "chlorophyte-headgear",
@@ -4872,6 +4979,11 @@
     "subclass": "TOME",
     "title": "Magic — Golden Shower y Chlorophyte",
     "intro": "Spectre Armor y armas post-Plantera antes de Golem.",
+    "startGuide": [
+      "Tras Plantera, farmea la Leaf Blower (Plantera, 12.5%) y el Golden Shower (Ichor del Crimson).",
+      "Craftea el Celestial Emblem (Avenger Emblem + Celestial Magnet).",
+      "Mantén la Chlorophyte armor y el Sorcerer Emblem."
+    ],
     "orderHint": [
       "leaf-blower",
       "celestial-emblem",
@@ -5000,6 +5112,11 @@
     "subclass": "TOME",
     "title": "Magic — Spectre y Razorblade Typhoon",
     "intro": "Spectre Armor (Mask) y armas de eventos para los Pilares.",
+    "startGuide": [
+      "Craftea la Spectre armor (Spectre Bars con Ectoplasm del Dungeon de Hardmode).",
+      "Derrota a Duke Fishron para el Razorblade Typhoon.",
+      "Farma el Arc Surge del Martian Saucer (2%) y craftea el Destroyer Emblem."
+    ],
     "orderHint": [
       "arc-surge",
       "spectre-mask",
@@ -5129,6 +5246,11 @@
     "subclass": "STAFF",
     "title": "Magic endgame — Nebula y Last Prism",
     "intro": "Nebula Armor y Last Prism: el techo de la magia.",
+    "startGuide": [
+      "Derrota al Moon Lord y craftea la Nebula armor (Luminite + Nebula Fragments).",
+      "Consigue la Last Prism del Moon Lord (20%).",
+      "Craftea la Nebula Blaze con 18 Nebula Fragments."
+    ],
     "orderHint": [
       "nebula-helmet",
       "last-prism",
@@ -5251,6 +5373,11 @@
     "subclass": "MINION",
     "title": "Summoner inicial — Flinx y Finch",
     "intro": "Flinx y Snapthorn para empezar.",
+    "startGuide": [
+      "Craftea el Flinx Staff (6 Flinx Fur de la nieve + 10 Gold Bars).",
+      "Craftea el Snapthorn en la selva (12 Jungle Spores + 15 Stingers + 3 Vines).",
+      "Consigue el Feral Claws en los Ivy Chests de la selva para velocidad de látigo."
+    ],
     "orderHint": [
       "flinx-staff",
       "snap-thorn",
@@ -5425,6 +5552,11 @@
     "subclass": "MINION",
     "title": "Summoner — Bee Armor",
     "intro": "Bee/Obsidian y sentries tier 1.",
+    "startGuide": [
+      "Derrota a la Queen Bee en la selva para el Bee armor (Bee Hat, 11%) y armas de abeja.",
+      "Craftea el Imp Staff con 17 Hellstone Bars en el Inframundo.",
+      "Compra el Pygmy Necklace al Witch Doctor en la selva (20 oro)."
+    ],
     "orderHint": [
       "bee-hat",
       "imp-staff",
@@ -5701,6 +5833,11 @@
     "subclass": "MINION",
     "title": "Summoner pre-Hardmode — Obsidian e Imp",
     "intro": "Obsidian y Spinal Tap antes del WoF.",
+    "startGuide": [
+      "Craftea el set Obsidian armor (Obsidian + Silk + Shadow Scales/Tissue Samples).",
+      "Craftea el Spinal Tap (90 Bones + 55 Cobwebs).",
+      "Consigue el Silver Bracer en Gold Chests de la Dungeon."
+    ],
     "orderHint": [
       "obsidian-helmet",
       "spinal-tap",
@@ -5966,6 +6103,12 @@
     "subclass": "MINION",
     "title": "Summoner — Spider Armor",
     "intro": "Spider/Forbidden y accesorios de tag 1.4.5.7.",
+    "startGuide": [
+      "Al entrar en Hardmode, farmea Spider Fangs de las Black Recluses del bioma de arañas y craftea la Spider armor.",
+      "Derrota al Wall of Flesh para el Firecracker y el Summoner Emblem (25% cada uno).",
+      "Craftea el Ruinous Staff (Dark Shard + 2 Forbidden Fragments de Sand Elementals + Light Shard + Souls).",
+      "Para látigos (whip stacking): farmea el Wicked Armlet (Cursed Hammer/Crimson Axe, 4%), el Silver Bracer (cofres de la Dungeon) y el Snake Band (Lamia) para armar los accesorios de tags."
+    ],
     "orderHint": [
       "ruinous-staff",
       "firecracker",
@@ -6095,52 +6238,68 @@
           {
             "slot": "WHIP",
             "item": "firecracker",
-            "why": "Explota el daño del minion (WoF).",
             "alternatives": [
-              "cool-whip"
-            ]
+              "cool-whip",
+              "snap-thorn"
+            ],
+            "why": "Blazing energy: la explosión escala con el daño del golpe del minion. Rota entre 2-3 látigos para mantener varios tags."
+          },
+          {
+            "slot": "WEAPON_ALT",
+            "item": "cool-whip",
+            "alternatives": [
+              "snap-thorn"
+            ],
+            "why": "Segundo látigo para el whip stacking (Frostbite + snowflake); el Druidic Serpent Cloak lo usa en el golpe extra."
           },
           {
             "slot": "ACCESSORY",
             "item": "twilight-grasp",
-            "why": "+2 tags y triple duración (1.4.5.7).",
-            "reforge": "menacing"
-          },
-          {
-            "slot": "ACCESSORY",
-            "item": "druidic-serpent-cloak",
-            "why": "Cada 3er látigo golpea extra y suelta estrellas.",
-            "reforge": "menacing"
-          },
-          {
-            "slot": "ACCESSORY",
-            "item": "wicked-claws",
-            "why": "+1 tag, knockback y autoswing.",
-            "reforge": "violent"
-          },
-          {
-            "slot": "ACCESSORY",
-            "item": "armlet-of-ruin",
-            "why": "+1 tag y picos de daño de tag.",
-            "reforge": "menacing"
-          },
-          {
-            "slot": "ACCESSORY",
-            "item": "feral-claws",
-            "why": "+12% velocidad melee.",
-            "reforge": "violent"
+            "reforge": "menacing",
+            "why": "+2 tag slots (3 en total) y triple duración (Silver Bracer + Wicked Armlet). Es el motor del whip stacking."
           },
           {
             "slot": "ACCESSORY",
             "item": "terraspark-boots",
-            "why": "Botas definitivas.",
-            "reforge": "quick"
+            "reforge": "quick",
+            "why": "Movilidad definitiva."
           },
           {
             "slot": "ACCESSORY",
             "item": "fairy-wings",
-            "why": "Alas de Hardmode temprano.",
-            "reforge": "quick"
+            "alternatives": [
+              "frozen-wings",
+              "demon-wings"
+            ],
+            "reforge": "quick",
+            "why": "Alas de Hardmode temprano."
+          },
+          {
+            "slot": "ACCESSORY",
+            "item": "wicked-claws",
+            "reforge": "violent",
+            "why": "+12% velocidad melee y autoswing. El slot de Wicked Armlet ya lo aporta Twilight Grasp, así que no suma otro."
+          },
+          {
+            "slot": "ACCESSORY",
+            "item": "armlet-of-ruin",
+            "reforge": "menacing",
+            "why": "Los golpes de minion sobre enemigos con tag descargan 'ancient power' (daño extra)."
+          },
+          {
+            "slot": "ACCESSORY",
+            "item": "summoner-emblem",
+            "reforge": "menacing",
+            "why": "+15% daño de invocación: aplica a látigos y minions."
+          },
+          {
+            "slot": "ACCESSORY",
+            "item": "druidic-serpent-cloak",
+            "alternatives": [
+              "feral-claws"
+            ],
+            "reforge": "menacing",
+            "why": "Cada 3 golpes ejecuta un golpe extra con el siguiente látigo (aplica otro tag)."
           },
           {
             "slot": "BUFF",
@@ -6250,6 +6409,11 @@
     "subclass": "MINION",
     "title": "Summoner — Sanguine y Forbidden",
     "intro": "Durendal y armaduras OOA tier 2.",
+    "startGuide": [
+      "Tras los mecánicos, craftea el Durendal (12 Hallowed Bars).",
+      "Farma Spider Fangs para el Spider Mask (8) y el Sanguine Staff del Dreadnautilus (Blood Moon fishing).",
+      "Craftea el Avenger Emblem (Ranger Emblem + Souls de los mecánicos)."
+    ],
     "orderHint": [
       "durendal",
       "spider-mask",
@@ -6541,6 +6705,11 @@
     "subclass": "MINION",
     "title": "Summoner — Tiki y Durendal",
     "intro": "Tiki/Spooky y sentries mejorados.",
+    "startGuide": [
+      "Tras Plantera, compra el Tiki Mask al Witch Doctor (50 oro).",
+      "Farma el Vulgar Display of Flower de Plantera (12.5%).",
+      "Craftea el Papyrus Scarab (Hercules Beetle + Necromantic Scroll)."
+    ],
     "orderHint": [
       "tiki-mask",
       "vulgar-display-of-flower",
@@ -6826,6 +6995,11 @@
     "subclass": "MINION",
     "title": "Summoner — Spooky y Kaleidoscope",
     "intro": "Terraprisma, Kaleidoscope y Valhalla.",
+    "startGuide": [
+      "Farma el Pumpkin Moon para Spooky Wood y craftea la Spooky armor (200 Spooky Wood).",
+      "Derrota a la Empress of Light de día para la Terraprisma (100%).",
+      "Consigue el Kaleidoscope de la Empress of Light (25%)."
+    ],
     "orderHint": [
       "spooky-helmet",
       "terraprisma",
@@ -7114,6 +7288,11 @@
     "subclass": "MINION",
     "title": "Summoner endgame — Stardust",
     "intro": "Stardust: el techo del summoner.",
+    "startGuide": [
+      "Derrota al Moon Lord y craftea la Stardust armor (Luminite + Stardust Fragments).",
+      "Craftea el Stardust Dragon Staff con 18 Stardust Fragments.",
+      "Consigue el Possession del Moon Lord (20%)."
+    ],
     "orderHint": [
       "stardust-helmet",
       "stardust-dragon-staff",
@@ -7406,6 +7585,11 @@
     "subclass": "SWORD",
     "title": "Melee — Pilares Celestiales",
     "intro": "Beetle y armas del Pilar Solar para los Pilares y el Moon Lord.",
+    "startGuide": [
+      "Derrota al Lunatic Cultist y luego a los 4 Pilares Celestiales, recogiendo Solar Fragments.",
+      "Craftea la Solar Eruption con 18 Solar Fragments.",
+      "Mantén la Beetle armor y el Destroyer Emblem hasta conseguir Luminite."
+    ],
     "orderHint": [
       "solar-eruption",
       "beetle-helmet",
@@ -7632,6 +7816,11 @@
     "subclass": "BOW",
     "title": "Ranged — Pilares Celestiales",
     "intro": "Phantasm y Vortex Beater (fragmentos) contra los Pilares y el Moon Lord.",
+    "startGuide": [
+      "Derrota a los 4 Pilares Celestiales y recoge Vortex Fragments.",
+      "Craftea la Phantasm con 18 Vortex Fragments.",
+      "Mantén la Shroomite armor y el Destroyer Emblem."
+    ],
     "orderHint": [
       "phantasm",
       "shroomite-headgear",
@@ -7941,6 +8130,11 @@
     "subclass": "STAFF",
     "title": "Magic — Pilares Celestiales",
     "intro": "Spectre y armas del Pilar Nebula para los Pilares y el Moon Lord.",
+    "startGuide": [
+      "Derrota a los 4 Pilares Celestiales y recoge Nebula Fragments.",
+      "Craftea la Nebula Blaze con 18 Nebula Fragments.",
+      "Mantén la Spectre armor y el Celestial Emblem."
+    ],
     "orderHint": [
       "nebula-blaze",
       "spectre-mask",
@@ -8051,6 +8245,11 @@
     "subclass": "MINION",
     "title": "Summoner — Pilares Celestiales",
     "intro": "Stardust Dragon y Constellation (fragmentos) para los Pilares y el Moon Lord.",
+    "startGuide": [
+      "Derrota a los 4 Pilares Celestiales y recoge Stardust Fragments.",
+      "Craftea el Stardust Dragon Staff con 18 Stardust Fragments.",
+      "Mantén la Spooky armor y craftea el Constellation (18 Stardust Fragments)."
+    ],
     "orderHint": [
       "stardust-dragon-staff",
       "spooky-helmet",

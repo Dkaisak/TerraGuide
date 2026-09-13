@@ -1,54 +1,42 @@
+import { T } from "@/components/i18n/T";
+import { HomeHero } from "@/components/layout/HomeHero";
 import { ClassPicker } from "@/components/navigation/ClassPicker";
 import { TimelineStages } from "@/components/navigation/TimelineStages";
 import { buildIndexes } from "@/lib/indexing";
 import { getDataset } from "@/lib/loadData";
+import type { ClassType } from "@/types/data";
+import { CLASS_ORDER } from "@/types/data";
 
 export default function Home() {
   const dataset = getDataset();
   const indexes = buildIndexes(dataset);
 
+  const classCounts: Partial<Record<ClassType, number>> = {};
+  for (const c of CLASS_ORDER) classCounts[c] = indexes.buildsByClass.get(c)?.length ?? 0;
+
   return (
     <div className="flex flex-col gap-12">
-      <section className="max-w-3xl">
-        <h1 className="text-4xl font-black leading-tight tracking-tight">
-          <span className="text-accent">Builds óptimas</span> en cada fase del juego
-        </h1>
-        <p className="mt-3 text-lg text-zinc-400">
-          Elige tu clase y recorre las 9 fases de Terraria {dataset.version.gameVersion}
-          con el loadout más eficiente de cada momento: armadura, armas, accesorios y
-          buffs, con el porqué de cada ítem.
-        </p>
-        <div className="mt-5 flex flex-wrap gap-2 font-mono text-xs text-zinc-500">
-          <span className="rounded border border-edge bg-surface px-2 py-1">
-            {indexes.stages.length} fases
-          </span>
-          <span className="rounded border border-edge bg-surface px-2 py-1">
-            {indexes.buildsByClassStage.size} builds
-          </span>
-          <span className="rounded border border-edge bg-surface px-2 py-1">
-            {dataset.items.length} ítems
-          </span>
-          <span className="rounded border border-edge bg-surface px-2 py-1">
-            {dataset.recipes.length} recetas
-          </span>
-          <span className="rounded border border-edge bg-surface px-2 py-1">
-            {dataset.drops.length} drops
-          </span>
-        </div>
+      <HomeHero
+        version={dataset.version.gameVersion}
+        stages={indexes.stages.length}
+        builds={indexes.buildsByClassStage.size}
+        items={dataset.items.length}
+        recipes={dataset.recipes.length}
+        drops={dataset.drops.length}
+      />
+
+      <section>
+        <h2 className="mb-3 text-xs font-semibold uppercase tracking-wide text-zinc-500">
+          <T k="home.chooseClass" />
+        </h2>
+        <ClassPicker counts={classCounts} targetStage={indexes.stages[0].id} />
       </section>
 
       <section>
         <h2 className="mb-3 text-xs font-semibold uppercase tracking-wide text-zinc-500">
-          Elige tu clase
+          <T k="home.path" />
         </h2>
-        <ClassPicker indexes={indexes} />
-      </section>
-
-      <section>
-        <h2 className="mb-3 text-xs font-semibold uppercase tracking-wide text-zinc-500">
-          El camino por fases
-        </h2>
-        <TimelineStages indexes={indexes} />
+        <TimelineStages stages={indexes.stages} />
       </section>
     </div>
   );

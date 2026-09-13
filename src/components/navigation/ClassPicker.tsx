@@ -1,16 +1,10 @@
-import Link from "next/link";
-import type { ClassType, GameStage } from "@/types/data";
-import { CLASS_LABEL, CLASS_ORDER } from "@/types/data";
-import type { DataIndexes } from "@/lib/indexing";
-import { classSlug, stageSlug } from "@/lib/indexing";
+"use client";
 
-const CLASS_TAGLINE: Record<ClassType, string> = {
-  MELEE: "Espadas, yoyos y martillos de cadena",
-  RANGED: "Arcos, pistolas y lanzacohetes",
-  MAGIC: "Bastones, tomos y pistolas mágicas",
-  SUMMONER: "Miniones y látigos",
-  GENERAL: "Ítems de utilidad general",
-};
+import Link from "next/link";
+import { useLocale } from "@/components/i18n/LocaleProvider";
+import type { ClassType, GameStage } from "@/types/data";
+import { CLASS_ORDER } from "@/types/data";
+import { classSlug, stageSlug } from "@/lib/indexing";
 
 // Sprite representativo de cada clase (icono de la tarjeta).
 const CLASS_ICON: Record<ClassType, string> = {
@@ -22,50 +16,50 @@ const CLASS_ICON: Record<ClassType, string> = {
 };
 
 export function ClassPicker({
-  indexes,
+  counts,
+  targetStage,
   selected,
-  stage,
 }: {
-  indexes: DataIndexes;
+  counts: Partial<Record<ClassType, number>>;
+  targetStage: GameStage;
   selected?: ClassType;
-  stage?: GameStage;
 }) {
+  const { classLabel, classTagline } = useLocale();
   return (
-    <div className="grid grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-4">
+    <div className="grid grid-cols-2 gap-2 lg:grid-cols-4">
       {CLASS_ORDER.map((classType) => {
         const active = selected === classType;
-        const targetStage = stage ?? indexes.stages[0]?.id;
-        if (!targetStage) return null;
         const href = `/${classSlug(classType)}/${stageSlug(targetStage)}`;
-        const count = indexes.buildsByClass.get(classType)?.length ?? 0;
+        const count = counts[classType] ?? 0;
         return (
           <Link
             key={classType}
             href={href}
-            className={`tg-surface group rounded-lg p-4 transition-colors hover:border-accent ${
+            className={`tg-surface group flex items-center gap-2 rounded-lg px-2.5 py-2 transition-colors hover:border-accent ${
               active ? "border-accent ring-1 ring-accent/40" : ""
             }`}
           >
-            <div className="flex items-center justify-between gap-2">
-              <span className="flex items-center gap-2">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src={`/items/${CLASS_ICON[classType]}.png`}
-                  alt=""
-                  draggable={false}
-                  className="h-7 w-7 shrink-0 object-contain [image-rendering:pixelated]"
-                />
-                <span
-                  className={`text-lg font-bold ${active ? "text-accent" : "text-foreground"}`}
-                >
-                  {CLASS_LABEL[classType]}
-                </span>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={`/items/${CLASS_ICON[classType]}.png`}
+              alt=""
+              draggable={false}
+              className="h-6 w-6 shrink-0 object-contain [image-rendering:pixelated]"
+            />
+            <span className="flex min-w-0 flex-col">
+              <span
+                className={`truncate text-sm font-bold leading-tight ${
+                  active ? "text-accent" : "text-foreground"
+                }`}
+              >
+                {classLabel(classType)}
               </span>
-              <span className="font-mono text-[11px] text-zinc-500">{count} builds</span>
-            </div>
-            <p className="mt-1 text-sm text-zinc-400">{CLASS_TAGLINE[classType]}</p>
-            <span className="mt-3 block text-xs font-medium text-accent-2 opacity-0 transition-opacity group-hover:opacity-100">
-              Ver builds →
+              <span className="truncate text-[11px] leading-tight text-zinc-500">
+                {classTagline(classType)}
+              </span>
+            </span>
+            <span className="ml-auto shrink-0 font-mono text-[10px] text-zinc-600">
+              {count}
             </span>
           </Link>
         );

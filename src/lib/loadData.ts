@@ -23,6 +23,7 @@ export function loadDataset(): Dataset {
     recipes: readJson("recipes.json"),
     drops: readJson("drops.json"),
     builds: readJson("builds.json"),
+    mechanics: readJson("mechanics.json"),
   });
 }
 

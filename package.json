@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "predev": "tsx scripts/generate-search-index.ts",
-    "dev": "next dev -H 192.168.0.122",
+    "dev": "next dev -H localhost",
     "prebuild": "tsx scripts/generate-search-index.ts",
     "build": "next build",
     "start": "next start -H 192.168.0.122",

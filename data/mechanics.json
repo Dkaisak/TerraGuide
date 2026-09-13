@@ -1,0 +1,62 @@
+[
+  {
+    "id": "whip-stacking",
+    "title": "Whip stacking y tag slots",
+    "summary": "Cómo apilar los tags de varios látigos a la vez y qué accesorios lo permiten (reintroducido en 1.4.5.7).",
+    "points": [
+      "Empiezas con 1 tag effect slot; el máximo alcanzable en partida normal es 4.",
+      "Solo se acumulan los efectos de los accesorios BASE: Snake Band, Mobius Strip, Wicked Armlet y Silver Bracer.",
+      "Los upgrades que comparten base NO apilan ese componente: p. ej. Ouroboros Ring + Druidic Serpent Cloak cuenta el Snake Band una sola vez.",
+      "Twilight Grasp aporta +2 slots (Silver Bracer + Wicked Armlet) y triple duración; Mobius Strip (+1) recién está disponible tras el Golem.",
+      "Al aplicar un tag de más, se elimina el más antiguo; cada aplicación refresca el orden."
+    ],
+    "wikiPage": "Whips"
+  },
+  {
+    "id": "summon-tags",
+    "title": "Tags de invocación",
+    "summary": "Qué hacen los tags de los látigos sobre los minions y centinelas.",
+    "points": [
+      "Cada látigo aplica un tag durante 4 segundos (8 s con Constellation).",
+      "El tag suma daño a los golpes de minions y centinelas, y es la única forma de que hagan crítico.",
+      "El daño de tag de varios látigos se suma; las probabilidades de crítico se calculan como eventos independientes.",
+      "Los tags solo afectan a minions, centinelas y sus proyectiles, no a los látigos ni a otras fuentes de daño de invocación."
+    ],
+    "wikiPage": "Whips"
+  },
+  {
+    "id": "whip-speed",
+    "title": "Velocidad melee y látigos",
+    "summary": "Qué bonus afectan la velocidad de los látigos.",
+    "points": [
+      "Los látigos se benefician de la velocidad melee, del autoswing de Feral Claws y sus mejoras, y de los flasks. Ningún otro bonus melee les afecta.",
+      "Tiempo de uso = useAnimation / (1 + velocidad melee + buffs de velocidad de látigo).",
+      "El set Obsidian da +15% velocidad de látigo de forma multiplicativa (único set con ese bonus).",
+      "El mejor modificador de un látigo es Legendary."
+    ],
+    "wikiPage": "Whips"
+  },
+  {
+    "id": "feral-wicked",
+    "title": "Feral Claws vs Wicked Claws",
+    "summary": "Cómo se relacionan y si conviene llevar ambos.",
+    "points": [
+      "Wicked Claws = Wicked Armlet + Feral Claws (Tinkerer's Workshop), así que para llevar los dos necesitas 2 Feral Claws.",
+      "La velocidad melee SÍ se acumula entre ambos (+12% + 12% = +24%).",
+      "El autoswing no se acumula (ambos lo dan) y el +1 tag/knockback del Wicked Armlet no apila con sus mejoras."
+    ],
+    "wikiPage": "Wicked Claws"
+  },
+  {
+    "id": "accessory-slots",
+    "title": "Huecos de accesorio por dificultad",
+    "summary": "Cuántos accesorios puedes equipar según el modo.",
+    "points": [
+      "Normal: 5 accesorios.",
+      "Experto: 5, y 6 tras usar el Demon Heart (se obtiene del Wall of Flesh).",
+      "Maestro: 6, y 7 tras usar el Demon Heart.",
+      "El Demon Heart solo se puede usar en Experto/Maestro y se consume al equiparlo."
+    ],
+    "wikiPage": "Demon Heart"
+  }
+]
