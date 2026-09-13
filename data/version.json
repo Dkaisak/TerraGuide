@@ -51,6 +51,7 @@
     "i18n fase 2: interfaz completa bilingue ES/EN (cabecera, home, builds, items, mecanicas, buscadores y tester) + toggle persistente. Fases de la timeline ya en EN.",
     "i18n fase 3+4: contenido EN de 9 fases, 36 builds (titulo/intro/guia), 32 sets y 5 mecanicas; y ficha de item EN generada desde drops/recetas.",
     "i18n: contenido curado EN completo (262 notas de slots y titulos de variantes). Web bilingue ES/EN.",
-    "Cabecera: boton Builder convertido en CTA dorado destacado (Crea tu build / Build your own) con icono y brillo pulsante."
+    "Cabecera: boton Builder convertido en CTA dorado destacado (Crea tu build / Build your own) con icono y brillo pulsante.",
+    "Favicon: Life Crystal de Terraria (src/app/icon.png) en lugar del icono por defecto."
   ]
 }

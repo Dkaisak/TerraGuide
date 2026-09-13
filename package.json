@@ -4,10 +4,10 @@
   "private": true,
   "scripts": {
     "predev": "tsx scripts/generate-search-index.ts",
-    "dev": "next dev",
+    "dev": "next dev -p 3001",
     "prebuild": "tsx scripts/generate-search-index.ts",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p 3001",
     "lint": "eslint",
     "validate": "tsx scripts/validate-data.ts",
     "images": "tsx scripts/fetch-item-images.ts",
